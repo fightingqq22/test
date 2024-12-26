@@ -7189,8 +7189,8 @@ Crop area: x=1652, y=221, w=546, h=946
 Filter complex length: 1797 commands
 
 Executing FFmpeg command:
-ffmpeg -i mickey_cut.mp4 -filter_complex_script C:\Users\liyir\AppData\Local\Temp\tmpmyiyfy17.txt -map [v1795] -c:v libx264 -preset ultrafast -crf 23 -r 30 -y mickey_demo_ffmpeg.mp4
-ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+ffmpeg -i mickey_cut.mp4 -filter_complex_script C:\Users\liyir\AppData\Local\Temp\tmpggk_5z17.txt -map [v1795] -c:v libx264 -preset ultrafast -crf 23 -r 30 -y mickey_demo_ffmpeg.mp4
+FFmpeg error: ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
   built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
   configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
   libavutil      58.  2.100 / 58.  2.100
@@ -7201,7 +7201,7 @@ ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFm
   libswscale      7.  1.100 /  7.  1.100
   libswresample   4. 10.100 /  4. 10.100
   libpostproc    57.  1.100 / 57.  1.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0000020c068cc240] Unknown cover type: 0x1.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000001e34d99c240] Unknown cover type: 0x1.
 Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'mickey_cut.mp4':
   Metadata:
     major_brand     : isom
@@ -7225,7200 +7225,7200 @@ Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'mickey_cut.mp4':
       handler_name    : SoundHandler
       vendor_id       : [0][0][0][0]
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4 @ 0000020c0874d640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4 @ 000001e34f81d640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_9 @ 0000020cb95b8dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_9 @ 000001e3ba3d8dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_14 @ 0000020c07471ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_14 @ 000001e34e5405c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_19 @ 0000020c07471dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_19 @ 000001e34e541ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_24 @ 0000020c074710c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_24 @ 000001e34e541ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_29 @ 0000020c074712c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_29 @ 000001e34e540dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_34 @ 0000020c074704c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_34 @ 000001e34e5415c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_39 @ 0000020c074701c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_39 @ 000001e34e5409c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_44 @ 0000020c074aec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_44 @ 000001e34e580580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_49 @ 0000020c074adc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_49 @ 000001e34e580b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_54 @ 0000020c074aee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_54 @ 000001e34e580980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_59 @ 0000020c074b0a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_59 @ 000001e34e57e980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_64 @ 0000020c074aea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_64 @ 000001e34e57fa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_69 @ 0000020c074af080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_69 @ 000001e34e57df80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_74 @ 0000020c074b0e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_74 @ 000001e34e57ec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_79 @ 0000020c074af380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_79 @ 000001e34e57d980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_84 @ 0000020c074b0380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_84 @ 000001e34e57dd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_89 @ 0000020c074ae880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_89 @ 000001e34e57f280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_94 @ 0000020c074b1080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_94 @ 000001e34e57e380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_99 @ 0000020c074b1480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_99 @ 000001e34e57f480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_104 @ 0000020c074ae380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_104 @ 000001e34e580080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_109 @ 0000020c09f03240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_109 @ 000001e350fd4640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_114 @ 0000020c09f02f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_114 @ 000001e350fd4040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_119 @ 0000020c09f04d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_119 @ 000001e350fd3440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_124 @ 0000020c09f02140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_124 @ 000001e350fd2040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_129 @ 0000020c09f03f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_129 @ 000001e350fd2240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_134 @ 0000020c09f01d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_134 @ 000001e350fd1f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_139 @ 0000020c09f02c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_139 @ 000001e350fd2f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_144 @ 0000020c09f03b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_144 @ 000001e350fd3740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_149 @ 0000020c09f04b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_149 @ 000001e350fd1c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_154 @ 0000020c09f04140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_154 @ 000001e350fd2640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_159 @ 0000020c09f04340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_159 @ 000001e350fd5240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_164 @ 0000020c09f02240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_164 @ 000001e350fd3f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_169 @ 0000020c09f04540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_169 @ 000001e350fd1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_174 @ 0000020c0c5e2680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_174 @ 000001e3536b1180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_179 @ 0000020c0c5e1e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_179 @ 000001e3536b4180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_184 @ 0000020c0c5e2980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_184 @ 000001e3536b1a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_189 @ 0000020c0c5e1080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_189 @ 000001e3536b1580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_194 @ 0000020c0c5e3580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_194 @ 000001e3536b2480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_199 @ 0000020c0c5e4880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_199 @ 000001e3536b4b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_204 @ 0000020c0c5e1b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_204 @ 000001e3536b4780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_209 @ 0000020c0c5e2180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_209 @ 000001e3536b1c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_214 @ 0000020c0c5e3e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_214 @ 000001e3536b3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_219 @ 0000020c0c5e1a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_219 @ 000001e3536b1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_224 @ 0000020c0c5e4d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_224 @ 000001e3536b3e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_229 @ 0000020c0c5e2380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_229 @ 000001e3536b2880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_234 @ 0000020c0e32d080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_234 @ 000001e3553fee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_239 @ 0000020c0e32f980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_239 @ 000001e3553fd980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_244 @ 0000020c0e32fa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_244 @ 000001e3553fe880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_249 @ 0000020c0e32d480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_249 @ 000001e3553fc880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_254 @ 0000020c0e32d680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_254 @ 000001e3553ff180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_259 @ 0000020c0e32cd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_259 @ 000001e3553fe080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_264 @ 0000020c0e32db80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_264 @ 000001e3553fff80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_269 @ 0000020c0e32f680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_269 @ 000001e3553fea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_274 @ 0000020c0e32d980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_274 @ 000001e3553ffb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_279 @ 0000020c0e32ff80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_279 @ 000001e3553fc780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_284 @ 0000020c0e32e380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_284 @ 000001e3553feb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_289 @ 0000020c0e32f380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_289 @ 000001e3553fd680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_294 @ 0000020c0e32f280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_294 @ 000001e3553fe780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_299 @ 0000020c0f36ab80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_299 @ 000001e356438880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_304 @ 0000020c0f367f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_304 @ 000001e35643aa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_309 @ 0000020c0f368080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_309 @ 000001e356437580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_314 @ 0000020c0f368a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_314 @ 000001e356438e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_319 @ 0000020c0f36a080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_319 @ 000001e356439280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_324 @ 0000020c0f367880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_324 @ 000001e356439080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_329 @ 0000020c0f36ae80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_329 @ 000001e356438380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_334 @ 0000020c0f368d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_334 @ 000001e356437480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_339 @ 0000020c0f36a880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_339 @ 000001e356437980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_344 @ 0000020c0f368f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_344 @ 000001e356438080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_349 @ 0000020c0f367580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_349 @ 000001e356438480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_354 @ 0000020c0f36a380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_354 @ 000001e356439d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_359 @ 0000020c1439f340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_359 @ 000001e35b46c540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_364 @ 0000020c1439f040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_364 @ 000001e35b46f540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_369 @ 0000020c1439db40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_369 @ 000001e35b46f040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_374 @ 0000020c1439e240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_374 @ 000001e35b46c840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_379 @ 0000020c1439fb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_379 @ 000001e35b46f140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_384 @ 0000020c1439e440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_384 @ 000001e35b46c940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_389 @ 0000020c1439ea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_389 @ 000001e35b46cd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_394 @ 0000020c1439c440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_394 @ 000001e35b46e240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_399 @ 0000020c1439dd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_399 @ 000001e35b46d440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_404 @ 0000020c1439eb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_404 @ 000001e35b46c740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_409 @ 0000020c1439c840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_409 @ 000001e35b46dd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_414 @ 0000020c1439df40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_414 @ 000001e35b46e740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_419 @ 0000020c1439ec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_419 @ 000001e35b46ec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_424 @ 0000020c143a1b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_424 @ 000001e35b471c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_429 @ 0000020c143a3680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_429 @ 000001e35b472980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_434 @ 0000020c143a1a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_434 @ 000001e35b473d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_439 @ 0000020c143a3080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_439 @ 000001e35b471780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_444 @ 0000020c143a0880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_444 @ 000001e35b473080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_449 @ 0000020c143a3980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_449 @ 000001e35b472280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_454 @ 0000020c143a1c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_454 @ 000001e35b473580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_459 @ 0000020c143a2a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_459 @ 000001e35b473b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_464 @ 0000020c143a3580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_464 @ 000001e35b473680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_469 @ 0000020c143a2580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_469 @ 000001e35b470380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_474 @ 0000020c143a1580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_474 @ 000001e35b470780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_479 @ 0000020c143a2e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_479 @ 000001e35b472880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_484 @ 0000020c143a1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_484 @ 000001e35b473180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_489 @ 0000020c15cf7e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_489 @ 000001e35cdca240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_494 @ 0000020c15cf8140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_494 @ 000001e35cdca040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_499 @ 0000020c15cf9b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_499 @ 000001e35cdc9a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_504 @ 0000020c15cf8840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_504 @ 000001e35cdc8a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_509 @ 0000020c15cf6b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_509 @ 000001e35cdc8b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_514 @ 0000020c15cf9840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_514 @ 000001e35cdc7d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_519 @ 0000020c15cf7f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_519 @ 000001e35cdc7440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_524 @ 0000020c15cf8c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_524 @ 000001e35cdc9140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_529 @ 0000020c15cf7940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_529 @ 000001e35cdc9340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_534 @ 0000020c15cfa440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_534 @ 000001e35cdc9940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_539 @ 0000020c15cf7a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_539 @ 000001e35cdc7240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_544 @ 0000020c15cf9540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_544 @ 000001e35cdc6f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_549 @ 0000020c13a42400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_549 @ 000001e35ab13600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_554 @ 0000020c13a3f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_554 @ 000001e35ab12e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_559 @ 0000020c13a3fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_559 @ 000001e35ab12400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_564 @ 0000020c13a41a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_564 @ 000001e35ab11500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_569 @ 0000020c13a41b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_569 @ 000001e35ab12500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_574 @ 0000020c13a42c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_574 @ 000001e35ab0fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_579 @ 0000020c13a43300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_579 @ 000001e35ab10f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_584 @ 0000020c13a43100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_584 @ 000001e35ab10000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_589 @ 0000020c13a40d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_589 @ 000001e35ab12d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_594 @ 0000020c13a41f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_594 @ 000001e35ab12600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_599 @ 0000020c13a42100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_599 @ 000001e35ab10200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_604 @ 0000020c13a43700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_604 @ 000001e35ab11000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_609 @ 0000020c13a42300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_609 @ 000001e35ab12200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_614 @ 0000020c13a47100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_614 @ 000001e35ab14200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_619 @ 0000020c13a44400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_619 @ 000001e35ab14900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_624 @ 0000020c13a45100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_624 @ 000001e35ab14d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_629 @ 0000020c13a43e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_629 @ 000001e35ab15d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_634 @ 0000020c13a43900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_634 @ 000001e35ab14e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_639 @ 0000020c13a44200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_639 @ 000001e35ab16900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_644 @ 0000020c13a45200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_644 @ 000001e35ab13f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_649 @ 0000020c13a44700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_649 @ 000001e35ab15200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_654 @ 0000020c13a44b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_654 @ 000001e35ab13e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_659 @ 0000020c13a44800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_659 @ 000001e35ab14100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_664 @ 0000020c13a45600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_664 @ 000001e35ab14500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_669 @ 0000020c13a46600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_669 @ 000001e35ab16e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_674 @ 0000020c13a45c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_674 @ 000001e35ab14800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_679 @ 0000020c172f1780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_679 @ 000001e35e3c1a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_684 @ 0000020c172f0880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_684 @ 000001e35e3c2380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_689 @ 0000020c172f2280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_689 @ 000001e35e3c3d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_694 @ 0000020c172f1c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_694 @ 000001e35e3c0e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_699 @ 0000020c172f1e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_699 @ 000001e35e3c0c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_704 @ 0000020c172f1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_704 @ 000001e35e3c3e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_709 @ 0000020c172f2680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_709 @ 000001e35e3c2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_714 @ 0000020c172f1280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_714 @ 000001e35e3c1780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_719 @ 0000020c172f3d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_719 @ 000001e35e3c2f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_724 @ 0000020c172f2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_724 @ 000001e35e3c2180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_729 @ 0000020c172f0280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_729 @ 000001e35e3c3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_734 @ 0000020c172f0a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_734 @ 000001e35e3c3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_739 @ 0000020c172ec380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_739 @ 000001e35e3bd380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_744 @ 0000020c172eff80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_744 @ 000001e35e3bee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_749 @ 0000020c172eda80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_749 @ 000001e35e3bf580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_754 @ 0000020c172edb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_754 @ 000001e35e3bf280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_759 @ 0000020c172ec080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_759 @ 000001e35e3bc080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_764 @ 0000020c172edc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_764 @ 000001e35e3bd680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_769 @ 0000020c172ec180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_769 @ 000001e35e3bd180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_774 @ 0000020c172efe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_774 @ 000001e35e3bc280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_779 @ 0000020c172ecd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_779 @ 000001e35e3bf680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_784 @ 0000020c172ec280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_784 @ 000001e35e3bc380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_789 @ 0000020c172ec880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_789 @ 000001e35e3bec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_794 @ 0000020c172ed080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_794 @ 000001e35e3bfa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_799 @ 0000020c172eeb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_799 @ 000001e35e3bc580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_804 @ 0000020c11dcc9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_804 @ 000001e358ea19c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_809 @ 0000020c11dcc3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_809 @ 000001e358ea14c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_814 @ 0000020c11dcbdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_814 @ 000001e358ea03c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_819 @ 0000020c11dccbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_819 @ 000001e358e9e8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_824 @ 0000020c11dcd5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_824 @ 000001e358ea15c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_829 @ 0000020c11dcbcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_829 @ 000001e358ea1fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_834 @ 0000020c11dcd9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_834 @ 000001e358ea1dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_839 @ 0000020c11dcc7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_839 @ 000001e358ea08c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_844 @ 0000020c11dccdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_844 @ 000001e358ea02c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_849 @ 0000020c11dcc6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_849 @ 000001e358ea11c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_854 @ 0000020c11dca2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_854 @ 000001e358e9fbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_859 @ 0000020c11dcaac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_859 @ 000001e358ea07c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_864 @ 0000020c11dcb0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_864 @ 000001e358ea12c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_869 @ 0000020c11dcfac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_869 @ 000001e358e9dfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_874 @ 0000020c11dd01c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_874 @ 000001e358e9ddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_879 @ 0000020c11dce7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_879 @ 000001e358e9bdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_884 @ 0000020c11dd00c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_884 @ 000001e358e9c1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_889 @ 0000020c11dd10c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_889 @ 000001e358e9a6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_894 @ 0000020c11dcf2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_894 @ 000001e358e9aac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_899 @ 0000020c11dce6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_899 @ 000001e358e9b0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_904 @ 0000020c11dd05c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_904 @ 000001e358e9cec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_909 @ 0000020c11dcecc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_909 @ 000001e358e9d3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_914 @ 0000020c11dcfcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_914 @ 000001e358e9b7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_919 @ 0000020c11dcf7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_919 @ 000001e358e9dec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_924 @ 0000020c11dd1fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_924 @ 000001e358e9bcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_929 @ 0000020c12a72c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_929 @ 000001e359b46880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_934 @ 0000020c12a73e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_934 @ 000001e359b47380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_939 @ 0000020c12a75080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_939 @ 000001e359b46d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_944 @ 0000020c12a74680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_944 @ 000001e359b47b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_949 @ 0000020c12a74e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_949 @ 000001e359b48580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_954 @ 0000020c12a75580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_954 @ 000001e359b45880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_959 @ 0000020c12a73280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_959 @ 000001e359b46a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_964 @ 0000020c12a75380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_964 @ 000001e359b45a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_969 @ 0000020c12a73380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_969 @ 000001e359b47580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_974 @ 0000020c12a71a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_974 @ 000001e359b45b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_979 @ 0000020c12a71d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_979 @ 000001e359b47880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_984 @ 0000020c12a72880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_984 @ 000001e359b46080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_989 @ 0000020c12a74180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_989 @ 000001e359b48480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_994 @ 0000020c12a77e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_994 @ 000001e359b44280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_999 @ 0000020c12a78f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_999 @ 000001e359b43080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1004 @ 0000020c12a77080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1004 @ 000001e359b42880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1009 @ 0000020c12a79180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1009 @ 000001e359b42080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1014 @ 0000020c12a76f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1014 @ 000001e359b42180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1019 @ 0000020c12a78c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1019 @ 000001e359b44480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1024 @ 0000020c12a76680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1024 @ 000001e359b42280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1029 @ 0000020c12a77680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1029 @ 000001e359b41780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1034 @ 0000020c12a78780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1034 @ 000001e359b43880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1039 @ 0000020c12a75980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1039 @ 000001e359b41d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1044 @ 0000020c12a78380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1044 @ 000001e359b43b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1049 @ 0000020c12a75e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1049 @ 000001e359b43e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1054 @ 0000020c12a77a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1054 @ 000001e359b44d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1059 @ 0000020c0b232ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1059 @ 000001e3523031c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1064 @ 0000020c0b2322c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1064 @ 000001e3523043c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1069 @ 0000020c0b2345c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1069 @ 000001e352305bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1074 @ 0000020c0b2332c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1074 @ 000001e352302dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1079 @ 0000020c0b232dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1079 @ 000001e352303cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1084 @ 0000020c0b2351c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1084 @ 000001e3523029c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1089 @ 0000020c0b234fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1089 @ 000001e352302bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1094 @ 0000020c0b2359c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1094 @ 000001e3523059c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1099 @ 0000020c0b2344c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1099 @ 000001e3523057c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1104 @ 0000020c0b2349c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1104 @ 000001e3523027c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1109 @ 0000020c0b231ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1109 @ 000001e3523052c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1114 @ 0000020c0b233ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1114 @ 000001e3523056c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1119 @ 0000020c0b234bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1119 @ 000001e352301ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1124 @ 0000020c0b2383c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1124 @ 000001e3523091c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1129 @ 0000020c0b238fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1129 @ 000001e3523069c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1134 @ 0000020c0b2390c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1134 @ 000001e352307ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1139 @ 0000020c0b236ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1139 @ 000001e352308cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1144 @ 0000020c0b236cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1144 @ 000001e352306dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1149 @ 0000020c0b2379c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1149 @ 000001e3523085c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1154 @ 0000020c0b2371c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1154 @ 000001e352307dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1159 @ 0000020c0b2373c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1159 @ 000001e352307fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1164 @ 0000020c0b2387c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1164 @ 000001e3523098c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1169 @ 0000020c0b2375c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1169 @ 000001e352308dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1174 @ 0000020c0b239cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1174 @ 000001e352309cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1179 @ 0000020c0b2378c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1179 @ 000001e3523072c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1184 @ 0000020c0b23d4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1184 @ 000001e35230c5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1189 @ 0000020c0b23cac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1189 @ 000001e35230a8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1194 @ 0000020c0b23adc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1194 @ 000001e35230c6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1199 @ 0000020c0b23acc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1199 @ 000001e35230c8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1204 @ 0000020c0b23dcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1204 @ 000001e35230c9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1209 @ 0000020c0b23dac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1209 @ 000001e35230c7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1214 @ 0000020c0b23a1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1214 @ 000001e35230acc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1219 @ 0000020c0b23b4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1219 @ 000001e352309dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1224 @ 0000020c0b23a5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1224 @ 000001e35230b2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1229 @ 0000020c0b239fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1229 @ 000001e35230a4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1234 @ 0000020c0b23c1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1234 @ 000001e35230bfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1239 @ 0000020c0b23b7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1239 @ 000001e35230b5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1244 @ 0000020c0b23bbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1244 @ 000001e35230bdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1249 @ 0000020c0b23e7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1249 @ 000001e35230f6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1254 @ 0000020c0b23e0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1254 @ 000001e3523102c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1259 @ 0000020c0b23e5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1259 @ 000001e3523105c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1264 @ 0000020c0b2410c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1264 @ 000001e35230fec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1269 @ 0000020c0b2419c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1269 @ 000001e35230fac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1274 @ 0000020c0b23e4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1274 @ 000001e352310cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1279 @ 0000020c0b23f3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1279 @ 000001e352310bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1284 @ 0000020c0b23ecc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1284 @ 000001e35230e9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1289 @ 0000020c0b23f0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1289 @ 000001e35230edc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1294 @ 0000020c0b23f8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1294 @ 000001e3523116c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1299 @ 0000020c0b23fac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1299 @ 000001e35230dfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1304 @ 0000020c0b2403c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1304 @ 000001e3523101c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1309 @ 0000020c0b2408c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1309 @ 000001e35230e3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1314 @ 0000020c0ec0fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1314 @ 000001e355ce3800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1319 @ 0000020c0ec0db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1319 @ 000001e355ce3c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1324 @ 0000020c0ec0d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1324 @ 000001e355ce3000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1329 @ 0000020c0ec0e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1329 @ 000001e355ce2600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1334 @ 0000020c0ec0f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1334 @ 000001e355ce4d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1339 @ 0000020c0ec10a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1339 @ 000001e355ce4300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1344 @ 0000020c0ec0dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1344 @ 000001e355ce2400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1349 @ 0000020c0ec0d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1349 @ 000001e355ce3900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1354 @ 0000020c0ec0d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1354 @ 000001e355ce3700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1359 @ 0000020c0ec0d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1359 @ 000001e355ce4700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1364 @ 0000020c0ec10500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1364 @ 000001e355ce3f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1369 @ 0000020c0ec10e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1369 @ 000001e355ce1700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1374 @ 0000020c0ec0d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1374 @ 000001e355ce4800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1379 @ 0000020c0ec13500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1379 @ 000001e355ce8000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1384 @ 0000020c0ec11300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1384 @ 000001e355ce6b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1389 @ 0000020c0ec12a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1389 @ 000001e355ce8800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1394 @ 0000020c0ec14100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1394 @ 000001e355ce8100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1399 @ 0000020c0ec12600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1399 @ 000001e355ce6300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1404 @ 0000020c0ec13600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1404 @ 000001e355ce7300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1409 @ 0000020c0ec11600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1409 @ 000001e355ce6700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1414 @ 0000020c0ec13200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1414 @ 000001e355ce5800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1419 @ 0000020c0ec12900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1419 @ 000001e355ce6e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1424 @ 0000020c0ec13700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1424 @ 000001e355ce8a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1429 @ 0000020c0ec11500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1429 @ 000001e355ce5500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1434 @ 0000020c0ec12500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1434 @ 000001e355ce8c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1439 @ 0000020c0ec17400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1439 @ 000001e355cdaa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1444 @ 0000020c0ec17f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1444 @ 000001e355cd9200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1449 @ 0000020c0ec16400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1449 @ 000001e355cdc000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1454 @ 0000020c0ec17000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1454 @ 000001e355cdcf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1459 @ 0000020c0ec16100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1459 @ 000001e355cd9900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1464 @ 0000020c0ec15400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1464 @ 000001e355cdb300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1469 @ 0000020c0ec15b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1469 @ 000001e355cd9400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1474 @ 0000020c0ec18500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1474 @ 000001e355cd9600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1479 @ 0000020c0ec18700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1479 @ 000001e355cdcc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1484 @ 0000020c0ec17800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1484 @ 000001e355cdb000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1489 @ 0000020c0ec16b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1489 @ 000001e355cdb100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1494 @ 0000020c0ec18900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1494 @ 000001e355cdbb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1499 @ 0000020c0ec18c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1499 @ 000001e355cdc500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1504 @ 0000020c0ec0b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1504 @ 000001e355cdf300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1509 @ 0000020c0ec09a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1509 @ 000001e355cddc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1514 @ 0000020c0ec09500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1514 @ 000001e355ce0800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1519 @ 0000020c0ec0cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1519 @ 000001e355ce0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1524 @ 0000020c0ec0b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1524 @ 000001e355cde800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1529 @ 0000020c0ec0c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1529 @ 000001e355cdd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1534 @ 0000020c0ec0b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1534 @ 000001e355cdec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1539 @ 0000020c0ec09900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1539 @ 000001e355ce0b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1544 @ 0000020c0ec0bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1544 @ 000001e355cdd600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1549 @ 0000020c0ec0c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1549 @ 000001e355ce0000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1554 @ 0000020c0ec0a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1554 @ 000001e355cdfd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1559 @ 0000020c0ec0c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1559 @ 000001e355ce0e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1564 @ 0000020c0ec0ab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1564 @ 000001e355cdff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1569 @ 0000020c40ce1ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1569 @ 000001e307e9dfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1574 @ 0000020c40cdf1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1574 @ 000001e307e9b0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1579 @ 0000020c40cdfcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1579 @ 000001e307e9bbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1584 @ 0000020c40ce16c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1584 @ 000001e307e9dac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1589 @ 0000020c40ce19c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1589 @ 000001e307e9a0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1594 @ 0000020c40ce0fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1594 @ 000001e307e9bec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1599 @ 0000020c40cdf4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1599 @ 000001e307e9c2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1604 @ 0000020c40cdf8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1604 @ 000001e307e9c6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1609 @ 0000020c40cdfec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1609 @ 000001e307e9c9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1614 @ 0000020c40cdedc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1614 @ 000001e307e9cbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1619 @ 0000020c40cdeec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1619 @ 000001e307e9d0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1624 @ 0000020c40ce06c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1624 @ 000001e307e9a2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1629 @ 0000020c40ce0cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1629 @ 000001e307e9aac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1634 @ 0000020c40ce41c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1634 @ 000001e307e9e7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1639 @ 0000020c40ce53c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1639 @ 000001e307e9f5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1644 @ 0000020c40ce54c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1644 @ 000001e307e9e8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1649 @ 0000020c40ce32c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1649 @ 000001e307e9e4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1654 @ 0000020c40ce27c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1654 @ 000001e307ea16c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1659 @ 0000020c40ce57c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1659 @ 000001e307ea0dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1664 @ 0000020c40ce4fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1664 @ 000001e307e9f2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1669 @ 0000020c40ce44c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1669 @ 000001e307ea0cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1674 @ 0000020c40ce3fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1674 @ 000001e307ea0fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1679 @ 0000020c40ce4bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1679 @ 000001e307e9f7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1684 @ 0000020c40ce47c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1684 @ 000001e307ea18c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1689 @ 0000020c40ce39c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1689 @ 000001e307ea01c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1694 @ 0000020c40ce99c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1694 @ 000001e307ea36c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1699 @ 0000020c40ce6cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1699 @ 000001e307ea43c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1704 @ 0000020c40ce77c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1704 @ 000001e307ea4bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1709 @ 0000020c40ce85c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1709 @ 000001e307ea5dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1714 @ 0000020c40ce82c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1714 @ 000001e307ea2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1719 @ 0000020c40ce81c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1719 @ 000001e307ea38c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1724 @ 0000020c40ce89c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1724 @ 000001e307ea55c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1729 @ 0000020c40ce63c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1729 @ 000001e307ea35c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1734 @ 0000020c40ce84c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1734 @ 000001e307ea3dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1739 @ 0000020c40ce9cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1739 @ 000001e307ea40c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1744 @ 0000020c40ce66c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1744 @ 000001e307ea45c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1749 @ 0000020c40ce70c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1749 @ 000001e307ea49c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1754 @ 0000020c40ce75c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1754 @ 000001e307ea5ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1759 @ 0000020c40cdd6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1759 @ 000001e307ea74c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1764 @ 0000020c40cda1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1764 @ 000001e307ea94c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1769 @ 0000020c40cdbfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1769 @ 000001e307ea6dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1774 @ 0000020c40cdbec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1774 @ 000001e307ea92c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1779 @ 0000020c40cdabc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1779 @ 000001e307ea82c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1784 @ 0000020c40cda7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1784 @ 000001e307ea65c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1789 @ 0000020c40cdc0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1789 @ 000001e307ea71c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1794 @ 0000020c40cdd0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1794 @ 000001e307ea7bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1799 @ 0000020c40cdc6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1799 @ 000001e307ea7dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1804 @ 0000020c40cdc7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1804 @ 000001e307ea80c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1809 @ 0000020c40cdddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1809 @ 000001e307ea9ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1814 @ 0000020c40cdafc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1814 @ 000001e307ea89c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1819 @ 0000020c40cdb5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1819 @ 000001e307ea8ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1824 @ 0000020c2f026200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1824 @ 000001e3760f6c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1829 @ 0000020c2f024a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1829 @ 000001e3760f5600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1834 @ 0000020c2f027b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1834 @ 000001e3760f7000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1839 @ 0000020c2f026e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1839 @ 000001e3760f7300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1844 @ 0000020c2f026c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1844 @ 000001e3760f4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1849 @ 0000020c2f027500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1849 @ 000001e3760f7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1854 @ 0000020c2f026000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1854 @ 000001e3760f4900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1859 @ 0000020c2f027400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1859 @ 000001e3760f7800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1864 @ 0000020c2f025800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1864 @ 000001e3760f4a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1869 @ 0000020c2f026900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1869 @ 000001e3760f5800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1874 @ 0000020c2f024100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1874 @ 000001e3760f5b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1879 @ 0000020c2f025900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1879 @ 000001e3760f6200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1884 @ 0000020c2f025e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1884 @ 000001e3760f6600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1889 @ 0000020c2f02b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1889 @ 000001e3760f8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1894 @ 0000020c2f028f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1894 @ 000001e3760fbc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1899 @ 0000020c2f02ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1899 @ 000001e3760f9500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1904 @ 0000020c2f02b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1904 @ 000001e3760fa800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1909 @ 0000020c2f029b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1909 @ 000001e3760fa600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1914 @ 0000020c2f028300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1914 @ 000001e3760fb000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1919 @ 0000020c2f02a000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1919 @ 000001e3760f9d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1924 @ 0000020c2f028700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1924 @ 000001e3760f9800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1929 @ 0000020c2f028600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1929 @ 000001e3760fac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1934 @ 0000020c2f028c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1934 @ 000001e3760fae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1939 @ 0000020c2f028d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1939 @ 000001e3760f8800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1944 @ 0000020c2f029400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1944 @ 000001e3760fa200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1949 @ 0000020c2f02fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1949 @ 000001e3760fc100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1954 @ 0000020c2f02fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1954 @ 000001e3760ff600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1959 @ 0000020c2f02ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1959 @ 000001e3760fc500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1964 @ 0000020c2f02ce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1964 @ 000001e3760fce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1969 @ 0000020c2f02f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1969 @ 000001e3760fdc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1974 @ 0000020c2f02e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1974 @ 000001e3760fd100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1979 @ 0000020c2f02c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1979 @ 000001e3760fc600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1984 @ 0000020c2f02d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1984 @ 000001e3760fe100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1989 @ 0000020c2f02c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1989 @ 000001e3760ff000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1994 @ 0000020c2f02d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1994 @ 000001e3760ff300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1999 @ 0000020c2f02cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1999 @ 000001e3760ff500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2004 @ 0000020c2f02f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2004 @ 000001e3760ffc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2009 @ 0000020c2f02fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2009 @ 000001e3760feb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2014 @ 0000020c2f023c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2014 @ 000001e3760f1000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2019 @ 0000020c2f022200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2019 @ 000001e3760f0400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2024 @ 0000020c2f023400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2024 @ 000001e3760f2d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2029 @ 0000020c2f023700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2029 @ 000001e3760f3700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2034 @ 0000020c2f022f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2034 @ 000001e3760f0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2039 @ 0000020c2f023800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2039 @ 000001e3760f3300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2044 @ 0000020c2f023100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2044 @ 000001e3760f3800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2049 @ 0000020c2f021900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2049 @ 000001e3760f0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2054 @ 0000020c2f023900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2054 @ 000001e3760f1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2059 @ 0000020c2f021e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2059 @ 000001e3760f2300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2064 @ 0000020c2f021a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2064 @ 000001e3760f1a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2069 @ 0000020c2f021600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2069 @ 000001e3760f1b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2074 @ 0000020c2f022000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2074 @ 000001e3760f2800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2079 @ 0000020c518d4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2079 @ 000001e318a89b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2084 @ 0000020c518d5600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2084 @ 000001e318a87d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2089 @ 0000020c518d5000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2089 @ 000001e318a8a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2094 @ 0000020c518d7100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2094 @ 000001e318a8ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2099 @ 0000020c518d5700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2099 @ 000001e318a8b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2104 @ 0000020c518d4500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2104 @ 000001e318a89200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2109 @ 0000020c518d3900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2109 @ 000001e318a89f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2114 @ 0000020c518d5f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2114 @ 000001e318a88300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2119 @ 0000020c518d4800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2119 @ 000001e318a88d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2124 @ 0000020c518d6300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2124 @ 000001e318a87900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2129 @ 0000020c518d6600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2129 @ 000001e318a88400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2134 @ 0000020c518d4b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2134 @ 000001e318a88600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2139 @ 0000020c518d6e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2139 @ 000001e318a89a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2144 @ 0000020c518da900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2144 @ 000001e318a8cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2149 @ 0000020c518da800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2149 @ 000001e318a8cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2154 @ 0000020c518d9400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2154 @ 000001e318a8c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2159 @ 0000020c518d9c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2159 @ 000001e318a8d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2164 @ 0000020c518d8a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2164 @ 000001e318a8e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2169 @ 0000020c518d9e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2169 @ 000001e318a8dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2174 @ 0000020c518da400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2174 @ 000001e318a8f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2179 @ 0000020c518db200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2179 @ 000001e318a8bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2184 @ 0000020c518d8400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2184 @ 000001e318a8c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2189 @ 0000020c518d7d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2189 @ 000001e318a8e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2194 @ 0000020c518d8100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2194 @ 000001e318a8e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2199 @ 0000020c518d8f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2199 @ 000001e318a8e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2204 @ 0000020c518dd500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2204 @ 000001e318a90100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2209 @ 0000020c518db600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2209 @ 000001e318a8f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2214 @ 0000020c518de100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2214 @ 000001e318a92b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2219 @ 0000020c518dd400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2219 @ 000001e318a8fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2224 @ 0000020c518de200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2224 @ 000001e318a90200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2229 @ 0000020c518dc300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2229 @ 000001e318a92e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2234 @ 0000020c518de800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2234 @ 000001e318a90300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2239 @ 0000020c518dbe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2239 @ 000001e318a8fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2244 @ 0000020c518dd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2244 @ 000001e318a93500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2249 @ 0000020c518dee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2249 @ 000001e318a92700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2254 @ 0000020c518dbc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2254 @ 000001e318a91f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2259 @ 0000020c518df500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2259 @ 000001e318a91800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2264 @ 0000020c518dd300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2264 @ 000001e318a91500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2269 @ 0000020c518e3000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2269 @ 000001e318a94d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2274 @ 0000020c518e2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2274 @ 000001e318a93b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2279 @ 0000020c518e2a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2279 @ 000001e318a96300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2284 @ 0000020c518df700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2284 @ 000001e318a94300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2289 @ 0000020c518e3300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2289 @ 000001e318a95500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2294 @ 0000020c518e0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2294 @ 000001e318a97100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2299 @ 0000020c518e3100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2299 @ 000001e318a96800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2304 @ 0000020c518e1800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2304 @ 000001e318a94e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2309 @ 0000020c518e0600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2309 @ 000001e318a94800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2314 @ 0000020c518e0d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2314 @ 000001e318a93700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2319 @ 0000020c518e0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2319 @ 000001e318a94000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2324 @ 0000020c518e0700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2324 @ 000001e318a95400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2329 @ 0000020c518e0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2329 @ 000001e318a95900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2334 @ 0000020c518e7200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2334 @ 000001e318a98200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2339 @ 0000020c518e4c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2339 @ 000001e318a9ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2344 @ 0000020c518e4400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2344 @ 000001e318a9a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2349 @ 0000020c518e5900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2349 @ 000001e318a98a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2354 @ 0000020c518e6200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2354 @ 000001e318a97e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2359 @ 0000020c518e4500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2359 @ 000001e318a99500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2364 @ 0000020c518e4600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2364 @ 000001e318a98400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2369 @ 0000020c518e3f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2369 @ 000001e318a9a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2374 @ 0000020c518e7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2374 @ 000001e318a9ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2379 @ 0000020c518e4000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2379 @ 000001e318a99200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2384 @ 0000020c518e6900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2384 @ 000001e318a99d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2389 @ 0000020c518e3c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2389 @ 000001e318a98700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2394 @ 0000020c518e6f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2394 @ 000001e318a97800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2399 @ 0000020c518cb400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2399 @ 000001e318a9d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2404 @ 0000020c518c7900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2404 @ 000001e318a9c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2409 @ 0000020c518c9100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2409 @ 000001e318a9f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2414 @ 0000020c518ca000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2414 @ 000001e318a9c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2419 @ 0000020c518c7d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2419 @ 000001e318a9c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2424 @ 0000020c518c8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2424 @ 000001e318a9f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2429 @ 0000020c518c7e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2429 @ 000001e318a9b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2434 @ 0000020c518c8600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2434 @ 000001e318a9d400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2439 @ 0000020c518c8900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2439 @ 000001e318a9d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2444 @ 0000020c518c8a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2444 @ 000001e318a9de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2449 @ 0000020c518c9600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2449 @ 000001e318a9bf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2454 @ 0000020c518ca700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2454 @ 000001e318a9c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2459 @ 0000020c518cc600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2459 @ 000001e318a9e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2464 @ 0000020c518cd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2464 @ 000001e318aa1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2469 @ 0000020c518cf200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2469 @ 000001e318aa0300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2474 @ 0000020c518cf300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2474 @ 000001e318aa1500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2479 @ 0000020c518ce400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2479 @ 000001e318aa3100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2484 @ 0000020c518cf100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2484 @ 000001e318aa2800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2489 @ 0000020c518cdb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2489 @ 000001e318a9fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2494 @ 0000020c518cd700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2494 @ 000001e318aa0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2499 @ 0000020c518cde00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2499 @ 000001e318aa3500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2504 @ 0000020c518cc200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2504 @ 000001e318aa1f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2509 @ 0000020c518cc500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2509 @ 000001e318aa1000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2514 @ 0000020c518ce300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2514 @ 000001e318aa0d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2519 @ 0000020c518cce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2519 @ 000001e318aa1300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2524 @ 0000020c518d2300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2524 @ 000001e318aa7000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2529 @ 0000020c518d0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2529 @ 000001e318aa5b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2534 @ 0000020c518cfd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2534 @ 000001e318aa5c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2539 @ 0000020c518d2100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2539 @ 000001e318aa7300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2544 @ 0000020c518d2700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2544 @ 000001e318aa4b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2549 @ 0000020c518d0900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2549 @ 000001e318aa4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2554 @ 0000020c518d2c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2554 @ 000001e318aa6000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2559 @ 0000020c518d0d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2559 @ 000001e318aa6a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2564 @ 0000020c518d3000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2564 @ 000001e318aa6200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2569 @ 0000020c518d3300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2569 @ 000001e318aa4800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2574 @ 0000020c518d0300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2574 @ 000001e318aa6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2579 @ 0000020c518d2b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2579 @ 000001e318aa4900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2584 @ 0000020c518d1400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2584 @ 000001e318aa4e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2589 @ 0000020c60d30480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2589 @ 000001e327ee6980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2594 @ 0000020c60d30880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2594 @ 000001e327ee8980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2599 @ 0000020c60d30680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2599 @ 000001e327ee7a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2604 @ 0000020c60d30c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2604 @ 000001e327ee7380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2609 @ 0000020c60d2ee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2609 @ 000001e327ee6d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2614 @ 0000020c60d30180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2614 @ 000001e327ee7c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2619 @ 0000020c60d30280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2619 @ 000001e327ee8580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2624 @ 0000020c60d2fd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2624 @ 000001e327ee7680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2629 @ 0000020c60d2fe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2629 @ 000001e327ee5a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2634 @ 0000020c60d2fc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2634 @ 000001e327ee7980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2639 @ 0000020c60d2e480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2639 @ 000001e327ee5f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2644 @ 0000020c60d2eb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2644 @ 000001e327ee8f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2649 @ 0000020c60d2f780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2649 @ 000001e327ee8380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2654 @ 0000020c60d34f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2654 @ 000001e327ee9380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2659 @ 0000020c60d32080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2659 @ 000001e327ee9480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2664 @ 0000020c60d31580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2664 @ 000001e327ee9a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2669 @ 0000020c60d33f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2669 @ 000001e327eebc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2674 @ 0000020c60d31180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2674 @ 000001e327ee9880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2679 @ 0000020c60d34b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2679 @ 000001e327eea580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2684 @ 0000020c60d31980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2684 @ 000001e327eebf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2689 @ 0000020c60d34780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2689 @ 000001e327eea380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2694 @ 0000020c60d31e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2694 @ 000001e327eea880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2699 @ 0000020c60d33680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2699 @ 000001e327eec080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2704 @ 0000020c60d32680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2704 @ 000001e327eeaa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2709 @ 0000020c60d32580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2709 @ 000001e327eeb280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2714 @ 0000020c60d32d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2714 @ 000001e327eebe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2719 @ 0000020c60d37a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2719 @ 000001e327ef0c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2724 @ 0000020c60d37280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2724 @ 000001e327eee380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2729 @ 0000020c60d38580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2729 @ 000001e327eed280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2734 @ 0000020c60d35480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2734 @ 000001e327eeed80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2739 @ 0000020c60d35880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2739 @ 000001e327ef0f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2744 @ 0000020c60d35280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2744 @ 000001e327ef0680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2749 @ 0000020c60d38780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2749 @ 000001e327eed980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2754 @ 0000020c60d37e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2754 @ 000001e327eee680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2759 @ 0000020c60d35980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2759 @ 000001e327eef980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2764 @ 0000020c60d36480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2764 @ 000001e327eedf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2769 @ 0000020c60d38380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2769 @ 000001e327eee080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2774 @ 0000020c60d36280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2774 @ 000001e327ef0380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2779 @ 0000020c60d3cb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2779 @ 000001e327ef3280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2784 @ 0000020c60d39b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2784 @ 000001e327ef1080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2789 @ 0000020c60d3ca80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2789 @ 000001e327ef3180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2794 @ 0000020c60d3be80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2794 @ 000001e327ef2980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2799 @ 0000020c60d39180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2799 @ 000001e327ef2f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2804 @ 0000020c60d3b580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2804 @ 000001e327ef2e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2809 @ 0000020c60d3b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2809 @ 000001e327ef2780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2814 @ 0000020c60d39780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2814 @ 000001e327ef3b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2819 @ 0000020c60d3c580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2819 @ 000001e327ef4680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2824 @ 0000020c60d39d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2824 @ 000001e327ef4980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2829 @ 0000020c60d3bc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2829 @ 000001e327ef2380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2834 @ 0000020c60d3a980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2834 @ 000001e327ef1780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2839 @ 0000020c60d3ad80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2839 @ 000001e327ef1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2844 @ 0000020c60d3d380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2844 @ 000001e327ef7f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2849 @ 0000020c60d40d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2849 @ 000001e327ef8480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2854 @ 0000020c60d3fc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2854 @ 000001e327ef8980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2859 @ 0000020c60d3d680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2859 @ 000001e327ef5880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2864 @ 0000020c60d40e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2864 @ 000001e327ef6580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2869 @ 0000020c60d3fe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2869 @ 000001e327ef8080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2874 @ 0000020c60d3ed80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2874 @ 000001e327ef7380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2879 @ 0000020c60d3dd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2879 @ 000001e327ef8f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2884 @ 0000020c60d3e280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2884 @ 000001e327ef6780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2889 @ 0000020c60d3ea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2889 @ 000001e327ef6480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2894 @ 0000020c60d3ec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2894 @ 000001e327ef5980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2899 @ 0000020c60d3f380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2899 @ 000001e327ef7080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2904 @ 0000020c60d3f880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2904 @ 000001e327ef6e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2909 @ 0000020c60d43a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2909 @ 000001e327efb980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2914 @ 0000020c60d42c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2914 @ 000001e327ef9180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2919 @ 0000020c60d43880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2919 @ 000001e327efb880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2924 @ 0000020c60d42880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2924 @ 000001e327efc880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2929 @ 0000020c60d43380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2929 @ 000001e327ef9f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2934 @ 0000020c60d43d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2934 @ 000001e327ef9480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2939 @ 0000020c60d41980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2939 @ 000001e327ef9a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2944 @ 0000020c60d42080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2944 @ 000001e327efc080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2949 @ 0000020c60d41480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2949 @ 000001e327efc480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2954 @ 0000020c60d44880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2954 @ 000001e327efa280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2959 @ 0000020c60d42b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2959 @ 000001e327ef9e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2964 @ 0000020c60d43e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2964 @ 000001e327efaa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2969 @ 0000020c60d44c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2969 @ 000001e327efb480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2974 @ 0000020c60d26e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2974 @ 000001e327f00e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2979 @ 0000020c60d25b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2979 @ 000001e327eff580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2984 @ 0000020c60d26f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2984 @ 000001e327efd080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2989 @ 0000020c60d25c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2989 @ 000001e327f00d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2994 @ 0000020c60d28680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2994 @ 000001e327efd380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2999 @ 0000020c60d25280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2999 @ 000001e327eff280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3004 @ 0000020c60d25d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3004 @ 000001e327efde80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3009 @ 0000020c60d25480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3009 @ 000001e327efd780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3014 @ 0000020c60d25e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3014 @ 000001e327efeb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3019 @ 0000020c60d26180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3019 @ 000001e327efe780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3024 @ 0000020c60d26d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3024 @ 000001e327effc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3029 @ 0000020c60d27f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3029 @ 000001e327eff480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3034 @ 0000020c60d2a680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3034 @ 000001e327f00980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3039 @ 0000020c60d2b180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3039 @ 000001e327f01c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3044 @ 0000020c60d2bb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3044 @ 000001e327f03480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3049 @ 0000020c60d2b080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3049 @ 000001e327f01680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3054 @ 0000020c60d29780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3054 @ 000001e327f01d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3059 @ 0000020c60d29480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3059 @ 000001e327f02980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3064 @ 0000020c60d2b280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3064 @ 000001e327f02480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3069 @ 0000020c60d2b480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3069 @ 000001e327f02880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3074 @ 0000020c60d29280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3074 @ 000001e327f04a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3079 @ 0000020c60d2ad80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3079 @ 000001e327f03580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3084 @ 0000020c60d2b380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3084 @ 000001e327f04580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3089 @ 0000020c60d2a880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3089 @ 000001e327f03780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3094 @ 0000020c60d2b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3094 @ 000001e327f01e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3099 @ 0000020c6f98ce80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3099 @ 000001e336b4ff80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3104 @ 0000020c6f98c680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3104 @ 000001e336b52e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3109 @ 0000020c6f98ed80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3109 @ 000001e336b4fb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3114 @ 0000020c6f98dc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3114 @ 000001e336b51d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3119 @ 0000020c6f98c380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3119 @ 000001e336b52c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3124 @ 0000020c6f98ef80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3124 @ 000001e336b50380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3129 @ 0000020c6f98c580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3129 @ 000001e336b4fe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3134 @ 0000020c6f98e580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3134 @ 000001e336b4fd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3139 @ 0000020c6f98b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3139 @ 000001e336b4f180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3144 @ 0000020c6f98d980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3144 @ 000001e336b50b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3149 @ 0000020c6f98d480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3149 @ 000001e336b50780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3154 @ 0000020c6f98da80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3154 @ 000001e336b50d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3159 @ 0000020c6f98e780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3159 @ 000001e336b4f380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3164 @ 0000020c6f992c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3164 @ 000001e336b54d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3169 @ 0000020c6f991680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3169 @ 000001e336b53480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3174 @ 0000020c6f992e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3174 @ 000001e336b53180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3179 @ 0000020c6f990080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3179 @ 000001e336b54080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3184 @ 0000020c6f990680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3184 @ 000001e336b54280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3189 @ 0000020c6f992b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3189 @ 000001e336b53580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3194 @ 0000020c6f98fe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3194 @ 000001e336b53a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3199 @ 0000020c6f991480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3199 @ 000001e336b54380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3204 @ 0000020c6f992d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3204 @ 000001e336b53780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3209 @ 0000020c6f991b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3209 @ 000001e336b55a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3214 @ 0000020c6f98f680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3214 @ 000001e336b54b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3219 @ 0000020c6f991180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3219 @ 000001e336b53280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3224 @ 0000020c6f992380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3224 @ 000001e336b54880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3229 @ 0000020c6f995080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3229 @ 000001e336b57880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3234 @ 0000020c6f996680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3234 @ 000001e336b58e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3239 @ 0000020c6f995a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3239 @ 000001e336b57c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3244 @ 0000020c6f994180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3244 @ 000001e336b58f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3249 @ 0000020c6f995b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3249 @ 000001e336b59280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3254 @ 0000020c6f996080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3254 @ 000001e336b57b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3259 @ 0000020c6f993780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3259 @ 000001e336b58080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3264 @ 0000020c6f996980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3264 @ 000001e336b58180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3269 @ 0000020c6f995380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3269 @ 000001e336b59580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3274 @ 0000020c6f995780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3274 @ 000001e336b58480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3279 @ 0000020c6f993280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3279 @ 000001e336b58880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3284 @ 0000020c6f993480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3284 @ 000001e336b59680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3289 @ 0000020c6f994080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3289 @ 000001e336b58c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3294 @ 0000020c6f999e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3294 @ 000001e336b5c580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3299 @ 0000020c6f998c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3299 @ 000001e336b5ee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3304 @ 0000020c6f998280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3304 @ 000001e336b5c880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3309 @ 0000020c6f999a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3309 @ 000001e336b5e980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3314 @ 0000020c6f999b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3314 @ 000001e336b5d580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3319 @ 0000020c6f999080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3319 @ 000001e336b5d380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3324 @ 0000020c6f999780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3324 @ 000001e336b5bd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3329 @ 0000020c6f999f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3329 @ 000001e336b5e680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3334 @ 0000020c6f998e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3334 @ 000001e336b5c480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3339 @ 0000020c6f997c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3339 @ 000001e336b5eb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3344 @ 0000020c6f99a780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3344 @ 000001e336b5e780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3349 @ 0000020c6f998b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3349 @ 000001e336b5ce80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3354 @ 0000020c6f99ed80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3354 @ 000001e336b60e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3359 @ 0000020c6f99dc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3359 @ 000001e336b5fd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3364 @ 0000020c6f99c380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3364 @ 000001e336b62380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3369 @ 0000020c6f99c280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3369 @ 000001e336b61880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3374 @ 0000020c6f99cb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3374 @ 000001e336b60880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3379 @ 0000020c6f99ec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3379 @ 000001e336b62780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3384 @ 0000020c6f99b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3384 @ 000001e336b5f780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3389 @ 0000020c6f99d980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3389 @ 000001e336b5f580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3394 @ 0000020c6f99bc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3394 @ 000001e336b61980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3399 @ 0000020c6f99cc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3399 @ 000001e336b5f680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3404 @ 0000020c6f99b780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3404 @ 000001e336b5ff80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3409 @ 0000020c6f99d380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3409 @ 000001e336b62180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3414 @ 0000020c6f99dd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3414 @ 000001e336b62d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3419 @ 0000020c6f9a1f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3419 @ 000001e336b43b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3424 @ 0000020c6f9a0180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3424 @ 000001e336b43a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3429 @ 0000020c6f9a1a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3429 @ 000001e336b43c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3434 @ 0000020c6f99f480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3434 @ 000001e336b44480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3439 @ 0000020c6f99f280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3439 @ 000001e336b46080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3444 @ 0000020c6f99fb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3444 @ 000001e336b43f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3449 @ 0000020c6f9a2b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3449 @ 000001e336b45d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3454 @ 0000020c6f9a1080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3454 @ 000001e336b45980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3459 @ 0000020c6f99fd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3459 @ 000001e336b45f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3464 @ 0000020c6f99f680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3464 @ 000001e336b44680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3469 @ 0000020c6f9a1d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3469 @ 000001e336b45080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3474 @ 0000020c6f9a1480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3474 @ 000001e336b46c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3479 @ 0000020c6f9a0480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3479 @ 000001e336b43380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3484 @ 0000020c6f986d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3484 @ 000001e336b49180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3489 @ 0000020c6f985c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3489 @ 000001e336b49b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3494 @ 0000020c6f985b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3494 @ 000001e336b47380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3499 @ 0000020c6f985d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3499 @ 000001e336b48d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3504 @ 0000020c6f983f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3504 @ 000001e336b49a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3509 @ 0000020c6f986c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3509 @ 000001e336b49e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3514 @ 0000020c6f986180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3514 @ 000001e336b48580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3519 @ 0000020c6f983880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3519 @ 000001e336b47180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3524 @ 0000020c6f986480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3524 @ 000001e336b49f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3529 @ 0000020c6f984b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3529 @ 000001e336b4aa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3534 @ 0000020c6f986a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3534 @ 000001e336b4a180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3539 @ 0000020c6f983280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3539 @ 000001e336b4a680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3544 @ 0000020c6f984480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3544 @ 000001e336b48280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3549 @ 0000020c6f987180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3549 @ 000001e336b4db80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3554 @ 0000020c6f98a280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3554 @ 000001e336b4b380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3559 @ 0000020c6f987580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3559 @ 000001e336b4eb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3564 @ 0000020c6f989180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3564 @ 000001e336b4e980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3569 @ 0000020c6f98aa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3569 @ 000001e336b4d480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3574 @ 0000020c6f987980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3574 @ 000001e336b4ce80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3579 @ 0000020c6f988a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3579 @ 000001e336b4e280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3584 @ 0000020c6f987c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3584 @ 000001e336b4ea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3589 @ 0000020c6f987e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3589 @ 000001e336b4bd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3594 @ 0000020c6f989d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3594 @ 000001e336b4e680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3599 @ 0000020c6f988880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3599 @ 000001e336b4c780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3604 @ 0000020c6f988480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3604 @ 000001e336b4d580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3609 @ 0000020c5588e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3609 @ 000001e31ca50900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3614 @ 0000020c5588f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3614 @ 000001e31ca51400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3619 @ 0000020c5588d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3619 @ 000001e31ca4e000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3624 @ 0000020c55891300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3624 @ 000001e31ca50100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3629 @ 0000020c55890c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3629 @ 000001e31ca51300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3634 @ 0000020c5588e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3634 @ 000001e31ca4fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3639 @ 0000020c55890d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3639 @ 000001e31ca50700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3644 @ 0000020c5588fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3644 @ 000001e31ca4e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3649 @ 0000020c5588dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3649 @ 000001e31ca4e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3654 @ 0000020c5588f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3654 @ 000001e31ca4dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3659 @ 0000020c55890400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3659 @ 000001e31ca4f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3664 @ 0000020c5588eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3664 @ 000001e31ca4eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3669 @ 0000020c55890a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3669 @ 000001e31ca51200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3674 @ 0000020c55893d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3674 @ 000001e31ca51800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3679 @ 0000020c55891800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3679 @ 000001e31ca54300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3684 @ 0000020c55893300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3684 @ 000001e31ca52900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3689 @ 0000020c55894300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3689 @ 000001e31ca54b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3694 @ 0000020c55895200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3694 @ 000001e31ca54600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3699 @ 0000020c55893700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3699 @ 000001e31ca51e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3704 @ 0000020c55894500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3704 @ 000001e31ca54c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3709 @ 0000020c55895700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3709 @ 000001e31ca53800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3714 @ 0000020c55894b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3714 @ 000001e31ca54000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3719 @ 0000020c55894a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3719 @ 000001e31ca52e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3724 @ 0000020c55892a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3724 @ 000001e31ca52500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3729 @ 0000020c55893000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3729 @ 000001e31ca52400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3734 @ 0000020c55891a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3734 @ 000001e31ca52a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3739 @ 0000020c55897e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3739 @ 000001e31ca56e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3744 @ 0000020c55895a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3744 @ 000001e31ca57b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3749 @ 0000020c55895800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3749 @ 000001e31ca57500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3754 @ 0000020c55895d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3754 @ 000001e31ca55f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3759 @ 0000020c55898600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3759 @ 000001e31ca57800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3764 @ 0000020c55898200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3764 @ 000001e31ca56000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3769 @ 0000020c55896800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3769 @ 000001e31ca59100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3774 @ 0000020c55897c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3774 @ 000001e31ca59400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3779 @ 0000020c55895e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3779 @ 000001e31ca59200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3784 @ 0000020c55897900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3784 @ 000001e31ca58700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3789 @ 0000020c55898500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3789 @ 000001e31ca55800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3794 @ 0000020c55896400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3794 @ 000001e31ca56800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3799 @ 0000020c55899100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3799 @ 000001e31ca57c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3804 @ 0000020c5589ad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3804 @ 000001e31ca5ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3809 @ 0000020c55899b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3809 @ 000001e31ca59f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3814 @ 0000020c5589b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3814 @ 000001e31ca5a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3819 @ 0000020c5589ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3819 @ 000001e31ca59d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3824 @ 0000020c5589cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3824 @ 000001e31ca5bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3829 @ 0000020c5589b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3829 @ 000001e31ca5be00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3834 @ 0000020c5589c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3834 @ 000001e31ca5d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3839 @ 0000020c5589d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3839 @ 000001e31ca5b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3844 @ 0000020c5589c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3844 @ 000001e31ca5a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3849 @ 0000020c5589d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3849 @ 000001e31ca5d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3854 @ 0000020c5589bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3854 @ 000001e31ca5b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3859 @ 0000020c55899e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3859 @ 000001e31ca5cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3864 @ 0000020c5589ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3864 @ 000001e31ca5c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3869 @ 0000020c5589f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3869 @ 000001e31ca61100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3874 @ 0000020c5589dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3874 @ 000001e31ca5fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3879 @ 0000020c558a0100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3879 @ 000001e31ca5f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3884 @ 0000020c5589f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3884 @ 000001e31ca5f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3889 @ 0000020c5589ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3889 @ 000001e31ca5ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3894 @ 0000020c5589ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3894 @ 000001e31ca5ef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3899 @ 0000020c5589f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3899 @ 000001e31ca5f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3904 @ 0000020c5589e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3904 @ 000001e31ca60b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3909 @ 0000020c5589ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3909 @ 000001e31ca60c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3914 @ 0000020c5589e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3914 @ 000001e31ca61400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3919 @ 0000020c558a1200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3919 @ 000001e31ca5fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3924 @ 0000020c5589d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3924 @ 000001e31ca5e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3929 @ 0000020c55885300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3929 @ 000001e31ca44900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3934 @ 0000020c55881900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3934 @ 000001e31ca44400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3939 @ 0000020c55885400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3939 @ 000001e31ca41e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3944 @ 0000020c55882900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3944 @ 000001e31ca42c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3949 @ 0000020c55884200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3949 @ 000001e31ca44b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3954 @ 0000020c55881c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3954 @ 000001e31ca43c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3959 @ 0000020c55885000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3959 @ 000001e31ca41a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3964 @ 0000020c55884c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3964 @ 000001e31ca44000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3969 @ 0000020c55884d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3969 @ 000001e31ca44d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3974 @ 0000020c55883700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3974 @ 000001e31ca44200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3979 @ 0000020c55882200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3979 @ 000001e31ca43300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3984 @ 0000020c55882300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3984 @ 000001e31ca45500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3989 @ 0000020c55883800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3989 @ 000001e31ca41800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3994 @ 0000020c55886400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3994 @ 000001e31ca46600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3999 @ 0000020c55886300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3999 @ 000001e31ca47400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4004 @ 0000020c55886b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4004 @ 000001e31ca46900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4009 @ 0000020c55886600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4009 @ 000001e31ca49300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4014 @ 0000020c55887300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4014 @ 000001e31ca47500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4019 @ 0000020c55888700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4019 @ 000001e31ca47c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4024 @ 0000020c55888800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4024 @ 000001e31ca46300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4029 @ 0000020c55888900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4029 @ 000001e31ca48c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4034 @ 0000020c55888a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4034 @ 000001e31ca48f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4039 @ 0000020c55887b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4039 @ 000001e31ca47000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4044 @ 0000020c55888100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4044 @ 000001e31ca47300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4049 @ 0000020c55885800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4049 @ 000001e31ca45900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4054 @ 0000020c55886000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4054 @ 000001e31ca45d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4059 @ 0000020c5588c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4059 @ 000001e31ca4b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4064 @ 0000020c5588c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4064 @ 000001e31ca4ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4069 @ 0000020c5588af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4069 @ 000001e31ca49f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4074 @ 0000020c5588ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4074 @ 000001e31ca4a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4079 @ 0000020c5588a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4079 @ 000001e31ca49b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4084 @ 0000020c5588d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4084 @ 000001e31ca4d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4089 @ 0000020c5588d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4089 @ 000001e31ca4d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4094 @ 0000020c5588ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4094 @ 000001e31ca4cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4099 @ 0000020c5588c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4099 @ 000001e31ca4c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4104 @ 0000020c5588ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4104 @ 000001e31ca4ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4109 @ 0000020c5588b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4109 @ 000001e31ca4bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4114 @ 0000020c5588c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4114 @ 000001e31ca49a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4119 @ 0000020c5588d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4119 @ 000001e31ca4bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4124 @ 0000020c81f8b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4124 @ 000001e382db5200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4129 @ 0000020c81f8ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4129 @ 000001e382db5400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4134 @ 0000020c81f8db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4134 @ 000001e382db4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4139 @ 0000020c81f8ad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4139 @ 000001e382db2600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4144 @ 0000020c81f8d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4144 @ 000001e382db4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4149 @ 0000020c81f8a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4149 @ 000001e382db4b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4154 @ 0000020c81f8c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4154 @ 000001e382db4c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4159 @ 0000020c81f8c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4159 @ 000001e382db2b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4164 @ 0000020c81f8cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4164 @ 000001e382db4400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4169 @ 0000020c81f8b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4169 @ 000001e382db3400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4174 @ 0000020c81f8c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4174 @ 000001e382db3700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4179 @ 0000020c81f8d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4179 @ 000001e382db3a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4184 @ 0000020c81f8e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4184 @ 000001e382db6900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4189 @ 0000020c81f8ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4189 @ 000001e382db6c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4194 @ 0000020c81f90900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4194 @ 000001e382db9200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4199 @ 0000020c81f91700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4199 @ 000001e382db8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4204 @ 0000020c81f92000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4204 @ 000001e382db7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4209 @ 0000020c81f8f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4209 @ 000001e382db6700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4214 @ 0000020c81f90700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4214 @ 000001e382db8900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4219 @ 0000020c81f90e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4219 @ 000001e382db8e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4224 @ 0000020c81f90d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4224 @ 000001e382db7a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4229 @ 0000020c81f90c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4229 @ 000001e382db6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4234 @ 0000020c81f90f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4234 @ 000001e382db7b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4239 @ 0000020c81f8f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4239 @ 000001e382db9600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4244 @ 0000020c81f8f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4244 @ 000001e382db6300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4249 @ 0000020c81f93200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4249 @ 000001e382dbd200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4254 @ 0000020c81f95f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4254 @ 000001e382dbd600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4259 @ 0000020c81f93500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4259 @ 000001e382dba700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4264 @ 0000020c81f92100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4264 @ 000001e382dbb500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4269 @ 0000020c81f94b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4269 @ 000001e382dbae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4274 @ 0000020c81f92300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4274 @ 000001e382dba100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4279 @ 0000020c81f92700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4279 @ 000001e382dbc400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4284 @ 0000020c81f94f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4284 @ 000001e382dbab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4289 @ 0000020c81f94300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4289 @ 000001e382dbd700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4294 @ 0000020c81f93400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4294 @ 000001e382dba600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4299 @ 0000020c81f94400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4299 @ 000001e382dbac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4304 @ 0000020c81f95400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4304 @ 000001e382dbb800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4309 @ 0000020c81f95900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4309 @ 000001e382dbb300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4314 @ 0000020c81f97100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4314 @ 000001e382dbe400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4319 @ 0000020c81f97000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4319 @ 000001e382dc0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4324 @ 0000020c81f99c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4324 @ 000001e382dc1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4329 @ 0000020c81f99e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4329 @ 000001e382dc1c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4334 @ 0000020c81f97300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4334 @ 000001e382dc1700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4339 @ 0000020c81f98a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4339 @ 000001e382dbff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4344 @ 0000020c81f96700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4344 @ 000001e382dc0500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4349 @ 0000020c81f96800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4349 @ 000001e382dbe600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4354 @ 0000020c81f97a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4354 @ 000001e382dc0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4359 @ 0000020c81f96900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4359 @ 000001e382dbf800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4364 @ 0000020c81f96a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4364 @ 000001e382dbf900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4369 @ 0000020c81f99000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4369 @ 000001e382dc0d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4374 @ 0000020c81f99500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4374 @ 000001e382dc1500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4379 @ 0000020c81f9c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4379 @ 000001e382dc4200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4384 @ 0000020c81f9d400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4384 @ 000001e382dc2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4389 @ 0000020c81f9a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4389 @ 000001e382dc5800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4394 @ 0000020c81f9c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4394 @ 000001e382dc4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4399 @ 0000020c81f9a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4399 @ 000001e382dc5a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4404 @ 0000020c81f9d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4404 @ 000001e382dc5c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4409 @ 0000020c81f9c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4409 @ 000001e382dc5700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4414 @ 0000020c81f9d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4414 @ 000001e382dc2400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4419 @ 0000020c81f9da00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4419 @ 000001e382dc5000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4424 @ 0000020c81f9b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4424 @ 000001e382dc3400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4429 @ 0000020c81f9af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4429 @ 000001e382dc2100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4434 @ 0000020c81f9b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4434 @ 000001e382dc3e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4439 @ 0000020c81f9c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4439 @ 000001e382dc4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4444 @ 0000020c81f9e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4444 @ 000001e382dc6300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4449 @ 0000020c81fa1f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4449 @ 000001e382dc8b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4454 @ 0000020c81f9fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4454 @ 000001e382dc9e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4459 @ 0000020c81f9e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4459 @ 000001e382dc8400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4464 @ 0000020c81fa1400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4464 @ 000001e382dc9400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4469 @ 0000020c81f9f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4469 @ 000001e382dc7000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4474 @ 0000020c81f9fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4474 @ 000001e382dca000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4479 @ 0000020c81fa1000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4479 @ 000001e382dc7e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4484 @ 0000020c81f9ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4484 @ 000001e382dc9d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4489 @ 0000020c81fa0900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4489 @ 000001e382dc6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4494 @ 0000020c81f9ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4494 @ 000001e382dc7800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4499 @ 0000020c81fa0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4499 @ 000001e382dc8200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4504 @ 0000020c81fa5f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4504 @ 000001e382dccb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4509 @ 0000020c81fa3c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4509 @ 000001e382dcc200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4514 @ 0000020c81fa6000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4514 @ 000001e382dcb800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4519 @ 0000020c81fa3800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4519 @ 000001e382dcdf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4524 @ 0000020c81fa2100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4524 @ 000001e382dca900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4529 @ 0000020c81fa2200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4529 @ 000001e382dcd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4534 @ 0000020c81fa2c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4534 @ 000001e382dcd500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4539 @ 0000020c81fa3600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4539 @ 000001e382dcd300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4544 @ 0000020c81fa5b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4544 @ 000001e382dcaf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4549 @ 0000020c81fa2800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4549 @ 000001e382dcd100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4554 @ 0000020c81fa3a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4554 @ 000001e382dcda00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4559 @ 0000020c81fa4d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4559 @ 000001e382dcbb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4564 @ 0000020c81fa5d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4564 @ 000001e382dca400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4569 @ 0000020c81fa9600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4569 @ 000001e382dd1a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4574 @ 0000020c81fa9c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4574 @ 000001e382dcfa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4579 @ 0000020c81fa7800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4579 @ 000001e382dcfe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4584 @ 0000020c81fa9100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4584 @ 000001e382dd0500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4589 @ 0000020c81fa6a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4589 @ 000001e382dce300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4594 @ 0000020c81fa9500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4594 @ 000001e382dceb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4599 @ 0000020c81fa9000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4599 @ 000001e382dd0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4604 @ 0000020c81fa8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4604 @ 000001e382dd0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4609 @ 0000020c81fa6c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4609 @ 000001e382dd0600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4614 @ 0000020c81fa8700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4614 @ 000001e382dd0b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4619 @ 0000020c81fa6f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4619 @ 000001e382dd1000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4624 @ 0000020c81fa7100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4624 @ 000001e382dd1500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4629 @ 0000020c81fa8500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4629 @ 000001e382dcf400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4634 @ 0000020c81fad000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4634 @ 000001e382dd5200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4639 @ 0000020c81fad300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4639 @ 000001e382dd4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4644 @ 0000020c81fadb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4644 @ 000001e382dd5900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4649 @ 0000020c81faac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4649 @ 000001e382dd5c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4654 @ 0000020c81fab500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4654 @ 000001e382dd4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4659 @ 0000020c81fab000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4659 @ 000001e382dd3d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4664 @ 0000020c81faa300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4664 @ 000001e382dd4600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4669 @ 0000020c81fad200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4669 @ 000001e382dd5100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4674 @ 0000020c81faa700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4674 @ 000001e382dd6000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4679 @ 0000020c81fac300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4679 @ 000001e382dd5500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4684 @ 0000020c81faad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4684 @ 000001e382dd5e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4689 @ 0000020c81fac500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4689 @ 000001e382dd2100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4694 @ 0000020c81facc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4694 @ 000001e382dd2900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4699 @ 0000020c81fb2000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4699 @ 000001e382dd6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4704 @ 0000020c81faf300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4704 @ 000001e382dd6c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4709 @ 0000020c81fb0600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4709 @ 000001e382dd8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4714 @ 0000020c81fb1f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4714 @ 000001e382dd7a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4719 @ 0000020c81fb0700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4719 @ 000001e382dd8800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4724 @ 0000020c81fb1a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4724 @ 000001e382dd7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4729 @ 0000020c81fb1100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4729 @ 000001e382dd7600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4734 @ 0000020c81fb0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4734 @ 000001e382dd9000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4739 @ 0000020c81fb0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4739 @ 000001e382dd7f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4744 @ 0000020c81fb0e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4744 @ 000001e382dd9900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4749 @ 0000020c81fb1400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4749 @ 000001e382dd6100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4754 @ 0000020c81faec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4754 @ 000001e382dd6600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4759 @ 0000020c81faf200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4759 @ 000001e382dd8700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4764 @ 0000020c81fb2200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4764 @ 000001e382ddd300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4769 @ 0000020c81fb4200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4769 @ 000001e382ddb200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4774 @ 0000020c81fb5500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4774 @ 000001e382dde000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4779 @ 0000020c81fb4c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4779 @ 000001e382ddce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4784 @ 0000020c81fb4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4784 @ 000001e382ddb100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4789 @ 0000020c81fb3700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4789 @ 000001e382ddd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4794 @ 0000020c81fb5d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4794 @ 000001e382ddac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4799 @ 0000020c81fb3400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4799 @ 000001e382dddc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4804 @ 0000020c81fb2800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4804 @ 000001e382ddad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4809 @ 0000020c81fb5200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4809 @ 000001e382dda400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4814 @ 0000020c81fb5300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4814 @ 000001e382dda900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4819 @ 0000020c81fb2e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4819 @ 000001e382ddb500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4824 @ 0000020c81fb9000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4824 @ 000001e382de0d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4829 @ 0000020c81fb9a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4829 @ 000001e382de0700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4834 @ 0000020c81fb6500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4834 @ 000001e382ddfa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4839 @ 0000020c81fb7e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4839 @ 000001e382ddf600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4844 @ 0000020c81fb8900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4844 @ 000001e382ddfb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4849 @ 0000020c81fb9800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4849 @ 000001e382dde300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4854 @ 0000020c81fb6800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4854 @ 000001e382de0900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4859 @ 0000020c81fb9500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4859 @ 000001e382de1c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4864 @ 0000020c81fb8d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4864 @ 000001e382de0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4869 @ 0000020c81fba000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4869 @ 000001e382dde900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4874 @ 0000020c81fb7c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4874 @ 000001e382ddfe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4879 @ 0000020c81fb6a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4879 @ 000001e382de0500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4884 @ 0000020c81fb8100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4884 @ 000001e382de0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4889 @ 0000020c81fbc100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4889 @ 000001e382de3c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4894 @ 0000020c81fbab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4894 @ 000001e382de5c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4899 @ 0000020c81fbb600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4899 @ 000001e382de4e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4904 @ 0000020c81fbd300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4904 @ 000001e382de3000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4909 @ 0000020c81fbbf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4909 @ 000001e382de2e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4914 @ 0000020c81fbbc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4914 @ 000001e382de5100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4919 @ 0000020c81fbb700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4919 @ 000001e382de3300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4924 @ 0000020c81fbce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4924 @ 000001e382de5a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4929 @ 0000020c81fbca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4929 @ 000001e382de5300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4934 @ 0000020c81fbc300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4934 @ 000001e382de5600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4939 @ 0000020c81fbd000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4939 @ 000001e382de2600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4944 @ 0000020c81fba700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4944 @ 000001e382de3d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4949 @ 0000020c81fbad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4949 @ 000001e382de2400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4954 @ 0000020c81fc0100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4954 @ 000001e382de6e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4959 @ 0000020c81fbe500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4959 @ 000001e382de8b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4964 @ 0000020c81fbff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4964 @ 000001e382de7700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4969 @ 0000020c81fc0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4969 @ 000001e382de9100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4974 @ 0000020c81fc2000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4974 @ 000001e382de9900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4979 @ 0000020c81fbed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4979 @ 000001e382de9c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4984 @ 0000020c81fbf700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4984 @ 000001e382de7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4989 @ 0000020c81fbfc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4989 @ 000001e382de7e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4994 @ 0000020c81fbfb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4994 @ 000001e382de7500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4999 @ 0000020c81fc1d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4999 @ 000001e382de8500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5004 @ 0000020c81fbeb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5004 @ 000001e382de9f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5009 @ 0000020c81fc1200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5009 @ 000001e382de9800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5014 @ 0000020c81fc1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5014 @ 000001e382de6100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5019 @ 0000020c81fc4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5019 @ 000001e382deac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5024 @ 0000020c81fc3500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5024 @ 000001e382dea400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5029 @ 0000020c81fc2b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5029 @ 000001e382dea800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5034 @ 0000020c81fc3800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5034 @ 000001e382dae000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5039 @ 0000020c81fc5100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5039 @ 000001e382dacf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5044 @ 0000020c81fc5d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5044 @ 000001e382dabc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5049 @ 0000020c81fc2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5049 @ 000001e382daa800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5054 @ 0000020c81fc2d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5054 @ 000001e382daa700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5059 @ 0000020c81fc3a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5059 @ 000001e382dadf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5064 @ 0000020c81fc2e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5064 @ 000001e382dad300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5069 @ 0000020c81fc2800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5069 @ 000001e382dac400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5074 @ 0000020c81fc2a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5074 @ 000001e382dac500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5079 @ 0000020c81fc4700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5079 @ 000001e382dac000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5084 @ 0000020c81fc6100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5084 @ 000001e382dab800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5089 @ 0000020c81fc9900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5089 @ 000001e382dac900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5094 @ 0000020c81fc8900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5094 @ 000001e382dacb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5099 @ 0000020c81fc6900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5099 @ 000001e382db0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5104 @ 0000020c81fc9200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5104 @ 000001e382dafd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5109 @ 0000020c81fc7a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5109 @ 000001e382db1400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5114 @ 0000020c81fc8800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5114 @ 000001e382daec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5119 @ 0000020c81fc8600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5119 @ 000001e382db0d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5124 @ 0000020c81fc7300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5124 @ 000001e382db0700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5129 @ 0000020c81fc7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5129 @ 000001e382dafb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5134 @ 0000020c81fc9000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5134 @ 000001e382db1500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5139 @ 0000020c81fc9700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5139 @ 000001e382db1700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5144 @ 0000020c81fca100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5144 @ 000001e382db0e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5149 @ 0000020c81fcae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5149 @ 000001e382db1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5154 @ 0000020c81fca700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5154 @ 000001e382db1100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5159 @ 0000020c7f920400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5159 @ 000001e38074cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5164 @ 0000020c7f921500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5164 @ 000001e38074d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5169 @ 0000020c7f921e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5169 @ 000001e38074c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5174 @ 0000020c7f922800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5174 @ 000001e38074e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5179 @ 0000020c7f920a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5179 @ 000001e38074e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5184 @ 0000020c7f920e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5184 @ 000001e38074fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5189 @ 0000020c7f922200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5189 @ 000001e38074de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5194 @ 0000020c7f920600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5194 @ 000001e38074fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5199 @ 0000020c7f920800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5199 @ 000001e38074ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5204 @ 0000020c7f922c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5204 @ 000001e38074db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5209 @ 0000020c7f921a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5209 @ 000001e38074f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5214 @ 0000020c7f920d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5214 @ 000001e38074dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5219 @ 0000020c7f924000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5219 @ 000001e38074d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5224 @ 0000020c7f925e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5224 @ 000001e380751f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5229 @ 0000020c7f924200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5229 @ 000001e380750600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5234 @ 0000020c7f925900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5234 @ 000001e380753400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5239 @ 0000020c7f926e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5239 @ 000001e380750b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5244 @ 0000020c7f926300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5244 @ 000001e380750a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5249 @ 0000020c7f924800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5249 @ 000001e380752500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5254 @ 0000020c7f924a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5254 @ 000001e380751800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5259 @ 0000020c7f925800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5259 @ 000001e380753500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5264 @ 0000020c7f924500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5264 @ 000001e380750100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5269 @ 0000020c7f925500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5269 @ 000001e380751100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5274 @ 0000020c7f927200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5274 @ 000001e380753000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5279 @ 0000020c7f925100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5279 @ 000001e380753800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5284 @ 0000020c7f927800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5284 @ 000001e380753f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5289 @ 0000020c7f92af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5289 @ 000001e380754a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5294 @ 0000020c7f928200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5294 @ 000001e380754400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5299 @ 0000020c7f928400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5299 @ 000001e380757200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5304 @ 0000020c7f928c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5304 @ 000001e380755400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5309 @ 0000020c7f92a000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5309 @ 000001e380754500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5314 @ 0000020c7f928600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5314 @ 000001e380756700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5319 @ 0000020c7f928d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5319 @ 000001e380757e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5324 @ 0000020c7f92a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5324 @ 000001e380754600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5329 @ 0000020c7f929c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5329 @ 000001e380754300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5334 @ 0000020c7f929a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5334 @ 000001e380755600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5339 @ 0000020c7f92bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5339 @ 000001e380756600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5344 @ 0000020c7f929f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5344 @ 000001e380756300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5349 @ 0000020c7f929500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5349 @ 000001e380757000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5354 @ 0000020c7f92e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5354 @ 000001e38075ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5359 @ 0000020c7f92c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5359 @ 000001e380759600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5364 @ 0000020c7f92cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5364 @ 000001e380758800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5369 @ 0000020c7f92cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5369 @ 000001e380758200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5374 @ 0000020c7f92d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5374 @ 000001e38075a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5379 @ 0000020c7f92e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5379 @ 000001e38075a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5384 @ 0000020c7f92e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5384 @ 000001e38075a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5389 @ 0000020c7f92ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5389 @ 000001e380759800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5394 @ 0000020c7f92e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5394 @ 000001e38075a900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5399 @ 0000020c7f92e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5399 @ 000001e380759700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5404 @ 0000020c7f92c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5404 @ 000001e380759200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5409 @ 0000020c7f92f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5409 @ 000001e380759500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5414 @ 0000020c7f92cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5414 @ 000001e380759f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5419 @ 0000020c7f933200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5419 @ 000001e38075c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5424 @ 0000020c7f931400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5424 @ 000001e38075d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5429 @ 0000020c7f930b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5429 @ 000001e38075cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5434 @ 0000020c7f932800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5434 @ 000001e38075d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5439 @ 0000020c7f930400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5439 @ 000001e38075ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5444 @ 0000020c7f933a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5444 @ 000001e38075c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5449 @ 0000020c7f930500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5449 @ 000001e38075c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5454 @ 0000020c7f931f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5454 @ 000001e38075f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5459 @ 0000020c7f930a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5459 @ 000001e38075f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5464 @ 0000020c7f931200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5464 @ 000001e38075f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5469 @ 0000020c7f932f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5469 @ 000001e38075f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5474 @ 0000020c7f933500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5474 @ 000001e38075ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5479 @ 0000020c7f937700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5479 @ 000001e380762200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5484 @ 0000020c7f937100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5484 @ 000001e380762c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5489 @ 0000020c7f936c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5489 @ 000001e380763f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5494 @ 0000020c7f936100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5494 @ 000001e380761d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5499 @ 0000020c7f935300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5499 @ 000001e380764000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5504 @ 0000020c7f937000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5504 @ 000001e380761500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5509 @ 0000020c7f935b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5509 @ 000001e380763700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5514 @ 0000020c7f935500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5514 @ 000001e380761c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5519 @ 0000020c7f937300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5519 @ 000001e380762900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5524 @ 0000020c7f934600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5524 @ 000001e380760400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5529 @ 0000020c7f937c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5529 @ 000001e380761600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5534 @ 0000020c7f936700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5534 @ 000001e380761900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5539 @ 0000020c7f937d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5539 @ 000001e380760300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5544 @ 0000020c7f939500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5544 @ 000001e380766c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5549 @ 0000020c7f939d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5549 @ 000001e380766d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5554 @ 0000020c7f93a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5554 @ 000001e380764d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5559 @ 0000020c7f938800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5559 @ 000001e380764700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5564 @ 0000020c7f93a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5564 @ 000001e380764800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5569 @ 0000020c7f938a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5569 @ 000001e380764900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5574 @ 0000020c7f93ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5574 @ 000001e380764c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5579 @ 0000020c7f93a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5579 @ 000001e380764f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5584 @ 0000020c7f93bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5584 @ 000001e380767800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5589 @ 0000020c7f938600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5589 @ 000001e380766900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5594 @ 0000020c7f93a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5594 @ 000001e380767b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5599 @ 0000020c7f939200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5599 @ 000001e380767f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5604 @ 0000020c7f93af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5604 @ 000001e380764100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5609 @ 0000020c7f93d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5609 @ 000001e38076ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5614 @ 0000020c7f93cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5614 @ 000001e38076bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5619 @ 0000020c7f940000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5619 @ 000001e38076b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5624 @ 0000020c7f93c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5624 @ 000001e38076b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5629 @ 0000020c7f93dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5629 @ 000001e380768100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5634 @ 0000020c7f93c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5634 @ 000001e380769a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5639 @ 0000020c7f93fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5639 @ 000001e38076a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5644 @ 0000020c7f93ef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5644 @ 000001e380769400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5649 @ 0000020c7f93eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5649 @ 000001e380768600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5654 @ 0000020c7f93da00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5654 @ 000001e380769f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5659 @ 0000020c7f93e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5659 @ 000001e380768400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5664 @ 0000020c7f93ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5664 @ 000001e38076a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5669 @ 0000020c7f93fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5669 @ 000001e38076ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5674 @ 0000020c7f940c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5674 @ 000001e38076eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5679 @ 0000020c7f943900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5679 @ 000001e38076d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5684 @ 0000020c7f941000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5684 @ 000001e38076cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5689 @ 0000020c7f942800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5689 @ 000001e38076e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5694 @ 0000020c7f941e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5694 @ 000001e38076e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5699 @ 0000020c7f940300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5699 @ 000001e38076d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5704 @ 0000020c7f942600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5704 @ 000001e38076c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5709 @ 0000020c7f941600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5709 @ 000001e38076d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5714 @ 0000020c7f940100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5714 @ 000001e38076dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5719 @ 0000020c7f943f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5719 @ 000001e38076ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5724 @ 0000020c7f942b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5724 @ 000001e38076ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5729 @ 0000020c7f940b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5729 @ 000001e38076c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5734 @ 0000020c7f941a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5734 @ 000001e38076c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5739 @ 0000020c7f946b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5739 @ 000001e380772100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5744 @ 0000020c7f946c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5744 @ 000001e380773900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5749 @ 0000020c7f946000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5749 @ 000001e380772d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5754 @ 0000020c7f947b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5754 @ 000001e380770d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5759 @ 0000020c7f945000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5759 @ 000001e380770f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5764 @ 0000020c7f945e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5764 @ 000001e380771900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5769 @ 0000020c7f945b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5769 @ 000001e380772400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5774 @ 0000020c7f947000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5774 @ 000001e380771c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5779 @ 0000020c7f946500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5779 @ 000001e380772a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5784 @ 0000020c7f945200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5784 @ 000001e380772e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5789 @ 0000020c7f945900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5789 @ 000001e380773400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5794 @ 0000020c7f947200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5794 @ 000001e380770100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5799 @ 0000020c7f948400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5799 @ 000001e380774a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5804 @ 0000020c7f94af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5804 @ 000001e380777700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5809 @ 0000020c7f94ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5809 @ 000001e380775800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5814 @ 0000020c7f949000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5814 @ 000001e380774f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5819 @ 0000020c7f94b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5819 @ 000001e380775b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5824 @ 0000020c7f948600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5824 @ 000001e380776000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5829 @ 0000020c7f948900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5829 @ 000001e380774600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5834 @ 0000020c7f94b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5834 @ 000001e380777300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5839 @ 0000020c7f94b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5839 @ 000001e380777e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5844 @ 0000020c7f949500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5844 @ 000001e380775100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5849 @ 0000020c7f949e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5849 @ 000001e380775500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5854 @ 0000020c7f94b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5854 @ 000001e380775700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5859 @ 0000020c7f94b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5859 @ 000001e380776900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5864 @ 0000020c7f94ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5864 @ 000001e380779200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5869 @ 0000020c7f94d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5869 @ 000001e38077a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5874 @ 0000020c7f94e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5874 @ 000001e38077b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5879 @ 0000020c7f94c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5879 @ 000001e380778500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5884 @ 0000020c7f94e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5884 @ 000001e38077a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5889 @ 0000020c7f94cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5889 @ 000001e380779700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5894 @ 0000020c7f94d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5894 @ 000001e38077ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5899 @ 0000020c7f94cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5899 @ 000001e380778800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5904 @ 0000020c7f94f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5904 @ 000001e38077aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5909 @ 0000020c7f94cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5909 @ 000001e380779000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5914 @ 0000020c7f94dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5914 @ 000001e38077ab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5919 @ 0000020c7f94f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5919 @ 000001e38077b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5924 @ 0000020c7f94f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5924 @ 000001e380778300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5929 @ 0000020c7f951f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5929 @ 000001e38077e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5934 @ 0000020c7f953900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5934 @ 000001e38077de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5939 @ 0000020c7f950f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5939 @ 000001e38077d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5944 @ 0000020c7f953b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5944 @ 000001e38077c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5949 @ 0000020c7f953e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5949 @ 000001e38077f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5954 @ 0000020c7f950c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5954 @ 000001e38077c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5959 @ 0000020c7f951000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5959 @ 000001e38077dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5964 @ 0000020c7f950300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5964 @ 000001e38077fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5969 @ 0000020c7f950b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5969 @ 000001e38077e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5974 @ 0000020c7f952400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5974 @ 000001e38077eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5979 @ 0000020c7f951c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5979 @ 000001e38077f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5984 @ 0000020c7f953200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5984 @ 000001e38077f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5989 @ 0000020c7f953400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5989 @ 000001e38077cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5994 @ 0000020c7f954800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5994 @ 000001e380780700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5999 @ 0000020c7f954900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5999 @ 000001e380780400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6004 @ 0000020c7f957b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6004 @ 000001e380780e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6009 @ 0000020c7f955600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6009 @ 000001e380743900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6014 @ 0000020c7f956c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6014 @ 000001e380743100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6019 @ 0000020c7f954c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6019 @ 000001e380743400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6024 @ 0000020c7f956900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6024 @ 000001e380743b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6029 @ 0000020c7f956b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6029 @ 000001e380740500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6034 @ 0000020c7f955b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6034 @ 000001e380740800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6039 @ 0000020c7f955300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6039 @ 000001e380741a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6044 @ 0000020c7f956100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6044 @ 000001e380742600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6049 @ 0000020c7f957700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6049 @ 000001e380743700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6054 @ 0000020c7f954200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6054 @ 000001e380741f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6059 @ 0000020c7f958d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6059 @ 000001e380742f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6064 @ 0000020c7f95b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6064 @ 000001e380740d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6069 @ 0000020c7f95a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6069 @ 000001e380741300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6074 @ 0000020c7f959500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6074 @ 000001e380746300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6079 @ 0000020c7f95aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6079 @ 000001e380745400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6084 @ 0000020c7f95b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6084 @ 000001e380747b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6089 @ 0000020c7f958700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6089 @ 000001e380744b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6094 @ 0000020c7f95b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6094 @ 000001e380745100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6099 @ 0000020c7f958f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6099 @ 000001e380746600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6104 @ 0000020c7f959b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6104 @ 000001e380747300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6109 @ 0000020c7f95b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6109 @ 000001e380747c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6114 @ 0000020c7f95ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6114 @ 000001e380744400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6119 @ 0000020c7f95d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6119 @ 000001e380745f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6124 @ 0000020c7f95d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6124 @ 000001e380747800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6129 @ 0000020c7f95c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6129 @ 000001e380745200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6134 @ 0000020c7f95f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6134 @ 000001e38074ab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6139 @ 0000020c7f95f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6139 @ 000001e38074a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6144 @ 0000020c7f95e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6144 @ 000001e380749e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6149 @ 0000020c7f95de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6149 @ 000001e380748600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6154 @ 0000020c7f95c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6154 @ 000001e380748500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6159 @ 0000020c7f95d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6159 @ 000001e380748800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6164 @ 0000020c7f95e000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6164 @ 000001e380749700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6169 @ 0000020c7f95d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6169 @ 000001e380748900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6174 @ 0000020c7f95e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6174 @ 000001e38074b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6179 @ 0000020c7f960000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6179 @ 000001e38074bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6184 @ 0000020c7f960300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6184 @ 000001e380749100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6189 @ 0000020c7f960700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6189 @ 000001e38074af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6194 @ 0000020c7f960d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6194 @ 000001e38074b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6199 @ 0000020c7be52700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6199 @ 000001e343015c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6204 @ 0000020c7be52800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6204 @ 000001e343016800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6209 @ 0000020c7be52500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6209 @ 000001e343017a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6214 @ 0000020c7be50500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6214 @ 000001e343014500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6219 @ 0000020c7be53e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6219 @ 000001e343016700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6224 @ 0000020c7be50800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6224 @ 000001e343014b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6229 @ 0000020c7be51500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6229 @ 000001e343015d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6234 @ 0000020c7be51200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6234 @ 000001e343016a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6239 @ 0000020c7be53700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6239 @ 000001e343014d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6244 @ 0000020c7be50400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6244 @ 000001e343015f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6249 @ 0000020c7be54000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6249 @ 000001e343014100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6254 @ 0000020c7be52e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6254 @ 000001e343015b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6259 @ 0000020c7be53400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6259 @ 000001e343015500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6264 @ 0000020c7be55600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6264 @ 000001e343018b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6269 @ 0000020c7be56c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6269 @ 000001e343019100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6274 @ 0000020c7be55b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6274 @ 000001e343018300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6279 @ 0000020c7be57b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6279 @ 000001e34301a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6284 @ 0000020c7be55900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6284 @ 000001e343018600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6289 @ 0000020c7be55d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6289 @ 000001e34301a000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6294 @ 0000020c7be56e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6294 @ 000001e343019400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6299 @ 0000020c7be56100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6299 @ 000001e343019f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6304 @ 0000020c7be57e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6304 @ 000001e34301a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6309 @ 0000020c7be54b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6309 @ 000001e343018200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6314 @ 0000020c7be57a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6314 @ 000001e343019200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6319 @ 0000020c7be58000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6319 @ 000001e34301b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6324 @ 0000020c7be55800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6324 @ 000001e343018100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6329 @ 0000020c7be5a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6329 @ 000001e34301d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6334 @ 0000020c7be5b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6334 @ 000001e34301ce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6339 @ 0000020c7be59a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6339 @ 000001e34301ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6344 @ 0000020c7be5b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6344 @ 000001e34301df00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6349 @ 0000020c7be58500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6349 @ 000001e34301ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6354 @ 0000020c7be59500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6354 @ 000001e34301f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6359 @ 0000020c7be59100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6359 @ 000001e34301e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6364 @ 0000020c7be5b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6364 @ 000001e34301d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6369 @ 0000020c7be59d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6369 @ 000001e34301ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6374 @ 0000020c7be58b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6374 @ 000001e34301dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6379 @ 0000020c7be5b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6379 @ 000001e34301d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6384 @ 0000020c7be5c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6384 @ 000001e34301d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6389 @ 0000020c7be58f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6389 @ 000001e34301f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6394 @ 0000020c7be5c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6394 @ 000001e343021800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6399 @ 0000020c7be5fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6399 @ 000001e343020f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6404 @ 0000020c7be5ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6404 @ 000001e343022500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6409 @ 0000020c7be5f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6409 @ 000001e343023600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6414 @ 0000020c7be5fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6414 @ 000001e343022b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6419 @ 0000020c7be5e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6419 @ 000001e343020400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6424 @ 0000020c7be5f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6424 @ 000001e343023900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6429 @ 0000020c7be5c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6429 @ 000001e343023100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6434 @ 0000020c7be5c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6434 @ 000001e343021200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6439 @ 0000020c7be5cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6439 @ 000001e343021400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6444 @ 0000020c7be5df00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6444 @ 000001e343020300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6449 @ 0000020c7be5d400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6449 @ 000001e343023a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6454 @ 0000020c7be63700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6454 @ 000001e343026e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6459 @ 0000020c7be61800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6459 @ 000001e343027c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6464 @ 0000020c7be60300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6464 @ 000001e343024800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6469 @ 0000020c7be62500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6469 @ 000001e343027600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6474 @ 0000020c7be62900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6474 @ 000001e343024700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6479 @ 0000020c7be60800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6479 @ 000001e343026000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6484 @ 0000020c7be63f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6484 @ 000001e343025100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6489 @ 0000020c7be61a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6489 @ 000001e343026b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6494 @ 0000020c7be60a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6494 @ 000001e343024a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6499 @ 0000020c7be60c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6499 @ 000001e343025a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6504 @ 0000020c7be63500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6504 @ 000001e343024600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6509 @ 0000020c7be62300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6509 @ 000001e343025600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6514 @ 0000020c7be63600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6514 @ 000001e343024900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6519 @ 0000020c7be66600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6519 @ 000001e34302be00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6524 @ 0000020c7be64200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6524 @ 000001e343028d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6529 @ 0000020c7be66e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6529 @ 000001e343029d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6534 @ 0000020c7be67800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6534 @ 000001e343028600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6539 @ 0000020c7be64300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6539 @ 000001e343028e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6544 @ 0000020c7be67300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6544 @ 000001e34302ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6549 @ 0000020c7be65e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6549 @ 000001e34302a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6554 @ 0000020c7be67900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6554 @ 000001e34302a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6559 @ 0000020c7be66b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6559 @ 000001e343029200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6564 @ 0000020c7be65100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6564 @ 000001e34302a900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6569 @ 0000020c7be65d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6569 @ 000001e34302b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6574 @ 0000020c7be64c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6574 @ 000001e343028c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6579 @ 0000020c7be65300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6579 @ 000001e34302ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6584 @ 0000020c7be69400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6584 @ 000001e34302c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6589 @ 0000020c7be69c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6589 @ 000001e34302e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6594 @ 0000020c7be69100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6594 @ 000001e34302dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6599 @ 0000020c7be69700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6599 @ 000001e34302cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6604 @ 0000020c7be6bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6604 @ 000001e34302d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6609 @ 0000020c7be6c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6609 @ 000001e34302dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6614 @ 0000020c7be69800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6614 @ 000001e34302fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6619 @ 0000020c7be68d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6619 @ 000001e34302f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6624 @ 0000020c7be6a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6624 @ 000001e34302d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6629 @ 0000020c7be6ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6629 @ 000001e34302d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6634 @ 0000020c7be68300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6634 @ 000001e34302c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6639 @ 0000020c7be6b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6639 @ 000001e34302ef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6644 @ 0000020c7be68200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6644 @ 000001e34302c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6649 @ 0000020c7be6fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6649 @ 000001e343033300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6654 @ 0000020c7be6f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6654 @ 000001e343030c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6659 @ 0000020c7be6e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6659 @ 000001e343033a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6664 @ 0000020c7be6ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6664 @ 000001e343032300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6669 @ 0000020c7be6d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6669 @ 000001e343031700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6674 @ 0000020c7be6d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6674 @ 000001e343030200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6679 @ 0000020c7be6ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6679 @ 000001e343031d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6684 @ 0000020c7be6e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6684 @ 000001e343030600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6689 @ 0000020c7be6cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6689 @ 000001e343032900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6694 @ 0000020c7be6fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6694 @ 000001e343033e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6699 @ 0000020c7be6e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6699 @ 000001e343031000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6704 @ 0000020c7be6e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6704 @ 000001e343031c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6709 @ 0000020c7be6f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6709 @ 000001e343031400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6714 @ 0000020c7be72700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6714 @ 000001e343037c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6719 @ 0000020c7be73500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6719 @ 000001e343034500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6724 @ 0000020c7be71b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6724 @ 000001e343034700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6729 @ 0000020c7be71800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6729 @ 000001e343034d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6734 @ 0000020c7be73b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6734 @ 000001e343034e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6739 @ 0000020c7be73600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6739 @ 000001e343034b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6744 @ 0000020c7be70400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6744 @ 000001e343035800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6749 @ 0000020c7be72100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6749 @ 000001e343035a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6754 @ 0000020c7be70b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6754 @ 000001e343036b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6759 @ 0000020c7be72b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6759 @ 000001e343036800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6764 @ 0000020c7be70700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6764 @ 000001e343037300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6769 @ 0000020c7be70a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6769 @ 000001e343037f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6774 @ 0000020c7be76600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6774 @ 000001e34303ad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6779 @ 0000020c7be76800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6779 @ 000001e343038500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6784 @ 0000020c7be75d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6784 @ 000001e34303ae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6789 @ 0000020c7be74200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6789 @ 000001e34303a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6794 @ 0000020c7be77900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6794 @ 000001e34303b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6799 @ 0000020c7be74f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6799 @ 000001e34303a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6804 @ 0000020c7be74a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6804 @ 000001e343039900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6809 @ 0000020c7be75b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6809 @ 000001e34303b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6814 @ 0000020c7be76500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6814 @ 000001e34303a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6819 @ 0000020c7be77f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6819 @ 000001e343039f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6824 @ 0000020c7be74e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6824 @ 000001e34303b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6829 @ 0000020c7be77300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6829 @ 000001e343038200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6834 @ 0000020c7be77d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6834 @ 000001e343038f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6839 @ 0000020c7be78100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6839 @ 000001e34303f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6844 @ 0000020c7be7bf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6844 @ 000001e34303e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6849 @ 0000020c7be7a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6849 @ 000001e34303c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6854 @ 0000020c7be78300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6854 @ 000001e343040000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6859 @ 0000020c7be78b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6859 @ 000001e34303c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6864 @ 0000020c7be7b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6864 @ 000001e34303de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6869 @ 0000020c7be7bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6869 @ 000001e34303ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6874 @ 0000020c7be7be00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6874 @ 000001e34303cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6879 @ 0000020c7be79300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6879 @ 000001e34303cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6884 @ 0000020c7be79800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6884 @ 000001e34303cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6889 @ 0000020c7be78c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6889 @ 000001e34303d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6894 @ 0000020c7be7a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6894 @ 000001e34303d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6899 @ 0000020c7be7af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6899 @ 000001e34303f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6904 @ 0000020c7be7dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6904 @ 000001e343040d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6909 @ 0000020c7be7ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6909 @ 000001e343041700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6914 @ 0000020c7be7ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6914 @ 000001e343040a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6919 @ 0000020c7be7c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6919 @ 000001e343043c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6924 @ 0000020c7be7d400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6924 @ 000001e343040500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6929 @ 0000020c7be7d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6929 @ 000001e343040c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6934 @ 0000020c7be7ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6934 @ 000001e343042e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6939 @ 0000020c7be7c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6939 @ 000001e343043f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6944 @ 0000020c7be7f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6944 @ 000001e343040f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6949 @ 0000020c7be7dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6949 @ 000001e343041a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6954 @ 0000020c7be7e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6954 @ 000001e343040b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6959 @ 0000020c7be7c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6959 @ 000001e343041d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6964 @ 0000020c7be7d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6964 @ 000001e343041600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6969 @ 0000020c7be83000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6969 @ 000001e343045a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6974 @ 0000020c7be83600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6974 @ 000001e343047300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6979 @ 0000020c7be80b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6979 @ 000001e343047600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6984 @ 0000020c7be81d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6984 @ 000001e343045200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6989 @ 0000020c7be81e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6989 @ 000001e343044d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6994 @ 0000020c7be81700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6994 @ 000001e343047200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6999 @ 0000020c7be81800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6999 @ 000001e343045900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7004 @ 0000020c7be81900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7004 @ 000001e343045000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7009 @ 0000020c7be81300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7009 @ 000001e343045b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7014 @ 0000020c7be83a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7014 @ 000001e343044100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7019 @ 0000020c7be82700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7019 @ 000001e343045f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7024 @ 0000020c7be80700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7024 @ 000001e343047100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7029 @ 0000020c7be83300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7029 @ 000001e343045500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7034 @ 0000020c7be87700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7034 @ 000001e34304a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7039 @ 0000020c7be86800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7039 @ 000001e34304bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7044 @ 0000020c7be87f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7044 @ 000001e34304bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7049 @ 0000020c7be85c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7049 @ 000001e34304ad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7054 @ 0000020c7be86900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7054 @ 000001e343048500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7059 @ 0000020c7be84600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7059 @ 000001e343048c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7064 @ 0000020c7be84500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7064 @ 000001e34304b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7069 @ 0000020c7be87000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7069 @ 000001e34304be00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7074 @ 0000020c7be84900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7074 @ 000001e343049d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7079 @ 0000020c7be86b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7079 @ 000001e343048100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7084 @ 0000020c7be86500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7084 @ 000001e343049900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7089 @ 0000020c7be87600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7089 @ 000001e343049300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7094 @ 0000020c7be88400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7094 @ 000001e34304ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7099 @ 0000020c7be88200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7099 @ 000001e34304c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7104 @ 0000020c7be8a000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7104 @ 000001e34304ce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7109 @ 0000020c7be89d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7109 @ 000001e34300f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7114 @ 0000020c7be89800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7114 @ 000001e34300d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7119 @ 0000020c7be88900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7119 @ 000001e34300fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7124 @ 0000020c7be8b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7124 @ 000001e34300fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7129 @ 0000020c7be8b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7129 @ 000001e34300ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7134 @ 0000020c7be88a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7134 @ 000001e34300c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7139 @ 0000020c7be8bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7139 @ 000001e34300ef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7144 @ 0000020c7be89600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7144 @ 000001e34300cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7149 @ 0000020c7be8b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7149 @ 000001e34300d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7154 @ 0000020c7be88f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7154 @ 000001e34300fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7159 @ 0000020c7be8cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7159 @ 000001e34300d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7164 @ 0000020c7be8cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7164 @ 000001e34300dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7169 @ 0000020c7be8c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7169 @ 000001e34300d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7174 @ 0000020c7be4fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7174 @ 000001e343013a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7179 @ 0000020c7be4d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7179 @ 000001e343012700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7184 @ 0000020c7be4cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7184 @ 000001e343011e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7189 @ 0000020c7be4d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7189 @ 000001e343012600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7194 @ 0000020c7be4e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7194 @ 000001e343013f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7199 @ 0000020c7be4db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7199 @ 000001e343012900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7204 @ 0000020c7be4fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7204 @ 000001e343010d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7209 @ 0000020c7be4ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7209 @ 000001e343012a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7214 @ 0000020c7be4e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7214 @ 000001e343012f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7219 @ 0000020c7be4ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7219 @ 000001e343010600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7224 @ 0000020c7be4f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7224 @ 000001e343010300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7229 @ 0000020c7be4f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7229 @ 000001e343013300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7234 @ 0000020c7be4d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7234 @ 000001e343010400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7239 @ 0000020c7800ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7239 @ 000001e33f1cbe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7244 @ 0000020c7800fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7244 @ 000001e33f1c9000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7249 @ 0000020c7800d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7249 @ 000001e33f1c9b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7254 @ 0000020c7800c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7254 @ 000001e33f1cb500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7259 @ 0000020c7800d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7259 @ 000001e33f1cac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7264 @ 0000020c7800d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7264 @ 000001e33f1caa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7269 @ 0000020c7800c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7269 @ 000001e33f1cb800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7274 @ 0000020c7800ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7274 @ 000001e33f1cab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7279 @ 0000020c7800c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7279 @ 000001e33f1cb100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7284 @ 0000020c7800f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7284 @ 000001e33f1c9300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7289 @ 0000020c7800f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7289 @ 000001e33f1c8400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7294 @ 0000020c7800e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7294 @ 000001e33f1ca700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7299 @ 0000020c7800e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7299 @ 000001e33f1c8e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7304 @ 0000020c78011b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7304 @ 000001e33f1ce000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7309 @ 0000020c78010f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7309 @ 000001e33f1cc500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7314 @ 0000020c78011e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7314 @ 000001e33f1cd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7319 @ 0000020c78010700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7319 @ 000001e33f1ccf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7324 @ 0000020c78013700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7324 @ 000001e33f1cef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7329 @ 0000020c78011f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7329 @ 000001e33f1ce800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7334 @ 0000020c78011000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7334 @ 000001e33f1ccc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7339 @ 0000020c78011100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7339 @ 000001e33f1cd300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7344 @ 0000020c78012b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7344 @ 000001e33f1cd500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7349 @ 0000020c78011500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7349 @ 000001e33f1cd600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7354 @ 0000020c78013f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7354 @ 000001e33f1cdd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7359 @ 0000020c78012d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7359 @ 000001e33f1cfa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7364 @ 0000020c78012700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7364 @ 000001e33f1cc900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7369 @ 0000020c78017300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7369 @ 000001e33f1d2300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7374 @ 0000020c78016300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7374 @ 000001e33f1d0800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7379 @ 0000020c78014600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7379 @ 000001e33f1d0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7384 @ 0000020c78016400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7384 @ 000001e33f1d1c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7389 @ 0000020c78016700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7389 @ 000001e33f1d3b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7394 @ 0000020c78017400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7394 @ 000001e33f1d1e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7399 @ 0000020c78016e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7399 @ 000001e33f1d0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7404 @ 0000020c78015e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7404 @ 000001e33f1d2700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7409 @ 0000020c78015800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7409 @ 000001e33f1d2a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7414 @ 0000020c78015700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7414 @ 000001e33f1d0400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7419 @ 0000020c78015900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7419 @ 000001e33f1d1700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7424 @ 0000020c78017800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7424 @ 000001e33f1d0900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7429 @ 0000020c7801a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7429 @ 000001e33f1d5700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7434 @ 0000020c7801ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7434 @ 000001e33f1d7600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7439 @ 0000020c7801b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7439 @ 000001e33f1d5200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7444 @ 0000020c78019000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7444 @ 000001e33f1d7700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7449 @ 0000020c78018900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7449 @ 000001e33f1d4200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7454 @ 0000020c7801a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7454 @ 000001e33f1d7900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7459 @ 0000020c7801a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7459 @ 000001e33f1d7b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7464 @ 0000020c78018300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7464 @ 000001e33f1d7100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7469 @ 0000020c7801a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7469 @ 000001e33f1d4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7474 @ 0000020c7801b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7474 @ 000001e33f1d5100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7479 @ 0000020c78018100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7479 @ 000001e33f1d6600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7484 @ 0000020c78018f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7484 @ 000001e33f1d6800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7489 @ 0000020c78019200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7489 @ 000001e33f1d5600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7494 @ 0000020c7801cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7494 @ 000001e33f1d8200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7499 @ 0000020c7801f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7499 @ 000001e33f1d8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7504 @ 0000020c78020000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7504 @ 000001e33f1db600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7509 @ 0000020c7801f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7509 @ 000001e33f1d9e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7514 @ 0000020c7801f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7514 @ 000001e33f1dc000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7519 @ 0000020c7801f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7519 @ 000001e33f1d9f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7524 @ 0000020c7801d400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7524 @ 000001e33f1dad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7529 @ 0000020c7801d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7529 @ 000001e33f1dae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7534 @ 0000020c7801e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7534 @ 000001e33f1db800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7539 @ 0000020c7801e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7539 @ 000001e33f1db300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7544 @ 0000020c7801f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7544 @ 000001e33f1dba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7549 @ 0000020c7801ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7549 @ 000001e33f1d8a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7554 @ 0000020c7801cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7554 @ 000001e33f1d9a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7559 @ 0000020c78021900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7559 @ 000001e33f1dc100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7564 @ 0000020c78021d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7564 @ 000001e33f1df500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7569 @ 0000020c78022600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7569 @ 000001e33f1dce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7574 @ 0000020c78022800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7574 @ 000001e33f1ddb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7579 @ 0000020c78022a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7579 @ 000001e33f1de800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7584 @ 0000020c78023b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7584 @ 000001e33f1de500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7589 @ 0000020c78020d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7589 @ 000001e33f1dee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7594 @ 0000020c78023200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7594 @ 000001e33f1dc700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7599 @ 0000020c78022500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7599 @ 000001e33f1df700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7604 @ 0000020c78023100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7604 @ 000001e33f1dea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7609 @ 0000020c78020200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7609 @ 000001e33f1dd900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7614 @ 0000020c78020700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7614 @ 000001e33f1ddc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7619 @ 0000020c78021400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7619 @ 000001e33f1deb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7624 @ 0000020c78025d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7624 @ 000001e33f1e1100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7629 @ 0000020c78025300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7629 @ 000001e33f1e0900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7634 @ 0000020c78024200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7634 @ 000001e33f1e0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7639 @ 0000020c78024100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7639 @ 000001e33f1e1000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7644 @ 0000020c78025200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7644 @ 000001e33f1e2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7649 @ 0000020c78026e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7649 @ 000001e33f1e2200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7654 @ 0000020c78026000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7654 @ 000001e33f1e1600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7659 @ 0000020c78025500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7659 @ 000001e33f1e2c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7664 @ 0000020c78027800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7664 @ 000001e33f1e0b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7669 @ 0000020c78026200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7669 @ 000001e33f1e0500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7674 @ 0000020c78027f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7674 @ 000001e33f1e1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7679 @ 0000020c78025800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7679 @ 000001e33f1e2a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7684 @ 0000020c78026500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7684 @ 000001e33f1e3000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7689 @ 0000020c7802b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7689 @ 000001e33f1e4600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7694 @ 0000020c7802b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7694 @ 000001e33f1e6500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7699 @ 0000020c78029b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7699 @ 000001e33f1e6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7704 @ 0000020c7802bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7704 @ 000001e33f1e4d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7709 @ 0000020c7802b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7709 @ 000001e33f1e7800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7714 @ 0000020c7802a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7714 @ 000001e33f1e7300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7719 @ 0000020c78028600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7719 @ 000001e33f1e7e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7724 @ 0000020c7802a900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7724 @ 000001e33f1e5000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7729 @ 0000020c7802ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7729 @ 000001e33f1e6a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7734 @ 0000020c7802b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7734 @ 000001e33f1e5300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7739 @ 0000020c78028700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7739 @ 000001e33f1e5800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7744 @ 0000020c78029300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7744 @ 000001e33f1e5c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7749 @ 0000020c7802e000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7749 @ 000001e33f1e8c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7754 @ 0000020c7802fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7754 @ 000001e33f1e9300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7759 @ 0000020c7802f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7759 @ 000001e33f1e9c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7764 @ 0000020c7802e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7764 @ 000001e33f1ebb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7769 @ 0000020c7802d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7769 @ 000001e33f1e9d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7774 @ 0000020c7802c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7774 @ 000001e33f1e9100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7779 @ 0000020c7802c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7779 @ 000001e33f1eb900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7784 @ 0000020c7802fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7784 @ 000001e33f1ea300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7789 @ 0000020c7802cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7789 @ 000001e33f1eba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7794 @ 0000020c7802ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7794 @ 000001e33f1eab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7799 @ 0000020c7802f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7799 @ 000001e33f1eb700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7804 @ 0000020c7802c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7804 @ 000001e33f1e8100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7809 @ 0000020c7802cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7809 @ 000001e33f1e8700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7814 @ 0000020c78031800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7814 @ 000001e33f1ee300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7819 @ 0000020c78033700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7819 @ 000001e33f1ed800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7824 @ 0000020c78031d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7824 @ 000001e33f1ee400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7829 @ 0000020c78032a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7829 @ 000001e33f1ef400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7834 @ 0000020c78031300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7834 @ 000001e33f1ee900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7839 @ 0000020c78032000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7839 @ 000001e33f1ed200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7844 @ 0000020c78031a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7844 @ 000001e33f1ef300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7849 @ 0000020c78031200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7849 @ 000001e33f1ef700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7854 @ 0000020c78033800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7854 @ 000001e33f1eda00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7859 @ 0000020c78032b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7859 @ 000001e33f1ec700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7864 @ 0000020c78032d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7864 @ 000001e33f1ec200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7869 @ 0000020c78033400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7869 @ 000001e33f1ef900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7874 @ 0000020c78033d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7874 @ 000001e33f1ec600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7879 @ 0000020c78037800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7879 @ 000001e33f1f3400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7884 @ 0000020c78037f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7884 @ 000001e33f1f2700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7889 @ 0000020c78037100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7889 @ 000001e33f1f0e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7894 @ 0000020c78037600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7894 @ 000001e33f1f1c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7899 @ 0000020c78037e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7899 @ 000001e33f1f1d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7904 @ 0000020c78035600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7904 @ 000001e33f1f0200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7909 @ 0000020c78036300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7909 @ 000001e33f1f0600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7914 @ 0000020c78034f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7914 @ 000001e33f1f1800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7919 @ 0000020c78035700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7919 @ 000001e33f1f1400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7924 @ 0000020c78035100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7924 @ 000001e33f1f0400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7929 @ 0000020c78035b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7929 @ 000001e33f1f3000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7934 @ 0000020c78036f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7934 @ 000001e33f1f3200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7939 @ 0000020c78037c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7939 @ 000001e33f1f1f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7944 @ 0000020c78038d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7944 @ 000001e33f1f4800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7949 @ 0000020c78038c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7949 @ 000001e33f1f4600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7954 @ 0000020c78039100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7954 @ 000001e33f1f5c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7959 @ 0000020c7803a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7959 @ 000001e33f1f7500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7964 @ 0000020c78038f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7964 @ 000001e33f1f6500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7969 @ 0000020c7803bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7969 @ 000001e33f1f4300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7974 @ 0000020c78039000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7974 @ 000001e33f1f6100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7979 @ 0000020c78038200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7979 @ 000001e33f1f7000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7984 @ 0000020c78038100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7984 @ 000001e33f1f7800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7989 @ 0000020c7803b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7989 @ 000001e33f1f5000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7994 @ 0000020c78038800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7994 @ 000001e33f1f6900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7999 @ 0000020c7803b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7999 @ 000001e33f1f4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8004 @ 0000020c78038b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8004 @ 000001e33f1f5400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8009 @ 0000020c7803d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8009 @ 000001e33f1fb500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8014 @ 0000020c7803c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8014 @ 000001e33f1fbc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8019 @ 0000020c7803e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8019 @ 000001e33f1f8700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8024 @ 0000020c7803ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8024 @ 000001e33f1fba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8029 @ 0000020c7803de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8029 @ 000001e33f1f8100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8034 @ 0000020c7803c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8034 @ 000001e33f1f9a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8039 @ 0000020c7803c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8039 @ 000001e33f1fb900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8044 @ 0000020c7803f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8044 @ 000001e33f1f8c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8049 @ 0000020c7803c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8049 @ 000001e33f1f8b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8054 @ 0000020c7803e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8054 @ 000001e33f1fb000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8059 @ 0000020c7803e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8059 @ 000001e33f1fad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8064 @ 0000020c7803cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8064 @ 000001e33f1fa400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8069 @ 0000020c78040e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8069 @ 000001e33f1fd000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8074 @ 0000020c78040300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8074 @ 000001e33f1ffc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8079 @ 0000020c78040c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8079 @ 000001e33f1fe400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8084 @ 0000020c78001d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8084 @ 000001e33f1fd500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8089 @ 0000020c78002700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8089 @ 000001e33f1ffd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8094 @ 0000020c78002000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8094 @ 000001e33f1fd700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8099 @ 0000020c78001100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8099 @ 000001e33f1fe000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8104 @ 0000020c78000500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8104 @ 000001e33f1ff200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8109 @ 0000020c78001f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8109 @ 000001e33f1fda00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8114 @ 0000020c78000a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8114 @ 000001e33f1fc300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8119 @ 0000020c78000b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8119 @ 000001e33f1fc400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8124 @ 0000020c78000c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8124 @ 000001e33f1ff300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8129 @ 0000020c78001800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8129 @ 000001e33f1fca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8134 @ 0000020c78002400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8134 @ 000001e33f200200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8139 @ 0000020c78002f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8139 @ 000001e33f200a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8144 @ 0000020c78003b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8144 @ 000001e33f200600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8149 @ 0000020c78005000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8149 @ 000001e33f1c2700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8154 @ 0000020c78006600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8154 @ 000001e33f1c3500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8159 @ 0000020c78007500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8159 @ 000001e33f1c3e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8164 @ 0000020c78004c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8164 @ 000001e33f1c1500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8169 @ 0000020c78007e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8169 @ 000001e33f1c3200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8174 @ 0000020c78004900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8174 @ 000001e33f1c0100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8179 @ 0000020c78006800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8179 @ 000001e33f1c0400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8184 @ 0000020c78004e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8184 @ 000001e33f1c2e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8189 @ 0000020c78007000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8189 @ 000001e33f1c1000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8194 @ 0000020c78006700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8194 @ 000001e33f1c0a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8199 @ 0000020c78005200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8199 @ 000001e33f1c1100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8204 @ 0000020c78005500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8204 @ 000001e33f1c1a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8209 @ 0000020c78006d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8209 @ 000001e33f1c1c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8214 @ 0000020c78008600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8214 @ 000001e33f1c6800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8219 @ 0000020c78009800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8219 @ 000001e33f1c7e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8224 @ 0000020c78009d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8224 @ 000001e33f1c6400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8229 @ 0000020c78009700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8229 @ 000001e33f1c6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8234 @ 0000020c78008a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8234 @ 000001e33f1c4100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8239 @ 0000020c78009b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8239 @ 000001e33f1c5a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8244 @ 0000020c7800bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8244 @ 000001e33f1c7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8249 @ 0000020c78008e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8249 @ 000001e33f1c6a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8254 @ 0000020c78008400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8254 @ 000001e33f1c7b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8259 @ 0000020c7800a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8259 @ 000001e33f1c4e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8264 @ 0000020c7800bf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8264 @ 000001e33f1c7900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8269 @ 0000020c7800b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8269 @ 000001e33f1c5e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8274 @ 0000020c7800b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8274 @ 000001e33f1c7100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8279 @ 0000020cb71a20c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8279 @ 000001e3b7fbbdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8284 @ 0000020cb71a18c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8284 @ 000001e3b7fbb7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8289 @ 0000020cb71a08c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8289 @ 000001e3b7fbd0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8294 @ 0000020cb71a13c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8294 @ 000001e3b7fbeac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8299 @ 0000020cb71a1ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8299 @ 000001e3b7fbd8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8304 @ 0000020cb71a14c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8304 @ 000001e3b7fbd9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8309 @ 0000020cb71a2bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8309 @ 000001e3b7fbebc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8314 @ 0000020cb71a24c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8314 @ 000001e3b7fbdcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8319 @ 0000020cb71a2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8319 @ 000001e3b7fbc9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8324 @ 0000020cb71a33c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8324 @ 000001e3b7fbc2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8329 @ 0000020cb71a09c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8329 @ 000001e3b7fbdec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8334 @ 0000020cb71a07c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8334 @ 000001e3b7fbe6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8339 @ 0000020cb71a11c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8339 @ 000001e3b7fbe8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8344 @ 0000020cb71a3cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8344 @ 000001e3b7fc26c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8349 @ 0000020cb71a67c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8349 @ 000001e3b7fc03c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8354 @ 0000020cb71a6cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8354 @ 000001e3b7fc35c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8359 @ 0000020cb71a74c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8359 @ 000001e3b7fc07c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8364 @ 0000020cb71a42c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8364 @ 000001e3b7fc18c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8369 @ 0000020cb71a45c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8369 @ 000001e3b7fc01c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8374 @ 0000020cb71a47c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8374 @ 000001e3b7fc24c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8379 @ 0000020cb71a5fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8379 @ 000001e3b7fc05c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8384 @ 0000020cb71a5ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8384 @ 000001e3b7fc12c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8389 @ 0000020cb71a58c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8389 @ 000001e3b7fc34c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8394 @ 0000020cb71a59c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8394 @ 000001e3b7fc29c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8399 @ 0000020cb71a6ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8399 @ 000001e3b7fc2dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8404 @ 0000020cb71aa9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8404 @ 000001e3b7fc5dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8409 @ 0000020cb71a8ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8409 @ 000001e3b7fc6ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8414 @ 0000020cb71a9ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8414 @ 000001e3b7fc6bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8419 @ 0000020cb71a87c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8419 @ 000001e3b7fc71c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8424 @ 0000020cb71ab4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8424 @ 000001e3b7fc53c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8429 @ 0000020cb71a7bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8429 @ 000001e3b7fc74c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8434 @ 0000020cb71a9fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8434 @ 000001e3b7fc45c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8439 @ 0000020cb71aadc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8439 @ 000001e3b7fc75c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8444 @ 0000020cb71a92c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8444 @ 000001e3b7fc40c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8449 @ 0000020cb71a7dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8449 @ 000001e3b7fc41c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8454 @ 0000020cb71aa6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8454 @ 000001e3b7fc4ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8459 @ 0000020cb71aa3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8459 @ 000001e3b7fc54c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8464 @ 0000020cb71ab6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8464 @ 000001e3b7fc56c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8469 @ 0000020cb71ad0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8469 @ 000001e3b7fcb6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8474 @ 0000020cb71ab8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8474 @ 000001e3b7fc95c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8479 @ 0000020cb71ac2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8479 @ 000001e3b7fcb2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8484 @ 0000020cb71ae0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8484 @ 000001e3b7fc99c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8489 @ 0000020cb71ac7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8489 @ 000001e3b7fc9bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8494 @ 0000020cb71abcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8494 @ 000001e3b7fc92c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8499 @ 0000020cb71acfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8499 @ 000001e3b7fc86c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8504 @ 0000020cb71aefc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8504 @ 000001e3b7fc8fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8509 @ 0000020cb71af5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8509 @ 000001e3b7fc93c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8514 @ 0000020cb71adac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8514 @ 000001e3b7fc82c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8519 @ 0000020cb71adfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8519 @ 000001e3b7fc8dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8524 @ 0000020cb71ae7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8524 @ 000001e3b7fc9ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8529 @ 0000020cb71aeac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8529 @ 000001e3b7fca1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8534 @ 0000020cb71b2cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8534 @ 000001e3b7fcf2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8539 @ 0000020cb71b03c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8539 @ 000001e3b7fcd6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8544 @ 0000020cb71b25c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8544 @ 000001e3b7fcc4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8549 @ 0000020cb71afec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8549 @ 000001e3b7fcd7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8554 @ 0000020cb71b15c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8554 @ 000001e3b7fcc8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8559 @ 0000020cb71b0bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8559 @ 000001e3b7fcbdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8564 @ 0000020cb71b08c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8564 @ 000001e3b7fcf0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8569 @ 0000020cb71b2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8569 @ 000001e3b7fcf6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8574 @ 0000020cb71b17c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8574 @ 000001e3b7fcb8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8579 @ 0000020cb71b22c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8579 @ 000001e3b7fce8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8584 @ 0000020cb71b33c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8584 @ 000001e3b7fccbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8589 @ 0000020cb71b29c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8589 @ 000001e3b7fccfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8594 @ 0000020cb71af9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8594 @ 000001e3b7fcddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8599 @ 0000020cb71b3ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8599 @ 000001e3b7fcfac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8604 @ 0000020cb71b5fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8604 @ 000001e3b7fcfbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8609 @ 0000020cb71b6bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8609 @ 000001e3b7fd00c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8614 @ 0000020cb71b40c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8614 @ 000001e3b7fd32c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8619 @ 0000020cb71b39c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8619 @ 000001e3b7fcfdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8624 @ 0000020cb71b5dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8624 @ 000001e3b7fd02c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8629 @ 0000020cb71b3fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8629 @ 000001e3b7fd03c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8634 @ 0000020cb71b72c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8634 @ 000001e3b7fcf8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8639 @ 0000020cb71b4cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8639 @ 000001e3b7fd1dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8644 @ 0000020cb71b5ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8644 @ 000001e3b7fd10c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8649 @ 0000020cb71b70c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8649 @ 000001e3b7fd1fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8654 @ 0000020cb71b65c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8654 @ 000001e3b7fd28c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8659 @ 0000020cb71b75c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8659 @ 000001e3b7fd15c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8664 @ 0000020cb71b95c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8664 @ 000001e3b7fd5cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8669 @ 0000020cb71b7cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8669 @ 000001e3b7fd4ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8674 @ 0000020cb71bb2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8674 @ 000001e3b7fd3ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8679 @ 0000020cb71b8cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8679 @ 000001e3b7fd5ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8684 @ 0000020cb71b9dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8684 @ 000001e3b7fd41c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8689 @ 0000020cb71b81c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8689 @ 000001e3b7fd38c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8694 @ 0000020cb71b8bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8694 @ 000001e3b7fd6dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8699 @ 0000020cb71b94c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8699 @ 000001e3b7fd44c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8704 @ 0000020cb71b96c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8704 @ 000001e3b7fd4dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8709 @ 0000020cb71b86c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8709 @ 000001e3b7fd67c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8714 @ 0000020cb71b91c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8714 @ 000001e3b7fd6ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8719 @ 0000020cb71b9ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8719 @ 000001e3b7fd4cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8724 @ 0000020cb71bf4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8724 @ 000001e3b7fd7fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8729 @ 0000020cb71bc8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8729 @ 000001e3b7fda3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8734 @ 0000020cb71bd7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8734 @ 000001e3b7fda6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8739 @ 0000020cb71bdcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8739 @ 000001e3b7fd83c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8744 @ 0000020cb71bbec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8744 @ 000001e3b7fdb5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8749 @ 0000020cb71bcac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8749 @ 000001e3b7fd7ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8754 @ 0000020cb71bd4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8754 @ 000001e3b7fdb4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8759 @ 0000020cb71bcbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8759 @ 000001e3b7fdb2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8764 @ 0000020cb71bccc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8764 @ 000001e3b7fd7dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8769 @ 0000020cb71bf2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8769 @ 000001e3b7fd89c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8774 @ 0000020cb71beac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8774 @ 000001e3b7fd8ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8779 @ 0000020cb71bc5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8779 @ 000001e3b7fda0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8784 @ 0000020cb71be5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8784 @ 000001e3b7fd95c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8789 @ 0000020cb71c13c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8789 @ 000001e3b7fde8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8794 @ 0000020cb71c19c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8794 @ 000001e3b7fdd1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8799 @ 0000020cb71bfcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8799 @ 000001e3b7fdbfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8804 @ 0000020cb71c26c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8804 @ 000001e3b7fdbdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8809 @ 0000020cb71c0dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8809 @ 000001e3b7fde5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8814 @ 0000020cb71c1ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8814 @ 000001e3b7fdddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8819 @ 0000020cb71c2dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8819 @ 000001e3b7fdd9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8824 @ 0000020cb71c28c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8824 @ 000001e3b7fdc9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8829 @ 0000020cb71c24c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8829 @ 000001e3b7fdc2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8834 @ 0000020cb71c2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8834 @ 000001e3b7fddbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8839 @ 0000020cb71c2ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8839 @ 000001e3b7fdd6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8844 @ 0000020cb71c2fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8844 @ 000001e3b7fdcfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8849 @ 0000020cb71c17c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8849 @ 000001e3b7fde9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8854 @ 0000020cb71c3bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8854 @ 000001e3b7fe22c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8859 @ 0000020cb71c71c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8859 @ 000001e3b7fe0ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8864 @ 0000020cb71c4fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8864 @ 000001e3b7fe1dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8869 @ 0000020cb71c3ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8869 @ 000001e3b7fe00c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8874 @ 0000020cb71c57c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8874 @ 000001e3b7fdf9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8879 @ 0000020cb71c65c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8879 @ 000001e3b7fe10c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8884 @ 0000020cb71c3ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8884 @ 000001e3b7fe2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8889 @ 0000020cb71c40c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8889 @ 000001e3b7fe1cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8894 @ 0000020cb71c4cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8894 @ 000001e3b7fe31c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8899 @ 0000020cb71c69c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8899 @ 000001e3b7fe33c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8904 @ 0000020cb71c6bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8904 @ 000001e3b7fe09c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8909 @ 0000020cb71c4ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8909 @ 000001e3b7fe05c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8914 @ 0000020cb71c51c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8914 @ 000001e3b7fe25c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8919 @ 0000020cb71caac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8919 @ 000001e3b7fe44c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8924 @ 0000020cb71c85c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8924 @ 000001e3b7fe56c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8929 @ 0000020cb71c7cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8929 @ 000001e3b7fe6ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8934 @ 0000020cb71cb4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8934 @ 000001e3b7fe5bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8939 @ 0000020cb71c7bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8939 @ 000001e3b7fe38c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8944 @ 0000020cb71c86c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8944 @ 000001e3b7fe6cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8949 @ 0000020cb71c7dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8949 @ 000001e3b7fe4dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8954 @ 0000020cb71cb5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8954 @ 000001e3b7fe6fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8959 @ 0000020cb71c8cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8959 @ 000001e3b7fe61c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8964 @ 0000020cb71ca7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8964 @ 000001e3b7fe63c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8969 @ 0000020cb71ca0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8969 @ 000001e3b7fe54c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8974 @ 0000020cb71ca4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8974 @ 000001e3b7fe6ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8979 @ 0000020cb71cb6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8979 @ 000001e3b7fe51c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Stream mapping:
   Stream #0:0 (h264) -> select:default
   pad:default -> Stream #0:0 (libx264)
 Press [q] to stop, [?] for help
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4 @ 0000020c0694ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4 @ 000001e34da1f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_9 @ 0000020c0694fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_9 @ 000001e34da1ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_14 @ 0000020c0694e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_14 @ 000001e34da1f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_19 @ 0000020c0694f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_19 @ 000001e34da1fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_24 @ 0000020c0694f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_24 @ 000001e34da1f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_29 @ 0000020c8c975800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_29 @ 000001e38d797a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_34 @ 0000020c8c975500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_34 @ 000001e38d795100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_39 @ 0000020c8c975700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_39 @ 000001e38d796700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_44 @ 0000020c8c975900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_44 @ 000001e38d797d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_49 @ 0000020c8c978a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_49 @ 000001e38d798e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_54 @ 0000020c8c977700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_54 @ 000001e38d795000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_59 @ 0000020c8c975000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_59 @ 000001e38d797500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_64 @ 0000020c8c978800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_64 @ 000001e38d796600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_69 @ 0000020c8c976300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_69 @ 000001e38d798700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_74 @ 0000020c8c976a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_74 @ 000001e38d796200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_79 @ 0000020c8c977600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_79 @ 000001e38d795b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_84 @ 0000020c8c977d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_84 @ 000001e38d797000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_89 @ 0000020c8c978100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_89 @ 000001e38d797700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_94 @ 0000020c8c9a0e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_94 @ 000001e38d7c1e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_99 @ 0000020c8c9a0280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_99 @ 000001e38d7c2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_104 @ 0000020c8c9a3780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_104 @ 000001e38d7c1c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_109 @ 0000020c8c9a1280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_109 @ 000001e38d7c2e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_114 @ 0000020c8c9a1580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_114 @ 000001e38d7c1980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_119 @ 0000020c8c9a2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_119 @ 000001e38d7c0280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_124 @ 0000020c8c9a1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_124 @ 000001e38d7c0c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_129 @ 0000020c8c9a3b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_129 @ 000001e38d7c3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_134 @ 0000020c8c9a3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_134 @ 000001e38d7c3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_139 @ 0000020c8c9a2780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_139 @ 000001e38d7c0480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_144 @ 0000020c8c9a0a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_144 @ 000001e38d7c2680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_149 @ 0000020c8c9a3380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_149 @ 000001e38d7c1680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_154 @ 0000020c1f2dee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_154 @ 000001e37feb5bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_159 @ 0000020c1f2dc900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_159 @ 000001e37feb2bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_164 @ 0000020c1f2df000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_164 @ 000001e37feb53c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_169 @ 0000020c1f2dc200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_169 @ 000001e37feb49c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_174 @ 0000020c1f2ddc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_174 @ 000001e37feb1fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_179 @ 0000020c1f2de900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_179 @ 000001e37feb2dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_184 @ 0000020c1f2dc800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_184 @ 000001e37feb2cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_189 @ 0000020c1f2de500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_189 @ 000001e37feb23c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_194 @ 0000020c1f2ddb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_194 @ 000001e37feb56c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_199 @ 0000020c1f2dcc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_199 @ 000001e37feb2fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_204 @ 0000020c1f2dc100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_204 @ 000001e37feb32c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_209 @ 0000020c1f2dd400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_209 @ 000001e37feb52c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_214 @ 0000020c1f2ddf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_214 @ 000001e37feb59c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_219 @ 0000020ccdf9d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_219 @ 000001e3ceda3d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_224 @ 0000020ccdf9d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_224 @ 000001e3ceda5e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_229 @ 0000020ccdf9a900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_229 @ 000001e3ceda4a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_234 @ 0000020ccdf9aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_234 @ 000001e3ceda3140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_239 @ 0000020ccdf9a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_239 @ 000001e3ceda5f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_244 @ 0000020ccdf9d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_244 @ 000001e3ceda5240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_249 @ 0000020ccdf9b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_249 @ 000001e3ceda6240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_254 @ 0000020ccdf9ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_254 @ 000001e3ceda3540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_259 @ 0000020ccdf9a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_259 @ 000001e3ceda6c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_264 @ 0000020ccdf9a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_264 @ 000001e3ceda6940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_269 @ 0000020ccdf9c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_269 @ 000001e3ceda6e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_274 @ 0000020ccdf9a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_274 @ 000001e3ceda3a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_279 @ 0000020ccdf9ce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_279 @ 000001e3ceda5b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_284 @ 0000020c8f6eb980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_284 @ 000001e340e79c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_289 @ 0000020c8f6ee780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_289 @ 000001e340e7b280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_294 @ 0000020c8f6ec080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_294 @ 000001e340e7a080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_299 @ 0000020c8f6ebd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_299 @ 000001e340e7ae80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_304 @ 0000020c8f6eb680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_304 @ 000001e340e7c180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_309 @ 0000020c8f6ed080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_309 @ 000001e340e79480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_314 @ 0000020c8f6edf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_314 @ 000001e340e7bc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_319 @ 0000020c8f6ee280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_319 @ 000001e340e7a880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_324 @ 0000020c8f6ec580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_324 @ 000001e340e7b180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_329 @ 0000020c8f6ec680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_329 @ 000001e340e79780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_334 @ 0000020c8f6eca80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_334 @ 000001e340e7be80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_339 @ 0000020c8f6ecd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_339 @ 000001e340e7b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_344 @ 0000020c8f6f0ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_344 @ 000001e331af4580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_349 @ 0000020c8f6f18c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_349 @ 000001e331af5580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_354 @ 0000020c8f6f19c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_354 @ 000001e331af4a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_359 @ 0000020c8f6f1cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_359 @ 000001e331af2680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_364 @ 0000020c8f6f0dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_364 @ 000001e331af5e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_369 @ 0000020c8f6f2bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_369 @ 000001e331af4380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_374 @ 0000020c8f6efbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_374 @ 000001e331af5a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_379 @ 0000020c8f6f15c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_379 @ 000001e331af5480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_384 @ 0000020c8f6f25c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_384 @ 000001e331af2b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_389 @ 0000020c8f6f17c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_389 @ 000001e331af2e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_394 @ 0000020c8f6f2cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_394 @ 000001e331af2d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_399 @ 0000020c8f6f00c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_399 @ 000001e331af2980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_404 @ 0000020c8f6f06c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_404 @ 000001e331af3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_409 @ 0000020c729534c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_409 @ 000001e32af8a780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_414 @ 0000020c729526c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_414 @ 000001e32af87380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_419 @ 0000020c729520c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_419 @ 000001e32af89f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_424 @ 0000020c729524c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_424 @ 000001e32af87b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_429 @ 0000020c729542c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_429 @ 000001e32af88f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_434 @ 0000020c729538c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_434 @ 000001e32af88880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_439 @ 0000020c72950dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_439 @ 000001e32af88480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_444 @ 0000020c729531c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_444 @ 000001e32af8a380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_449 @ 0000020c729511c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_449 @ 000001e32af8ab80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_454 @ 0000020c729506c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_454 @ 000001e32af8a580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_459 @ 0000020c729512c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_459 @ 000001e32af8a880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_464 @ 0000020c729514c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_464 @ 000001e32af89880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_469 @ 0000020c61285e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_469 @ 000001e32af8d680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_474 @ 0000020c61286080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_474 @ 000001e32af8e280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_479 @ 0000020c61284e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_479 @ 000001e32af8b180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_484 @ 0000020c61285b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_484 @ 000001e32af8ea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_489 @ 0000020c61285280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_489 @ 000001e32af8bd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_494 @ 0000020c61286780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_494 @ 000001e32af8ec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_499 @ 0000020c61286b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_499 @ 000001e32af8df80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_504 @ 0000020c61287380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_504 @ 000001e32af8bf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_509 @ 0000020c61286880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_509 @ 000001e32af8e680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_514 @ 0000020c61285780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_514 @ 000001e32af8e980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_519 @ 0000020c61287780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_519 @ 000001e32af8b780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_524 @ 0000020c61284980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_524 @ 000001e32af8be80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_529 @ 0000020c61284880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_529 @ 000001e32af8ca80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_534 @ 0000020c5c859a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_534 @ 000001e397d11300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_539 @ 0000020c5c85a980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_539 @ 000001e397d0fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_544 @ 0000020c5c85b680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_544 @ 000001e397d0e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_549 @ 0000020c5c859f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_549 @ 000001e397d11800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_554 @ 0000020c5c85a680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_554 @ 000001e397d0f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_559 @ 0000020c5c85a180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_559 @ 000001e397d0e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_564 @ 0000020c5c85b780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_564 @ 000001e397d10500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_569 @ 0000020c5c85b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_569 @ 000001e397d0e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_574 @ 0000020c5c859280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_574 @ 000001e397d11100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_579 @ 0000020c5c85a080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_579 @ 000001e397d0fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_584 @ 0000020c5c858280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_584 @ 000001e397d10700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_589 @ 0000020c5c858a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_589 @ 000001e397d0f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_594 @ 0000020c5c858980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_594 @ 000001e397d11000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_599 @ 0000020c5c85de80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_599 @ 000001e397d0b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_604 @ 0000020c5c85ca80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_604 @ 000001e397d0c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_609 @ 0000020c5c85d380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_609 @ 000001e397d0ab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_614 @ 0000020c5c85e880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_614 @ 000001e397d0a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_619 @ 0000020c5c85df80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_619 @ 000001e397d0a900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_624 @ 0000020c5c85c580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_624 @ 000001e397d0bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_629 @ 0000020c5c85e080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_629 @ 000001e397d0c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_634 @ 0000020c5c85d280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_634 @ 000001e397d0cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_639 @ 0000020c5c85eb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_639 @ 000001e397d0b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_644 @ 0000020c5c85da80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_644 @ 000001e397d0cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_649 @ 0000020c5c85f080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_649 @ 000001e397d0c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_654 @ 0000020c5c85d880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_654 @ 000001e397d0d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_659 @ 0000020c63dcb280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_659 @ 000001e328446580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_664 @ 0000020c63dcd380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_664 @ 000001e328447580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_669 @ 0000020c63dce480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_669 @ 000001e328446c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_674 @ 0000020c63dcb980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_674 @ 000001e328445880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_679 @ 0000020c63dced80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_679 @ 000001e328444480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_684 @ 0000020c63dcbb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_684 @ 000001e328445380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_689 @ 0000020c63dcc980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_689 @ 000001e328445580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_694 @ 0000020c63dce080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_694 @ 000001e328446880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_699 @ 0000020c63dceb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_699 @ 000001e328444b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_704 @ 0000020c63dcba80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_704 @ 000001e328447280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_709 @ 0000020c63dcc480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_709 @ 000001e328447780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_714 @ 0000020c63dccf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_714 @ 000001e328445980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_719 @ 0000020c63dcde80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_719 @ 000001e328445080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_724 @ 0000020c63dca480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_724 @ 000001e32844aa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_729 @ 0000020c63dc9580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_729 @ 000001e328448680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_734 @ 0000020c63dca780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_734 @ 000001e328449d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_739 @ 0000020c63dc7180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_739 @ 000001e328448580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_744 @ 0000020c63dc8e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_744 @ 000001e32844a880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_749 @ 0000020c63dc9a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_749 @ 000001e32844ac80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_754 @ 0000020c63dc7e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_754 @ 000001e32844a080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_759 @ 0000020c63dc9f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_759 @ 000001e32844af80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_764 @ 0000020c63dc8f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_764 @ 000001e32844a780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_769 @ 0000020c63dca580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_769 @ 000001e328449080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_774 @ 0000020c63dc7080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_774 @ 000001e328448980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_779 @ 0000020c63dc8280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_779 @ 000001e328448280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_784 @ 0000020c63dc8680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_784 @ 000001e328449580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_789 @ 0000020c9464cc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_789 @ 000001e346924200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_794 @ 0000020c9464f140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_794 @ 000001e346927200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_799 @ 0000020c9464f640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_799 @ 000001e346926c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_804 @ 0000020c9464e640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_804 @ 000001e346927300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_809 @ 0000020c9464f940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_809 @ 000001e346927000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_814 @ 0000020c9464ea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_814 @ 000001e346924300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_819 @ 0000020c9464fe40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_819 @ 000001e346925e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_824 @ 0000020c9464c540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_824 @ 000001e346926600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_829 @ 0000020c9464c740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_829 @ 000001e346927400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_834 @ 0000020c9464e740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_834 @ 000001e346926000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_839 @ 0000020c9464d140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_839 @ 000001e346927700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_844 @ 0000020c9464f740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_844 @ 000001e346926a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_849 @ 0000020c9464da40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_849 @ 000001e346921200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_854 @ 0000020c94650640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_854 @ 000001e346920300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_859 @ 0000020c94652c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_859 @ 000001e346920800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_864 @ 0000020c94652140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_864 @ 000001e346922b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_869 @ 0000020c94653040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_869 @ 000001e346923400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_874 @ 0000020c94652440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_874 @ 000001e346921500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_879 @ 0000020c94653a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_879 @ 000001e346920500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_884 @ 0000020c94653540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_884 @ 000001e346921e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_889 @ 0000020c94650740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_889 @ 000001e346922e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_894 @ 0000020c94651240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_894 @ 000001e346922500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_899 @ 0000020c94650940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_899 @ 000001e346923d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_904 @ 0000020c94650c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_904 @ 000001e346922c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_909 @ 0000020c94651840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_909 @ 000001e346923900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_914 @ 0000020c7b42e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_914 @ 000001e391724bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_919 @ 0000020c7b42c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_919 @ 000001e3917255c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_924 @ 0000020c7b42f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_924 @ 000001e3917265c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_929 @ 0000020c7b42f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_929 @ 000001e391727ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_934 @ 0000020c7b42e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_934 @ 000001e3917279c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_939 @ 0000020c7b42eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_939 @ 000001e3917254c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_944 @ 0000020c7b42cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_944 @ 000001e3917262c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_949 @ 0000020c7b42e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_949 @ 000001e391725ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_954 @ 0000020c7b42fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_954 @ 000001e3917258c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_959 @ 0000020c7b42c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_959 @ 000001e3917281c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_964 @ 0000020c7b42ef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_964 @ 000001e3917267c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_969 @ 0000020c7b42d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_969 @ 000001e3917270c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_974 @ 0000020c7b42da00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_974 @ 000001e3917282c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_979 @ 0000020c7b430000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_979 @ 000001e39172b5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_984 @ 0000020c7b431900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_984 @ 000001e3917287c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_989 @ 0000020c7b433700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_989 @ 000001e39172b2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_994 @ 0000020c7b432800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_994 @ 000001e391729ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_999 @ 0000020c7b433e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_999 @ 000001e39172acc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1004 @ 0000020c7b430700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1004 @ 000001e3917289c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1009 @ 0000020c7b430800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1009 @ 000001e39172adc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1014 @ 0000020c7b432400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1014 @ 000001e3917294c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1019 @ 0000020c7b433900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1019 @ 000001e391728ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1024 @ 0000020c7b433100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1024 @ 000001e39172a4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1029 @ 0000020c7b431300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1029 @ 000001e39172a8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1034 @ 0000020c7b431600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1034 @ 000001e39172c0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1039 @ 0000020c7b432d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1039 @ 000001e3917283c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1044 @ 0000020c97fd1940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1044 @ 000001e398de0f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1049 @ 0000020c97fd2c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1049 @ 000001e398de0580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1054 @ 0000020c97fd2140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1054 @ 000001e398de0b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1059 @ 0000020c97fd2a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1059 @ 000001e398ddf180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1064 @ 0000020c97fd1440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1064 @ 000001e398de0180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1069 @ 0000020c97fd1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1069 @ 000001e398ddfc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1074 @ 0000020c97fd0e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1074 @ 000001e398de0980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1079 @ 0000020c97fd1a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1079 @ 000001e398ddfa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1084 @ 0000020c97fd2940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1084 @ 000001e398de1480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1089 @ 0000020c97fd0740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1089 @ 000001e398ddea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1094 @ 0000020c97fcf940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1094 @ 000001e398de1980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1099 @ 0000020c97fd0140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1099 @ 000001e398ddf580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1104 @ 0000020c97fd4340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1104 @ 000001e398de4c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1109 @ 0000020c97fd5a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1109 @ 000001e398de4d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1114 @ 0000020c97fd3540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1114 @ 000001e398de2780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1119 @ 0000020c97fd5840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1119 @ 000001e398de2680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1124 @ 0000020c97fd6940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1124 @ 000001e398de4580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1129 @ 0000020c97fd6040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1129 @ 000001e398de2b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1134 @ 0000020c97fd6e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1134 @ 000001e398de4880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1139 @ 0000020c97fd5640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1139 @ 000001e398de2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1144 @ 0000020c97fd4c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1144 @ 000001e398de5d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1149 @ 0000020c97fd3940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1149 @ 000001e398de4080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1154 @ 0000020c97fd6740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1154 @ 000001e398de5580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1159 @ 0000020c97fd3440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1159 @ 000001e398de3280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1164 @ 0000020c97fd3f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1164 @ 000001e398de3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1169 @ 0000020c97fda840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1169 @ 000001e398de7f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1174 @ 0000020c97fd8c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1174 @ 000001e398de6780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1179 @ 0000020c97fdb140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1179 @ 000001e398de9980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1184 @ 0000020c97fd9f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1184 @ 000001e398de6680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1189 @ 0000020c97fd8740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1189 @ 000001e398de9080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1194 @ 0000020c97fd9940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1194 @ 000001e398de7e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1199 @ 0000020c97fd8340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1199 @ 000001e398de6e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1204 @ 0000020c97fda340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1204 @ 000001e398de7080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1209 @ 0000020c97fda940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1209 @ 000001e398de7280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1214 @ 0000020c97fd9b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1214 @ 000001e398de7680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1219 @ 0000020c97fd9340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1219 @ 000001e398dea080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1224 @ 0000020c97fdac40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1224 @ 000001e398de7980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1229 @ 0000020c97fd7740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1229 @ 000001e398de8880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1234 @ 0000020c97fcd540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1234 @ 000001e398ded280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1239 @ 0000020c97fcd640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1239 @ 000001e398deb080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1244 @ 0000020c97fce040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1244 @ 000001e398ded380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1249 @ 0000020c97fcc640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1249 @ 000001e398dedb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1254 @ 0000020c97fcd840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1254 @ 000001e398ded480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1259 @ 0000020c97fcea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1259 @ 000001e398ded580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1264 @ 0000020c97fcd340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1264 @ 000001e398dea880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1269 @ 0000020c97fcf340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1269 @ 000001e398deb380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1274 @ 0000020c97fce940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1274 @ 000001e398dedf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1279 @ 0000020c97fcb440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1279 @ 000001e398debc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1284 @ 0000020c97fcbd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1284 @ 000001e398dea780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1289 @ 0000020c97fcc440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1289 @ 000001e398deb880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1294 @ 0000020c97fcd140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1294 @ 000001e398ded180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1299 @ 0000020c261e5200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1299 @ 000001e3314edac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1304 @ 0000020c261e7500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1304 @ 000001e3314efdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1309 @ 0000020c261e8500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1309 @ 000001e3314edbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1314 @ 0000020c261e8d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1314 @ 000001e3314ecec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1319 @ 0000020c261e6a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1319 @ 000001e3314ed9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1324 @ 0000020c261e7400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1324 @ 000001e3314eccc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1329 @ 0000020c261e5f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1329 @ 000001e3314ed0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1334 @ 0000020c261e7300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1334 @ 000001e3314efcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1339 @ 0000020c261e7a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1339 @ 000001e3314ecbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1344 @ 0000020c261e7b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1344 @ 000001e3314ee4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1349 @ 0000020c261e8100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1349 @ 000001e3314ee6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1354 @ 0000020c261e8900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1354 @ 000001e3314efac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1359 @ 0000020c261ecf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1359 @ 000001e3314f30c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1364 @ 0000020c261e9200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1364 @ 000001e3314f48c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1369 @ 0000020c261eb500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1369 @ 000001e3314f24c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1374 @ 0000020c261eab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1374 @ 000001e3314f44c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1379 @ 0000020c261e9800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1379 @ 000001e3314f23c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1384 @ 0000020c261ea400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1384 @ 000001e3314f33c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1389 @ 0000020c261eb700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1389 @ 000001e3314f26c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1394 @ 0000020c261eba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1394 @ 000001e3314f13c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1399 @ 0000020c261eaf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1399 @ 000001e3314f3ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1404 @ 0000020c261ead00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1404 @ 000001e3314f1cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1409 @ 0000020c261ebd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1409 @ 000001e3314f0ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1414 @ 0000020c261e9600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1414 @ 000001e3314f1ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1419 @ 0000020c261eb400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1419 @ 000001e3314f2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1424 @ 0000020c261e0500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1424 @ 000001e3314f66c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1429 @ 0000020c261e0300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1429 @ 000001e3314f51c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1434 @ 0000020c261e0400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1434 @ 000001e3314f67c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1439 @ 0000020c261e0000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1439 @ 000001e3314f76c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1444 @ 0000020c261df200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1444 @ 000001e3314f86c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1449 @ 0000020c261e0900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1449 @ 000001e3314f87c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1454 @ 0000020c261e0b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1454 @ 000001e3314f57c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1459 @ 0000020c261dfa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1459 @ 000001e3314f4ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1464 @ 0000020c261dee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1464 @ 000001e3314f88c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1469 @ 0000020c261de300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1469 @ 000001e3314f65c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1474 @ 0000020c261dd600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1474 @ 000001e3314f61c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1479 @ 0000020c261de400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1479 @ 000001e3314f7ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1484 @ 0000020c261de900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1484 @ 000001e3314f8ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1489 @ 0000020c261e3200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1489 @ 000001e3314f98c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1494 @ 0000020c261e1600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1494 @ 000001e3314fb2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1499 @ 0000020c261e4400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1499 @ 000001e3314fc2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1504 @ 0000020c261e1b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1504 @ 000001e3314fb6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1509 @ 0000020c261e3600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1509 @ 000001e3314fa7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1514 @ 0000020c261e1900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1514 @ 000001e3314fc3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1519 @ 0000020c261e2300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1519 @ 000001e3314fabc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1524 @ 0000020c261e3900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1524 @ 000001e3314f9fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1529 @ 0000020c261e2e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1529 @ 000001e3314f90c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1534 @ 0000020c261e2800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1534 @ 000001e3314f9bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1539 @ 0000020c261e3c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1539 @ 000001e3314fa1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1544 @ 0000020c261e3f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1544 @ 000001e3314f8cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1549 @ 0000020c261e4300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1549 @ 000001e3314faec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1554 @ 0000020c5f578ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1554 @ 000001e34f402040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1559 @ 0000020c5f578fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1559 @ 000001e34f401e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1564 @ 0000020c5f577fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1564 @ 000001e34f403140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1569 @ 0000020c5f5793c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1569 @ 000001e34f401f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1574 @ 0000020c5f5780c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1574 @ 000001e34f403340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1579 @ 0000020c5f578dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1579 @ 000001e34f401d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1584 @ 0000020c5f576cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1584 @ 000001e34f401240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1589 @ 0000020c5f5774c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1589 @ 000001e34f3ff740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1594 @ 0000020c5f5777c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1594 @ 000001e34f402440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1599 @ 0000020c5f5767c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1599 @ 000001e34f400f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1604 @ 0000020c5f5779c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1604 @ 000001e34f402840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1609 @ 0000020c5f5784c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1609 @ 000001e34f400240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1614 @ 0000020c5f56ccc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1614 @ 000001e34f407140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1619 @ 0000020c5f56d0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1619 @ 000001e34f405640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1624 @ 0000020c5f56d2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1624 @ 000001e34f404740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1629 @ 0000020c5f56c7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1629 @ 000001e34f405940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1634 @ 0000020c5f56a8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1634 @ 000001e34f404640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1639 @ 0000020c5f56c5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1639 @ 000001e34f405140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1644 @ 0000020c5f569dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1644 @ 000001e34f406240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1649 @ 0000020c5f56acc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1649 @ 000001e34f404a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1654 @ 0000020c5f56c6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1654 @ 000001e34f406540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1659 @ 0000020c5f569bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1659 @ 000001e34f404b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1664 @ 0000020c5f56bbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1664 @ 000001e34f404340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1669 @ 0000020c5f56c1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1669 @ 000001e34f405440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1674 @ 0000020c5f56d5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1674 @ 000001e34f406640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1679 @ 0000020c5f5707c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1679 @ 000001e34f409340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1684 @ 0000020c5f570dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1684 @ 000001e34f40ae40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1689 @ 0000020c5f56ffc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1689 @ 000001e34f409040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1694 @ 0000020c5f56f4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1694 @ 000001e34f40a640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1699 @ 0000020c5f570fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1699 @ 000001e34f40b540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1704 @ 0000020c5f5712c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1704 @ 000001e34f407b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1709 @ 0000020c5f5716c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1709 @ 000001e34f407f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1714 @ 0000020c5f5710c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1714 @ 000001e34f408140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1719 @ 0000020c5f5702c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1719 @ 000001e34f409940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1724 @ 0000020c5f56e9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1724 @ 000001e34f409c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1729 @ 0000020c5f56d9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1729 @ 000001e34f40b040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1734 @ 0000020c5f56ecc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1734 @ 000001e34f408640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1739 @ 0000020c5f570bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1739 @ 000001e34f408c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1744 @ 0000020c5f5756c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1744 @ 000001e34f40d640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1749 @ 0000020c5f5740c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1749 @ 000001e34f40dd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1754 @ 0000020c5f5728c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1754 @ 000001e34f40f240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1759 @ 0000020c5f573ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1759 @ 000001e34f40b940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1764 @ 0000020c5f574fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1764 @ 000001e34f40da40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1769 @ 0000020c5f572dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1769 @ 000001e34f40d840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1774 @ 0000020c5f5721c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1774 @ 000001e34f40d040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1779 @ 0000020c5f571ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1779 @ 000001e34f40e040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1784 @ 0000020c5f5751c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1784 @ 000001e34f40dc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1789 @ 0000020c5f572ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1789 @ 000001e34f40c140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1794 @ 0000020c5f5748c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1794 @ 000001e34f40c240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1799 @ 0000020c5f574ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1799 @ 000001e34f40ef40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1804 @ 0000020c5f5758c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1804 @ 000001e34f40f040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1809 @ 0000020c7262fe40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1809 @ 000001e312205540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1814 @ 0000020c7262c940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1814 @ 000001e312204440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1819 @ 0000020c7262e940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1819 @ 000001e312205040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1824 @ 0000020c7262d940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1824 @ 000001e312204940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1829 @ 0000020c7262fb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1829 @ 000001e312204c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1834 @ 0000020c7262dc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1834 @ 000001e312202040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1839 @ 0000020c7262d240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1839 @ 000001e312205b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1844 @ 0000020c7262d340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1844 @ 000001e312205840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1849 @ 0000020c7262c640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1849 @ 000001e312205e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1854 @ 0000020c7262dd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1854 @ 000001e312202c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1859 @ 0000020c7262e040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1859 @ 000001e312203540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1864 @ 0000020c7262f040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1864 @ 000001e312203840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1869 @ 0000020c72620e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1869 @ 000001e312208740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1874 @ 0000020c72623c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1874 @ 000001e312209740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1879 @ 0000020c72623540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1879 @ 000001e312208140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1884 @ 0000020c72622540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1884 @ 000001e312209840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1889 @ 0000020c72623640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1889 @ 000001e312208240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1894 @ 0000020c72621240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1894 @ 000001e312207e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1899 @ 0000020c72621e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1899 @ 000001e312209440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1904 @ 0000020c72622f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1904 @ 000001e312207740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1909 @ 0000020c72622040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1909 @ 000001e312207b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1914 @ 0000020c72623940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1914 @ 000001e312209540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1919 @ 0000020c72623f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1919 @ 000001e312206a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1924 @ 0000020c72622b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1924 @ 000001e312207140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1929 @ 0000020c72620440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1929 @ 000001e312206d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1934 @ 0000020c72627940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1934 @ 000001e3121fa340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1939 @ 0000020c72626e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1939 @ 000001e3121fd540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1944 @ 0000020c72624f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1944 @ 000001e3121fa040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1949 @ 0000020c72626340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1949 @ 000001e3121fc340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1954 @ 0000020c72627a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1954 @ 000001e3121fb140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1959 @ 0000020c72627c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1959 @ 000001e3121fd140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1964 @ 0000020c72624140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1964 @ 000001e3121fbf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1969 @ 0000020c72626040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1969 @ 000001e3121fbc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1974 @ 0000020c72625040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1974 @ 000001e3121fc740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1979 @ 0000020c72625340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1979 @ 000001e3121fdb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1984 @ 0000020c72627740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1984 @ 000001e3121fbd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1989 @ 0000020c72624b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1989 @ 000001e3121fab40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1994 @ 0000020c72627340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1994 @ 000001e3121fb340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_1999 @ 0000020c7262b740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_1999 @ 000001e312201740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2004 @ 0000020c7262a040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2004 @ 000001e312200540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2009 @ 0000020c72629840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2009 @ 000001e312201440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2014 @ 0000020c72629e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2014 @ 000001e3121ffc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2019 @ 0000020c7262b540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2019 @ 000001e3121ff540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2024 @ 0000020c7262b640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2024 @ 000001e3121ff340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2029 @ 0000020c72629b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2029 @ 000001e312200b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2034 @ 0000020c7262a340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2034 @ 000001e312200240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2039 @ 0000020c7262a740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2039 @ 000001e312201640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2044 @ 0000020c72628440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2044 @ 000001e312200840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2049 @ 0000020c72628e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2049 @ 000001e312200e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2054 @ 0000020c72629340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2054 @ 000001e312201140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2059 @ 0000020c7262b240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2059 @ 000001e3121fec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2064 @ 0000020c5d19f440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2064 @ 000001e32435e940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2069 @ 0000020c5d19e140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2069 @ 000001e324360740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2074 @ 0000020c5d19e540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2074 @ 000001e32435db40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2079 @ 0000020c5d19f740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2079 @ 000001e32435f140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2084 @ 0000020c5d1a0040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2084 @ 000001e32435ee40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2089 @ 0000020c5d19fc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2089 @ 000001e32435e340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2094 @ 0000020c5d1a1440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2094 @ 000001e32435f540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2099 @ 0000020c5d19d940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2099 @ 000001e32435fc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2104 @ 0000020c5d1a0640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2104 @ 000001e32435dc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2109 @ 0000020c5d19e840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2109 @ 000001e32435ed40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2114 @ 0000020c5d19dd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2114 @ 000001e324361240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2119 @ 0000020c5d1a0f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2119 @ 000001e324361540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2124 @ 0000020c5d1a4d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2124 @ 000001e324365040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2129 @ 0000020c5d1a2a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2129 @ 000001e324364b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2134 @ 0000020c5d1a3640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2134 @ 000001e324362440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2139 @ 0000020c5d1a2f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2139 @ 000001e324363e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2144 @ 0000020c5d1a2140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2144 @ 000001e324364440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2149 @ 0000020c5d1a2640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2149 @ 000001e324362b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2154 @ 0000020c5d1a4740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2154 @ 000001e324362f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2159 @ 0000020c5d1a3540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2159 @ 000001e324362640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2164 @ 0000020c5d1a5240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2164 @ 000001e324361b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2169 @ 0000020c5d1a2840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2169 @ 000001e324362240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2174 @ 0000020c5d1a4840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2174 @ 000001e324363640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2179 @ 0000020c5d1a4440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2179 @ 000001e324365140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2184 @ 0000020c5d1a4940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2184 @ 000001e324363040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2189 @ 0000020c5d1a6640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2189 @ 000001e324366140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2194 @ 0000020c5d1a8740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2194 @ 000001e324365a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2199 @ 0000020c5d1a8340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2199 @ 000001e324367c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2204 @ 0000020c5d1a6e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2204 @ 000001e324368440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2209 @ 0000020c5d1a5c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2209 @ 000001e324367040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2214 @ 0000020c5d1a8440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2214 @ 000001e324367d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2219 @ 0000020c5d1a9040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2219 @ 000001e324367340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2224 @ 0000020c5d1a9240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2224 @ 000001e324365d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2229 @ 0000020c5d1a7d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2229 @ 000001e324366940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2234 @ 0000020c5d1a7240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2234 @ 000001e324366b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2239 @ 0000020c5d1a7440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2239 @ 000001e324368140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2244 @ 0000020c5d1a7840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2244 @ 000001e324368d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2249 @ 0000020c5d1a8840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2249 @ 000001e324366040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2254 @ 0000020c5d1ab540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2254 @ 000001e32436d240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2259 @ 0000020c5d1aaa40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2259 @ 000001e324369a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2264 @ 0000020c5d1abf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2264 @ 000001e32436d440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2269 @ 0000020c5d1a9d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2269 @ 000001e32436c740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2274 @ 0000020c5d1a9c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2274 @ 000001e32436b040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2279 @ 0000020c5d1ac640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2279 @ 000001e32436a640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2284 @ 0000020c5d1ac940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2284 @ 000001e32436c940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2289 @ 0000020c5d1aa640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2289 @ 000001e324369840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2294 @ 0000020c5d1ad340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2294 @ 000001e32436c440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2299 @ 0000020c5d1aa940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2299 @ 000001e32436c140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2304 @ 0000020c5d1a9b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2304 @ 000001e32436af40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2309 @ 0000020c5d1ab940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2309 @ 000001e32436b740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2314 @ 0000020c5d1a9a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2314 @ 000001e32436be40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2319 @ 0000020c5d1b1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2319 @ 000001e32436e440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2324 @ 0000020c5d1b1740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2324 @ 000001e324371740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2329 @ 0000020c5d1ae440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2329 @ 000001e324371340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2334 @ 0000020c5d1af540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2334 @ 000001e324370640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2339 @ 0000020c5d1b0040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2339 @ 000001e32436e640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2344 @ 0000020c5d1adb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2344 @ 000001e324370740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2349 @ 0000020c5d1af940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2349 @ 000001e32436f540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2354 @ 0000020c5d1b0f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2354 @ 000001e32436e940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2359 @ 0000020c5d1aea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2359 @ 000001e32436ea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2364 @ 0000020c5d1b0d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2364 @ 000001e32436db40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2369 @ 0000020c5d1b0440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2369 @ 000001e32436e140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2374 @ 0000020c5d1af340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2374 @ 000001e324370140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2379 @ 0000020c5d1b1340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2379 @ 000001e324371440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2384 @ 0000020c5d1b2140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2384 @ 000001e324373940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2389 @ 0000020c5d1b2440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2389 @ 000001e324371d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2394 @ 0000020c5d1b2240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2394 @ 000001e324375640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2399 @ 0000020c5d1b4240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2399 @ 000001e324375540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2404 @ 0000020c5d1b1d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2404 @ 000001e324372640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2409 @ 0000020c5d1b2740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2409 @ 000001e324371840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2414 @ 0000020c5d1b5340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2414 @ 000001e324374140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2419 @ 0000020c5d1b5440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2419 @ 000001e324375240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2424 @ 0000020c5d1b4f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2424 @ 000001e324371f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2429 @ 0000020c5d1b2a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2429 @ 000001e324372340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2434 @ 0000020c5d1b3240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2434 @ 000001e324374a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2439 @ 0000020c5d1b4140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2439 @ 000001e324373640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2444 @ 0000020c5d1b9340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2444 @ 000001e324379640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2449 @ 0000020c5d1b7f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2449 @ 000001e324377940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2454 @ 0000020c5d1b6840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2454 @ 000001e324375b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2459 @ 0000020c5d1b5d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2459 @ 000001e324378f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2464 @ 0000020c5d1b5940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2464 @ 000001e324377d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2469 @ 0000020c5d1b5840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2469 @ 000001e324378040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2474 @ 0000020c5d1b7940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2474 @ 000001e324376240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2479 @ 0000020c5d1b6040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2479 @ 000001e324376d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2484 @ 0000020c5d1b6240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2484 @ 000001e324379740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2489 @ 0000020c5d1b9740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2489 @ 000001e324376e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2494 @ 0000020c5d1b6540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2494 @ 000001e324377040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2499 @ 0000020c5d1b7d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2499 @ 000001e324378c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2504 @ 0000020c5d1b8740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2504 @ 000001e324376b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2509 @ 0000020c5d1bae40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2509 @ 000001e324379a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2514 @ 0000020c5d1bc640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2514 @ 000001e324379b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2519 @ 0000020c5d1bb440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2519 @ 000001e324379d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2524 @ 0000020c5d1ba540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2524 @ 000001e324379f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2529 @ 0000020c5d1bd340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2529 @ 000001e32437d540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2534 @ 0000020c5d1ba640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2534 @ 000001e32437a540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2539 @ 0000020c5d1bd140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2539 @ 000001e32437bf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2544 @ 0000020c5d1bd440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2544 @ 000001e32437a640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2549 @ 0000020c5d1bb340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2549 @ 000001e32437b340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2554 @ 0000020c5d1bd640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2554 @ 000001e32437b440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2559 @ 0000020c5d1b9940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2559 @ 000001e32437b640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2564 @ 0000020c5d1bc840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2564 @ 000001e32437bb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2569 @ 0000020c5d1bac40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2569 @ 000001e32437cf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2574 @ 0000020c8c43b880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2574 @ 000001e3015d1f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2579 @ 0000020c8c438880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2579 @ 000001e3015d1a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2584 @ 0000020c8c439880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2584 @ 000001e3015d0180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2589 @ 0000020c8c439e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2589 @ 000001e3015d2280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2594 @ 0000020c8c43b980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2594 @ 000001e3015cf080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2599 @ 0000020c8c438a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2599 @ 000001e3015cfc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2604 @ 0000020c8c43bb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2604 @ 000001e3015ce780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2609 @ 0000020c8c43ba80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2609 @ 000001e3015d0880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2614 @ 0000020c8c437f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2614 @ 000001e3015cf780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2619 @ 0000020c8c438280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2619 @ 000001e3015d1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2624 @ 0000020c8c439080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2624 @ 000001e3015cf880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2629 @ 0000020c8c43ac80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2629 @ 000001e3015cf980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2634 @ 0000020c8c43a880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2634 @ 000001e3015cea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2639 @ 0000020c8c43c480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2639 @ 000001e3015d2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2644 @ 0000020c8c43f980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2644 @ 000001e3015d5780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2649 @ 0000020c8c43e080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2649 @ 000001e3015d2780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2654 @ 0000020c8c43f680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2654 @ 000001e3015d6180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2659 @ 0000020c8c43d280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2659 @ 000001e3015d3580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2664 @ 0000020c8c43d180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2664 @ 000001e3015d4a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2669 @ 0000020c8c43de80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2669 @ 000001e3015d3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2674 @ 0000020c8c43f780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2674 @ 000001e3015d5c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2679 @ 0000020c8c43d480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2679 @ 000001e3015d4e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2684 @ 0000020c8c43bd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2684 @ 000001e3015d2b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2689 @ 0000020c8c43e580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2689 @ 000001e3015d3180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2694 @ 0000020c8c43e980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2694 @ 000001e3015d3680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2699 @ 0000020c8c443780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2699 @ 000001e3015d9580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2704 @ 0000020c8c442b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2704 @ 000001e3015d7c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2709 @ 0000020c8c443580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2709 @ 000001e3015d9680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2714 @ 0000020c8c440780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2714 @ 000001e3015d9d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2719 @ 0000020c8c443280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2719 @ 000001e3015d8b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2724 @ 0000020c8c441980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2724 @ 000001e3015d7880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2729 @ 0000020c8c440e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2729 @ 000001e3015d9a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2734 @ 0000020c8c442480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2734 @ 000001e3015d8d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2739 @ 0000020c8c440080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2739 @ 000001e3015d7f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2744 @ 0000020c8c441080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2744 @ 000001e3015d7080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2749 @ 0000020c8c441180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2749 @ 000001e3015d8780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2754 @ 0000020c8c441680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2754 @ 000001e3015d6780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2759 @ 0000020c8c441b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2759 @ 000001e3015d8980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2764 @ 0000020c8c446780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2764 @ 000001e3015dc880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2769 @ 0000020c8c445a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2769 @ 000001e3015db580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2774 @ 0000020c8c447180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2774 @ 000001e3015dbf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2779 @ 0000020c8c443c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2779 @ 000001e3015ddb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2784 @ 0000020c8c444a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2784 @ 000001e3015db280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2789 @ 0000020c8c447380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2789 @ 000001e3015dbc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2794 @ 0000020c8c447780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2794 @ 000001e3015ddc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2799 @ 0000020c8c447480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2799 @ 000001e3015ddf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2804 @ 0000020c8c446c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2804 @ 000001e3015dcf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2809 @ 0000020c8c444980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2809 @ 000001e3015dbd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2814 @ 0000020c8c445680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2814 @ 000001e3015da980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2819 @ 0000020c8c445d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2819 @ 000001e3015dc380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2824 @ 0000020c8c444080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2824 @ 000001e3015dd280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2829 @ 0000020c8c44a080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2829 @ 000001e3015de780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2834 @ 0000020c8c44b680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2834 @ 000001e3015e1880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2839 @ 0000020c8c449280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2839 @ 000001e3015dfe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2844 @ 0000020c8c449780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2844 @ 000001e3015e1b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2849 @ 0000020c8c44a980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2849 @ 000001e3015de380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2854 @ 0000020c8c449080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2854 @ 000001e3015df580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2859 @ 0000020c8c448a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2859 @ 000001e3015e1180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2864 @ 0000020c8c448180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2864 @ 000001e3015df980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2869 @ 0000020c8c447c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2869 @ 000001e3015e1380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2874 @ 0000020c8c449a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2874 @ 000001e3015dea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2879 @ 0000020c8c449d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2879 @ 000001e3015e0080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2884 @ 0000020c8c447f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2884 @ 000001e3015e0880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2889 @ 0000020c8c447d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2889 @ 000001e3015e0c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2894 @ 0000020c8c44c480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2894 @ 000001e3015e5180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2899 @ 0000020c8c44d180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2899 @ 000001e3015e5280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2904 @ 0000020c8c44d980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2904 @ 000001e3015e6180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2909 @ 0000020c8c44e180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2909 @ 000001e3015e4580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2914 @ 0000020c8c44c580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2914 @ 000001e3015e4280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2919 @ 0000020c8c44d380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2919 @ 000001e3015e3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2924 @ 0000020c8c44d780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2924 @ 000001e3015e3980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2929 @ 0000020c8c44c980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2929 @ 000001e3015e5780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2934 @ 0000020c8c44bd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2934 @ 000001e3015e2a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2939 @ 0000020c8c44ed80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2939 @ 000001e3015e4b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2944 @ 0000020c8c44e480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2944 @ 000001e3015e3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2949 @ 0000020c8c44ee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2949 @ 000001e3015e5c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2954 @ 0000020c8c432580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2954 @ 000001e3015e2d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2959 @ 0000020c8c433380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2959 @ 000001e3015e9780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2964 @ 0000020c8c433a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2964 @ 000001e3015e8e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2969 @ 0000020c8c430480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2969 @ 000001e3015e7380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2974 @ 0000020c8c431280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2974 @ 000001e3015e9a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2979 @ 0000020c8c430580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2979 @ 000001e3015e7a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2984 @ 0000020c8c431380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2984 @ 000001e3015e7580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2989 @ 0000020c8c431080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2989 @ 000001e3015e9480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2994 @ 0000020c8c432e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2994 @ 000001e3015e7b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_2999 @ 0000020c8c430b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_2999 @ 000001e3015e6380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3004 @ 0000020c8c433280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3004 @ 000001e3015e7180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3009 @ 0000020c8c430c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3009 @ 000001e3015ea180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3014 @ 0000020c8c432280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3014 @ 000001e3015e7080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3019 @ 0000020c8c436b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3019 @ 000001e3015cb580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3024 @ 0000020c8c437580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3024 @ 000001e3015cd180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3029 @ 0000020c8c434780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3029 @ 000001e3015cd080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3034 @ 0000020c8c435680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3034 @ 000001e3015ce180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3039 @ 0000020c8c436980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3039 @ 000001e3015ce280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3044 @ 0000020c8c435080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3044 @ 000001e3015cc980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3049 @ 0000020c8c434b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3049 @ 000001e3015cd580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3054 @ 0000020c8c435c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3054 @ 000001e3015ca480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3059 @ 0000020c8c434080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3059 @ 000001e3015cb980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3064 @ 0000020c8c436e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3064 @ 000001e3015cb080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3069 @ 0000020c8c434f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3069 @ 000001e3015cb480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3074 @ 0000020c8c434380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3074 @ 000001e3015cbe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3079 @ 0000020c8c436580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3079 @ 000001e3015ccb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3084 @ 0000020c88a8d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3084 @ 000001e3898b4700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3089 @ 0000020c88a8f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3089 @ 000001e3898b0800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3094 @ 0000020c88a8e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3094 @ 000001e3898b4300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3099 @ 0000020c88a8df00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3099 @ 000001e3898b3d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3104 @ 0000020c88a8d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3104 @ 000001e3898b4400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3109 @ 0000020c88a8f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3109 @ 000001e3898b4000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3114 @ 0000020c88a8e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3114 @ 000001e3898b3600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3119 @ 0000020c88a8cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3119 @ 000001e3898b3800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3124 @ 0000020c88a8e000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3124 @ 000001e3898b0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3129 @ 0000020c88a90600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3129 @ 000001e3898b1800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3134 @ 0000020c88a8ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3134 @ 000001e3898b2000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3139 @ 0000020c88a8ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3139 @ 000001e3898b2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3144 @ 0000020c88a8c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3144 @ 000001e3898b3200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3149 @ 0000020c88a90f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3149 @ 000001e3898b8700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3154 @ 0000020c88a94100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3154 @ 000001e3898b6300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3159 @ 0000020c88a90900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3159 @ 000001e3898b8600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3164 @ 0000020c88a91300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3164 @ 000001e3898b6200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3169 @ 0000020c88a94300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3169 @ 000001e3898b6c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3174 @ 0000020c88a93200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3174 @ 000001e3898b7100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3179 @ 0000020c88a90b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3179 @ 000001e3898b4a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3184 @ 0000020c88a91400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3184 @ 000001e3898b5000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3189 @ 0000020c88a93100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3189 @ 000001e3898b5600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3194 @ 0000020c88a94700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3194 @ 000001e3898b5800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3199 @ 0000020c88a92b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3199 @ 000001e3898b5900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3204 @ 0000020c88a93800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3204 @ 000001e3898b6000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3209 @ 0000020c88a93c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3209 @ 000001e3898b7000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3214 @ 0000020c88a95c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3214 @ 000001e3898b9b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3219 @ 0000020c88a97e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3219 @ 000001e3898b9400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3224 @ 0000020c88a94e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3224 @ 000001e3898b8d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3229 @ 0000020c88a94f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3229 @ 000001e3898bad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3234 @ 0000020c88a96d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3234 @ 000001e3898b9f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3239 @ 0000020c88a95600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3239 @ 000001e3898bb200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3244 @ 0000020c88a98000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3244 @ 000001e3898ba900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3249 @ 0000020c88a98300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3249 @ 000001e3898ba300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3254 @ 0000020c88a95f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3254 @ 000001e3898ba400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3259 @ 0000020c88a95b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3259 @ 000001e3898b9900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3264 @ 0000020c88a94d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3264 @ 000001e3898bbb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3269 @ 0000020c88a95a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3269 @ 000001e3898bb800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3274 @ 0000020c88a99500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3274 @ 000001e3898bc800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3279 @ 0000020c88a9b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3279 @ 000001e3898bf800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3284 @ 0000020c88a98800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3284 @ 000001e3898bdb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3289 @ 0000020c88a9a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3289 @ 000001e3898c0100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3294 @ 0000020c88a9b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3294 @ 000001e3898bce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3299 @ 0000020c88a9a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3299 @ 000001e3898bd100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3304 @ 0000020c88a98b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3304 @ 000001e3898bd800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3309 @ 0000020c88a9b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3309 @ 000001e3898bdc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3314 @ 0000020c88a98f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3314 @ 000001e3898bf400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3319 @ 0000020c88a9b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3319 @ 000001e3898bf600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3324 @ 0000020c88a99400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3324 @ 000001e3898bf900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3329 @ 0000020c88a9aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3329 @ 000001e3898bec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3334 @ 0000020c88a98e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3334 @ 000001e3898bfb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3339 @ 0000020c88a9df00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3339 @ 000001e3898c3400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3344 @ 0000020c88a9ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3344 @ 000001e3898c0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3349 @ 0000020c88a9dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3349 @ 000001e3898c4300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3354 @ 0000020c88a9e000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3354 @ 000001e3898c3600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3359 @ 0000020c88a9fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3359 @ 000001e3898c1d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3364 @ 0000020c88aa0700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3364 @ 000001e3898c4600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3369 @ 0000020c88a9f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3369 @ 000001e3898c2700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3374 @ 0000020c88a9c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3374 @ 000001e3898c2c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3379 @ 0000020c88a9d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3379 @ 000001e3898c1100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3384 @ 0000020c88a9ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3384 @ 000001e3898c3e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3389 @ 0000020c88a9e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3389 @ 000001e3898c2d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3394 @ 0000020c88a9d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3394 @ 000001e3898c2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3399 @ 0000020c88a9fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3399 @ 000001e3898c3f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3404 @ 0000020c88aa1400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3404 @ 000001e3898c4900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3409 @ 0000020c88aa3b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3409 @ 000001e3898c8700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3414 @ 0000020c88aa0f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3414 @ 000001e3898c8300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3419 @ 0000020c88aa4700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3419 @ 000001e3898c4f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3424 @ 0000020c88aa3e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3424 @ 000001e3898c7900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3429 @ 0000020c88aa4000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3429 @ 000001e3898c4a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3434 @ 0000020c88aa1d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3434 @ 000001e3898c7a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3439 @ 0000020c88aa1b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3439 @ 000001e3898c7c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3444 @ 0000020c88aa4200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3444 @ 000001e3898c5e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3449 @ 0000020c88aa2500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3449 @ 000001e3898c5800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3454 @ 0000020c88aa2700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3454 @ 000001e3898c6c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3459 @ 0000020c88aa2900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3459 @ 000001e3898c6800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3464 @ 0000020c88aa2f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3464 @ 000001e3898c6f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3469 @ 0000020c88aa6400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3469 @ 000001e3898ca000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3474 @ 0000020c88aa7c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3474 @ 000001e3898c8f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3479 @ 0000020c88aa5400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3479 @ 000001e3898cba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3484 @ 0000020c88aa5100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3484 @ 000001e3898cc300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3489 @ 0000020c88aa4900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3489 @ 000001e3898cab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3494 @ 0000020c88aa6d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3494 @ 000001e3898ca600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3499 @ 0000020c88aa5900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3499 @ 000001e3898cc000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3504 @ 0000020c88aa6f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3504 @ 000001e3898c8d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3509 @ 0000020c88aa7200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3509 @ 000001e3898c9b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3514 @ 0000020c88aa5d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3514 @ 000001e3898c9600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3519 @ 0000020c88aa7a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3519 @ 000001e3898cb700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3524 @ 0000020c88aa4d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3524 @ 000001e3898cae00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3529 @ 0000020c88aa6300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3529 @ 000001e3898acf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3534 @ 0000020c88aa8800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3534 @ 000001e3898ad000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3539 @ 0000020c88aab000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3539 @ 000001e3898af100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3544 @ 0000020c88aabf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3544 @ 000001e3898b0700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3549 @ 0000020c88aaac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3549 @ 000001e3898ac900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3554 @ 0000020c88aac200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3554 @ 000001e3898ae800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3559 @ 0000020c88aa9400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3559 @ 000001e3898acd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3564 @ 0000020c88aab900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3564 @ 000001e3898ace00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3569 @ 0000020c88aabb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3569 @ 000001e3898aef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3574 @ 0000020c88aabd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3574 @ 000001e3898ad700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3579 @ 0000020c88aaad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3579 @ 000001e3898ae500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3584 @ 0000020c88aa9c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3584 @ 000001e3898aed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3589 @ 0000020c88aa9f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3589 @ 000001e3898af800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3594 @ 0000020c18f78400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3594 @ 000001e361bf4180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3599 @ 0000020c18f77b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3599 @ 000001e361bf5680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3604 @ 0000020c18f77d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3604 @ 000001e361bf6080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3609 @ 0000020c18f76900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3609 @ 000001e361bf7e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3614 @ 0000020c18f78600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3614 @ 000001e361bf5780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3619 @ 0000020c18f79600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3619 @ 000001e361bf6680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3624 @ 0000020c18f79300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3624 @ 000001e361bf4080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3629 @ 0000020c18f78a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3629 @ 000001e361bf6e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3634 @ 0000020c18f78800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3634 @ 000001e361bf7f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3639 @ 0000020c18f75a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3639 @ 000001e361bf7080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3644 @ 0000020c18f79700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3644 @ 000001e361bf6a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3649 @ 0000020c18f77500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3649 @ 000001e361bf6b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3654 @ 0000020c18f77a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3654 @ 000001e361bf6180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3659 @ 0000020c18f7a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3659 @ 000001e361bf8b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3664 @ 0000020c18f7a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3664 @ 000001e361bfbc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3669 @ 0000020c18f7c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3669 @ 000001e361bfbe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3674 @ 0000020c18f7d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3674 @ 000001e361bfa080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3679 @ 0000020c18f7a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3679 @ 000001e361bfb580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3684 @ 0000020c18f7cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3684 @ 000001e361bfaa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3689 @ 0000020c18f7cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3689 @ 000001e361bfbf80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3694 @ 0000020c18f79e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3694 @ 000001e361bf9280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3699 @ 0000020c18f7c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3699 @ 000001e361bfb680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3704 @ 0000020c18f7d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3704 @ 000001e361bf8180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3709 @ 0000020c18f7b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3709 @ 000001e361bfa580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3714 @ 0000020c18f7b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3714 @ 000001e361bf9880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3719 @ 0000020c18f7bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3719 @ 000001e361bfb480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3724 @ 0000020c18f7e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3724 @ 000001e361bff780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3729 @ 0000020c18f80100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3729 @ 000001e361bfc180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3734 @ 0000020c18f81500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3734 @ 000001e361bfd680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3739 @ 0000020c18f81000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3739 @ 000001e361bfe080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3744 @ 0000020c18f7fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3744 @ 000001e361bfd380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3749 @ 0000020c18f80800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3749 @ 000001e361bfd980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3754 @ 0000020c18f7ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3754 @ 000001e361bfe480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3759 @ 0000020c18f80000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3759 @ 000001e361bfcd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3764 @ 0000020c18f80400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3764 @ 000001e361bfdb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3769 @ 0000020c18f7f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3769 @ 000001e361bfde80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3774 @ 0000020c18f80a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3774 @ 000001e361bff380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3779 @ 0000020c18f7dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3779 @ 000001e361bfe380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3784 @ 0000020c18f7f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3784 @ 000001e361bfc280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3789 @ 0000020c18f82b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3789 @ 000001e361c03a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3794 @ 0000020c18f82100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3794 @ 000001e361c02780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3799 @ 0000020c18f82700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3799 @ 000001e361c01880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3804 @ 0000020c18f83c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3804 @ 000001e361c01780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3809 @ 0000020c18f81a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3809 @ 000001e361c00280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3814 @ 0000020c18f81c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3814 @ 000001e361c03d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3819 @ 0000020c18f82800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3819 @ 000001e361c02280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3824 @ 0000020c18f85300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3824 @ 000001e361c03e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3829 @ 0000020c18f84b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3829 @ 000001e361c00d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3834 @ 0000020c18f81e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3834 @ 000001e361c00380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3839 @ 0000020c18f83500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3839 @ 000001e361c03380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3844 @ 0000020c18f83100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3844 @ 000001e361c03780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3849 @ 0000020c18f89400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3849 @ 000001e361c07780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3854 @ 0000020c18f87300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3854 @ 000001e361c05780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3859 @ 0000020c18f87e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3859 @ 000001e361c05c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3864 @ 0000020c18f87500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3864 @ 000001e361c04380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3869 @ 0000020c18f89700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3869 @ 000001e361c05880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3874 @ 0000020c18f87400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3874 @ 000001e361c06d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3879 @ 0000020c18f87100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3879 @ 000001e361c06780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3884 @ 0000020c18f86100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3884 @ 000001e361c05b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3889 @ 0000020c18f86f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3889 @ 000001e361c07e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3894 @ 0000020c18f86500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3894 @ 000001e361c05480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3899 @ 0000020c18f88a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3899 @ 000001e361c04d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3904 @ 0000020c18f88e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3904 @ 000001e361c04780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3909 @ 0000020c18f86900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3909 @ 000001e361c07280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3914 @ 0000020c18f8bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3914 @ 000001e361c09880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3919 @ 0000020c18f8bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3919 @ 000001e361c0be80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3924 @ 0000020c18f8d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3924 @ 000001e361c09280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3929 @ 0000020c18f8b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3929 @ 000001e361c08480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3934 @ 0000020c18f8d400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3934 @ 000001e361c09980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3939 @ 0000020c18f8d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3939 @ 000001e361c0ab80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3944 @ 0000020c18f8b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3944 @ 000001e361c0ad80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3949 @ 0000020c18f8b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3949 @ 000001e361c0b380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3954 @ 0000020c18f8d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3954 @ 000001e361c0b580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3959 @ 0000020c18f8cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3959 @ 000001e361c08980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3964 @ 0000020c18f89a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3964 @ 000001e361c0b680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3969 @ 0000020c18f8d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3969 @ 000001e361c0a280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3974 @ 0000020c18f8b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3974 @ 000001e361c0b980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3979 @ 0000020c18f90000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3979 @ 000001e361c0fa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3984 @ 0000020c18f8ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3984 @ 000001e361c0d280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3989 @ 0000020c18f90b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3989 @ 000001e361c0ee80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3994 @ 0000020c18f8dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3994 @ 000001e361c0ea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_3999 @ 0000020c18f8f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_3999 @ 000001e361c0f080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4004 @ 0000020c18f91400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4004 @ 000001e361c0fd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4009 @ 0000020c18f90900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4009 @ 000001e361c0cd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4014 @ 0000020c18f91800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4014 @ 000001e361c0c080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4019 @ 0000020c18f8e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4019 @ 000001e361c0e280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4024 @ 0000020c18f90500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4024 @ 000001e361c0dc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4029 @ 0000020c18f91500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4029 @ 000001e361c0f780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4034 @ 0000020c18f91300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4034 @ 000001e361c0ce80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4039 @ 0000020c18f8eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4039 @ 000001e361c0da80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4044 @ 0000020c18f95500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4044 @ 000001e361c11580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4049 @ 0000020c18f94e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4049 @ 000001e361c11f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4054 @ 0000020c18f94300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4054 @ 000001e361c13d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4059 @ 0000020c18f92300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4059 @ 000001e361c12080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4064 @ 0000020c18f93d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4064 @ 000001e361c13b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4069 @ 0000020c18f94b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4069 @ 000001e361c10b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4074 @ 0000020c18f94000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4074 @ 000001e361c12d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4079 @ 0000020c18f92700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4079 @ 000001e361c12280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4084 @ 0000020c18f95200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4084 @ 000001e361c12c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4089 @ 0000020c18f94400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4089 @ 000001e361c11d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4094 @ 0000020c18f91e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4094 @ 000001e361c13780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4099 @ 0000020c18f92f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4099 @ 000001e361c12980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4104 @ 0000020c07e901c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4104 @ 000001e34ef5f3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4109 @ 0000020c07e92bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4109 @ 000001e34ef610c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4114 @ 0000020c07e91fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4114 @ 000001e34ef612c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4119 @ 0000020c07e90ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4119 @ 000001e34ef629c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4124 @ 0000020c07e8fdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4124 @ 000001e34ef602c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4129 @ 0000020c07e918c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4129 @ 000001e34ef603c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4134 @ 0000020c07e92cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4134 @ 000001e34ef613c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4139 @ 0000020c07e90bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4139 @ 000001e34ef608c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4144 @ 0000020c07e8ffc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4144 @ 000001e34ef5f2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4149 @ 0000020c07e8f7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4149 @ 000001e34ef62fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4154 @ 0000020c07e904c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4154 @ 000001e34ef5f6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4159 @ 0000020c07e908c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4159 @ 000001e34ef60dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4164 @ 0000020c07e923c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4164 @ 000001e34ef627c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4169 @ 0000020c07e969c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4169 @ 000001e34ef650c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4174 @ 0000020c07e931c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4174 @ 000001e34ef65ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4179 @ 0000020c07e945c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4179 @ 000001e34ef65cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4184 @ 0000020c07e96ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4184 @ 000001e34ef648c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4189 @ 0000020c07e94ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4189 @ 000001e34ef66cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4194 @ 0000020c07e96dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4194 @ 000001e34ef63cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4199 @ 0000020c07e95fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4199 @ 000001e34ef63dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4204 @ 0000020c07e94bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4204 @ 000001e34ef64cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4209 @ 0000020c07e955c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4209 @ 000001e34ef634c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4214 @ 0000020c07e96ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4214 @ 000001e34ef66fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4219 @ 0000020c07e93dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4219 @ 000001e34ef641c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4224 @ 0000020c07e941c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4224 @ 000001e34ef665c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4229 @ 0000020c07e949c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4229 @ 000001e34ef642c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4234 @ 0000020c07e993c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4234 @ 000001e34ef6a8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4239 @ 0000020c07e976c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4239 @ 000001e34ef681c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4244 @ 0000020c07e999c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4244 @ 000001e34ef683c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4249 @ 0000020c07e9a7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4249 @ 000001e34ef68ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4254 @ 0000020c07e977c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4254 @ 000001e34ef69ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4259 @ 0000020c07e9a1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4259 @ 000001e34ef6adc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4264 @ 0000020c07e97cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4264 @ 000001e34ef6a0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4269 @ 0000020c07e97dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4269 @ 000001e34ef699c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4274 @ 0000020c07e99fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4274 @ 000001e34ef6a1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4279 @ 0000020c07e97ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4279 @ 000001e34ef678c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4284 @ 0000020c07e9acc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4284 @ 000001e34ef6a6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4289 @ 0000020c07e982c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4289 @ 000001e34ef68dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4294 @ 0000020c07e990c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4294 @ 000001e34ef69dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4299 @ 0000020c07e9e3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4299 @ 000001e34ef6cac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4304 @ 0000020c07e9b8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4304 @ 000001e34ef6dbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4309 @ 0000020c07e9bbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4309 @ 000001e34ef6c4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4314 @ 0000020c07e9dcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4314 @ 000001e34ef6d0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4319 @ 0000020c07e9ccc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4319 @ 000001e34ef6c8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4324 @ 0000020c07e9e4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4324 @ 000001e34ef6b5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4329 @ 0000020c07e9c0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4329 @ 000001e34ef6c0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4334 @ 0000020c07e9ddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4334 @ 000001e34ef6c1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4339 @ 0000020c07e9e9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4339 @ 000001e34ef6d3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4344 @ 0000020c07e9b3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4344 @ 000001e34ef6ecc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4349 @ 0000020c07e9d9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4349 @ 000001e34ef6dac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4354 @ 0000020c07e9b0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4354 @ 000001e34ef6efc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4359 @ 0000020c07e9e5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4359 @ 000001e34ef6bec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4364 @ 0000020c07ea2dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4364 @ 000001e34ef72ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4369 @ 0000020c07e9fdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4369 @ 000001e34ef717c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4374 @ 0000020c07ea18c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4374 @ 000001e34ef71fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4379 @ 0000020c07ea2cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4379 @ 000001e34ef6f9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4384 @ 0000020c07ea1bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4384 @ 000001e34ef726c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4389 @ 0000020c07e9f9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4389 @ 000001e34ef6f8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4394 @ 0000020c07ea14c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4394 @ 000001e34ef70dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4399 @ 0000020c07ea1fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4399 @ 000001e34ef6fac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4404 @ 0000020c07ea21c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4404 @ 000001e34ef727c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4409 @ 0000020c07ea0ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4409 @ 000001e34ef719c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4414 @ 0000020c07e9ffc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4414 @ 000001e34ef6f0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4419 @ 0000020c07ea08c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4419 @ 000001e34ef720c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4424 @ 0000020c07ea3cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4424 @ 000001e34ef73bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4429 @ 0000020c07ea6dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4429 @ 000001e34ef74ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4434 @ 0000020c07ea30c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4434 @ 000001e34ef761c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4439 @ 0000020c07ea3bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4439 @ 000001e34ef745c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4444 @ 0000020c07ea69c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4444 @ 000001e34ef751c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4449 @ 0000020c07ea5ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4449 @ 000001e34ef76dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4454 @ 0000020c07ea6fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4454 @ 000001e34ef75cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4459 @ 0000020c07ea68c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4459 @ 000001e34ef765c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4464 @ 0000020c07ea53c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4464 @ 000001e34ef763c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4469 @ 0000020c07ea6ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4469 @ 000001e34ef73fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4474 @ 0000020c07ea61c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4474 @ 000001e34ef760c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4479 @ 0000020c07ea51c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4479 @ 000001e34ef759c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4484 @ 0000020c07ea5cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4484 @ 000001e34ef767c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4489 @ 0000020c07eaa3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4489 @ 000001e34ef77fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4494 @ 0000020c07ea95c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4494 @ 000001e34ef786c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4499 @ 0000020c07ea82c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4499 @ 000001e34ef77bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4504 @ 0000020c07ea7dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4504 @ 000001e34ef784c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4509 @ 0000020c07eaaec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4509 @ 000001e34ef779c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4514 @ 0000020c07ea70c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4514 @ 000001e34ef797c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4519 @ 0000020c07ea86c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4519 @ 000001e34ef793c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4524 @ 0000020c07ea9bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4524 @ 000001e34ef795c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4529 @ 0000020c07ea80c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4529 @ 000001e34ef79bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4534 @ 0000020c07ea96c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4534 @ 000001e34ef771c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4539 @ 0000020c07ea8fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4539 @ 000001e34ef780c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4544 @ 0000020c07ea9fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4544 @ 000001e34ef79fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4549 @ 0000020c07ea99c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4549 @ 000001e34ef77dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4554 @ 0000020c07ead8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4554 @ 000001e34ef7b7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4559 @ 0000020c07eae7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4559 @ 000001e34ef7c6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4564 @ 0000020c07eae8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4564 @ 000001e34ef7bbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4569 @ 0000020c07eae4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4569 @ 000001e34ef7d1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4574 @ 0000020c07eae9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4574 @ 000001e34ef7d3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4579 @ 0000020c07ead2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4579 @ 000001e34ef7c0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4584 @ 0000020c07eadec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4584 @ 000001e34ef7ecc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4589 @ 0000020c07eaeac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4589 @ 000001e34ef7b9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4594 @ 0000020c07eaebc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4594 @ 000001e34ef7dac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4599 @ 0000020c07eab4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4599 @ 000001e34ef7e3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4604 @ 0000020c07eabfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4604 @ 000001e34ef7b6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4609 @ 0000020c07eacac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4609 @ 000001e34ef7d5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4614 @ 0000020c07ead3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4614 @ 000001e34ef7e7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4619 @ 0000020c07eb03c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4619 @ 000001e34ef80bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4624 @ 0000020c07eaf5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4624 @ 000001e34ef7f8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4629 @ 0000020c07eb21c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4629 @ 000001e34ef814c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4634 @ 0000020c07eb24c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4634 @ 000001e34ef829c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4639 @ 0000020c07eaf1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4639 @ 000001e34ef802c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4644 @ 0000020c07eb16c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4644 @ 000001e34ef803c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4649 @ 0000020c07eaf9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4649 @ 000001e34ef7f2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4654 @ 0000020c07eb2dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4654 @ 000001e34ef81dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4659 @ 0000020c07eb2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4659 @ 000001e34ef7fec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4664 @ 0000020c07eaffc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4664 @ 000001e34ef805c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4669 @ 0000020c07eb1ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4669 @ 000001e34ef812c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4674 @ 0000020c07eb0bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4674 @ 000001e34ef7f3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4679 @ 0000020c07eb1cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4679 @ 000001e34ef807c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4684 @ 0000020c07eb41c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4684 @ 000001e34ef86dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4689 @ 0000020c07eb5bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4689 @ 000001e34ef844c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4694 @ 0000020c07eb6ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4694 @ 000001e34ef830c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4699 @ 0000020c07eb42c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4699 @ 000001e34ef83bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4704 @ 0000020c07eb3dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4704 @ 000001e34ef834c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4709 @ 0000020c07eb6fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4709 @ 000001e34ef85ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4714 @ 0000020c07eb32c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4714 @ 000001e34ef845c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4719 @ 0000020c07eb33c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4719 @ 000001e34ef86ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4724 @ 0000020c07eb6cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4724 @ 000001e34ef865c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4729 @ 0000020c07eb4cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4729 @ 000001e34ef863c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4734 @ 0000020c07eb66c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4734 @ 000001e34ef85fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4739 @ 0000020c07eb54c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4739 @ 000001e34ef835c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4744 @ 0000020c07ebadc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4744 @ 000001e34ef88fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4749 @ 0000020c07eba5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4749 @ 000001e34ef8adc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4754 @ 0000020c07eb8cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4754 @ 000001e34ef872c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4759 @ 0000020c07eba6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4759 @ 000001e34ef876c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4764 @ 0000020c07eba8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4764 @ 000001e34ef8abc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4769 @ 0000020c07eb92c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4769 @ 000001e34ef8aec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4774 @ 0000020c07eb74c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4774 @ 000001e34ef899c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4779 @ 0000020c07ebabc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4779 @ 000001e34ef892c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4784 @ 0000020c07eb7fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4784 @ 000001e34ef888c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4789 @ 0000020c07eb8ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4789 @ 000001e34ef894c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4794 @ 0000020c07eb7bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4794 @ 000001e34ef89ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4799 @ 0000020c07eba0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4799 @ 000001e34ef89fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4804 @ 0000020c07eb87c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4804 @ 000001e34ef87ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4809 @ 0000020c07ebcfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4809 @ 000001e34ef8e9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4814 @ 0000020c07ebd6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4814 @ 000001e34ef8c8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4819 @ 0000020c07ebd4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4819 @ 000001e34ef8d0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4824 @ 0000020c07ebc8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4824 @ 000001e34ef8e5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4829 @ 0000020c07ebc0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4829 @ 000001e34ef8e2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4834 @ 0000020c07ebdbc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4834 @ 000001e34ef8bec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4839 @ 0000020c07ebefc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4839 @ 000001e34ef8c1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4844 @ 0000020c07ebdec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4844 @ 000001e34ef8eac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4849 @ 0000020c07ebb0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4849 @ 000001e34ef8c2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4854 @ 0000020c07ebe6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4854 @ 000001e34ef8dcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4859 @ 0000020c07ebeac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4859 @ 000001e34ef8ddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4864 @ 0000020c07ebddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4864 @ 000001e34ef8ecc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4869 @ 0000020c07ebbfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4869 @ 000001e34ef8bac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4874 @ 0000020c07ebf6c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4874 @ 000001e34ef923c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4879 @ 0000020c07ebf8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4879 @ 000001e34ef91ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4884 @ 0000020c07ec0ac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4884 @ 000001e34ef90bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4889 @ 0000020c07ec0dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4889 @ 000001e34ef8f8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4894 @ 0000020c07ec25c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4894 @ 000001e34ef90ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4899 @ 0000020c07ebfac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4899 @ 000001e34ef921c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4904 @ 0000020c07ec1fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4904 @ 000001e34ef917c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4909 @ 0000020c07ec0bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4909 @ 000001e34ef8fec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4914 @ 0000020c07ec10c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4914 @ 000001e34ef8ffc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4919 @ 0000020c07ec2dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4919 @ 000001e34ef8f1c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4924 @ 0000020c07ebfcc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4924 @ 000001e34ef8fdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4929 @ 0000020c07ec2ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4929 @ 000001e34ef927c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4934 @ 0000020c07ec04c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4934 @ 000001e34ef92dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4939 @ 0000020c07ec30c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4939 @ 000001e34ef937c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4944 @ 0000020c07ec54c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4944 @ 000001e34ef962c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4949 @ 0000020c07ec60c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4949 @ 000001e34ef95bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4954 @ 0000020c07ec5dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4954 @ 000001e34ef934c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4959 @ 0000020c07ec65c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4959 @ 000001e34ef930c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4964 @ 0000020c07ec3bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4964 @ 000001e34ef968c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4969 @ 0000020c07ec67c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4969 @ 000001e34ef96dc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4974 @ 0000020c07ec50c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4974 @ 000001e34ef932c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4979 @ 0000020c07ec40c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4979 @ 000001e34ef936c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4984 @ 0000020c07ec6fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4984 @ 000001e34ef951c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4989 @ 0000020c07ec49c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4989 @ 000001e34ef953c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4994 @ 0000020c07ec44c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4994 @ 000001e34ef955c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_4999 @ 0000020c07ec56c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_4999 @ 000001e34ef964c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5004 @ 0000020c07ec8bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5004 @ 000001e34ef98ec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5009 @ 0000020c07ec8fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5009 @ 000001e34ef9aec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5014 @ 0000020c07ec72c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5014 @ 000001e34ef9abc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5019 @ 0000020c07ec9bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5019 @ 000001e34ef9a7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5024 @ 0000020c07ec82c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5024 @ 000001e34ef974c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5029 @ 0000020c07ecacc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5029 @ 000001e34ef9adc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5034 @ 0000020c07eca4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5034 @ 000001e34ef98fc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5039 @ 0000020c07eca8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5039 @ 000001e34ef991c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5044 @ 0000020c07eca9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5044 @ 000001e34ef994c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5049 @ 0000020c07ec7bc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5049 @ 000001e34ef996c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5054 @ 0000020c07ec88c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5054 @ 000001e34ef97cc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5059 @ 0000020c07ec94c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5059 @ 000001e34ef981c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5064 @ 0000020c07e8e8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5064 @ 000001e34ef5d0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5069 @ 0000020c07e8e7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5069 @ 000001e34ef5e5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5074 @ 0000020c07e8e9c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5074 @ 000001e34ef5e2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5079 @ 0000020c07e8ddc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5079 @ 000001e34ef5c2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5084 @ 0000020c07e8ebc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5084 @ 000001e34ef5c3c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5089 @ 0000020c07e8bdc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5089 @ 000001e34ef5b2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5094 @ 0000020c07e8eec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5094 @ 000001e34ef5dec0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5099 @ 0000020c07e8b0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5099 @ 000001e34ef5b7c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5104 @ 0000020c07e8c2c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5104 @ 000001e34ef5b8c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5109 @ 0000020c07e8bfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5109 @ 000001e34ef5c0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5114 @ 0000020c07e8c4c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5114 @ 000001e34ef5d5c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5119 @ 0000020c07e8ccc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5119 @ 000001e34ef5dfc0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5124 @ 0000020c07e8d0c0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5124 @ 000001e34ef5eac0] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5129 @ 0000020c6aee7a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5129 @ 000001e3320aa840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5134 @ 0000020c6aee6e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5134 @ 000001e3320aa240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5139 @ 0000020c6aee7940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5139 @ 000001e3320aaf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5144 @ 0000020c6aee9540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5144 @ 000001e3320acc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5149 @ 0000020c6aee7c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5149 @ 000001e3320aa540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5154 @ 0000020c6aee6b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5154 @ 000001e3320abb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5159 @ 0000020c6aee7640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5159 @ 000001e3320a9c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5164 @ 0000020c6aee8540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5164 @ 000001e3320ac140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5169 @ 0000020c6aee6940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5169 @ 000001e3320acf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5174 @ 0000020c6aee7440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5174 @ 000001e3320ac740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5179 @ 0000020c6aee7140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5179 @ 000001e3320acd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5184 @ 0000020c6aee9140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5184 @ 000001e3320aaa40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5189 @ 0000020c6aee5c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5189 @ 000001e3320ab740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5194 @ 0000020c6aee9f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5194 @ 000001e3320ae540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5199 @ 0000020c6aeeb840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5199 @ 000001e3320af340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5204 @ 0000020c6aeec540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5204 @ 000001e3320b1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5209 @ 0000020c6aeec740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5209 @ 000001e3320aea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5214 @ 0000020c6aeeb540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5214 @ 000001e3320ad740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5219 @ 0000020c6aeec240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5219 @ 000001e3320af040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5224 @ 0000020c6aeeaa40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5224 @ 000001e3320b0540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5229 @ 0000020c6aeecc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5229 @ 000001e3320afd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5234 @ 0000020c6aeed440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5234 @ 000001e3320adb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5239 @ 0000020c6aeed240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5239 @ 000001e3320aff40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5244 @ 0000020c6aee9a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5244 @ 000001e3320ae340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5249 @ 0000020c6aee9c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5249 @ 000001e3320b0b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5254 @ 0000020c6aeeb240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5254 @ 000001e3320ae440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5259 @ 0000020c6aeed840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5259 @ 000001e3320b5140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5264 @ 0000020c6aef1340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5264 @ 000001e3320b3140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5269 @ 0000020c6aeedf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5269 @ 000001e3320b2940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5274 @ 0000020c6aef0640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5274 @ 000001e3320b1f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5279 @ 0000020c6aef0340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5279 @ 000001e3320b3d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5284 @ 0000020c6aeeea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5284 @ 000001e3320b2a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5289 @ 0000020c6aeee740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5289 @ 000001e3320b1a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5294 @ 0000020c6aef1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5294 @ 000001e3320b4940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5299 @ 0000020c6aeee640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5299 @ 000001e3320b3c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5304 @ 0000020c6aeef340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5304 @ 000001e3320b1b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5309 @ 0000020c6aef0a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5309 @ 000001e3320b3540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5314 @ 0000020c6aeef640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5314 @ 000001e3320b2b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5319 @ 0000020c6aef2940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5319 @ 000001e3320b6e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5324 @ 0000020c6aef1b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5324 @ 000001e3320b8e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5329 @ 0000020c6aef1c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5329 @ 000001e3320b5d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5334 @ 0000020c6aef2540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5334 @ 000001e3320b7f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5339 @ 0000020c6aef4040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5339 @ 000001e3320b6240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5344 @ 0000020c6aef4a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5344 @ 000001e3320b7940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5349 @ 0000020c6aef2240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5349 @ 000001e3320b7c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5354 @ 0000020c6aef5240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5354 @ 000001e3320b9440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5359 @ 0000020c6aef3940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5359 @ 000001e3320b7140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5364 @ 0000020c6aef1f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5364 @ 000001e3320b5640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5369 @ 0000020c6aef5540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5369 @ 000001e3320b8540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5374 @ 0000020c6aef1e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5374 @ 000001e3320b8240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5379 @ 0000020c6aef2440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5379 @ 000001e3320b8840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5384 @ 0000020c6aef7040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5384 @ 000001e3320bb340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5389 @ 0000020c6aef9240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5389 @ 000001e3320bd540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5394 @ 0000020c6aef9540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5394 @ 000001e3320bb040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5399 @ 0000020c6aef5840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5399 @ 000001e3320bcf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5404 @ 0000020c6aef7a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5404 @ 000001e3320ba040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5409 @ 0000020c6aef6b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5409 @ 000001e3320bb940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5414 @ 0000020c6aef7640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5414 @ 000001e3320b9c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5419 @ 0000020c6aef6240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5419 @ 000001e3320bb540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5424 @ 0000020c6aef8240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5424 @ 000001e3320bd440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5429 @ 0000020c6aef8340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5429 @ 000001e3320b9d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5434 @ 0000020c6aef8d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5434 @ 000001e3320ba240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5439 @ 0000020c6aef6540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5439 @ 000001e3320ba140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5444 @ 0000020c6aef7840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5444 @ 000001e3320bab40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5449 @ 0000020c6aefcb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5449 @ 000001e3320bd640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5454 @ 0000020c6aef9b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5454 @ 000001e3320be140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5459 @ 0000020c6aef9740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5459 @ 000001e3320bda40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5464 @ 0000020c6aef9840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5464 @ 000001e3320bd840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5469 @ 0000020c6aefce40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5469 @ 000001e3320bf040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5474 @ 0000020c6aef9f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5474 @ 000001e3320c0f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5479 @ 0000020c6aefc940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5479 @ 000001e3320be040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5484 @ 0000020c6aefae40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5484 @ 000001e3320c1240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5489 @ 0000020c6aefd340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5489 @ 000001e3320c0a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5494 @ 0000020c6aef9640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5494 @ 000001e3320bec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5499 @ 0000020c6aefad40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5499 @ 000001e3320bfe40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5504 @ 0000020c6aefa640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5504 @ 000001e3320c0840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5509 @ 0000020c6aefb240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5509 @ 000001e3320c0d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5514 @ 0000020c6aefe040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5514 @ 000001e3320c4740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5519 @ 0000020c6af00f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5519 @ 000001e3320c3240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5524 @ 0000020c6af00e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5524 @ 000001e3320c5340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5529 @ 0000020c6aefd640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5529 @ 000001e3320c2240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5534 @ 0000020c6af01040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5534 @ 000001e3320c1940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5539 @ 0000020c6af01440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5539 @ 000001e3320c5540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5544 @ 0000020c6aefda40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5544 @ 000001e3320c4e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5549 @ 0000020c6aeff040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5549 @ 000001e3320c4a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5554 @ 0000020c6aeffc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5554 @ 000001e3320c4140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5559 @ 0000020c6aefe140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5559 @ 000001e3320c4340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5564 @ 0000020c6aeffd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5564 @ 000001e3320c1c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5569 @ 0000020c6af00540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5569 @ 000001e3320c2840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5574 @ 0000020c6af00c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5574 @ 000001e3320c2e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5579 @ 0000020c6af02a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5579 @ 000001e3320c8a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5584 @ 0000020c6af03c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5584 @ 000001e3320c8f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5589 @ 0000020c6af01740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5589 @ 000001e3320c8540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5594 @ 0000020c6af01840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5594 @ 000001e3320c7040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5599 @ 0000020c6af04e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5599 @ 000001e3320c9340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5604 @ 0000020c6af01f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5604 @ 000001e3320c7240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5609 @ 0000020c6af01b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5609 @ 000001e3320c6040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5614 @ 0000020c6af02040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5614 @ 000001e3320c6c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5619 @ 0000020c6af04a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5619 @ 000001e3320c5b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5624 @ 0000020c6af04c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5624 @ 000001e3320c8240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5629 @ 0000020c6af03640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5629 @ 000001e3320c5e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5634 @ 0000020c6af02740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5634 @ 000001e3320c7440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5639 @ 0000020c6af07b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5639 @ 000001e3320ca640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5644 @ 0000020c6af06140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5644 @ 000001e3320c9640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5649 @ 0000020c6af06e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5649 @ 000001e3320cc640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5654 @ 0000020c6af08340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5654 @ 000001e3320cb040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5659 @ 0000020c6af08540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5659 @ 000001e3320ca340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5664 @ 0000020c6af09140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5664 @ 000001e3320cc040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5669 @ 0000020c6af06540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5669 @ 000001e3320c9940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5674 @ 0000020c6af07640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5674 @ 000001e3320c9f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5679 @ 0000020c6af08a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5679 @ 000001e3320cb440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5684 @ 0000020c6af07840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5684 @ 000001e3320ca740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5689 @ 0000020c6af05e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5689 @ 000001e3320cca40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5694 @ 0000020c6af07740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5694 @ 000001e3320caf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5699 @ 0000020c6af05f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5699 @ 000001e3320cce40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5704 @ 0000020c6af0d540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5704 @ 000001e3320ce140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5709 @ 0000020c6af0ca40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5709 @ 000001e3320cde40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5714 @ 0000020c6af0ad40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5714 @ 000001e3320cf040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5719 @ 0000020c6af0ae40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5719 @ 000001e3320d0b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5724 @ 0000020c6af0c140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5724 @ 000001e3320cf640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5729 @ 0000020c6af0be40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5729 @ 000001e3320cda40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5734 @ 0000020c6af0b740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5734 @ 000001e3320cd640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5739 @ 0000020c6af09f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5739 @ 000001e3320d0740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5744 @ 0000020c6af0ac40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5744 @ 000001e3320d1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5749 @ 0000020c6af0b140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5749 @ 000001e3320d0840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5754 @ 0000020c6af0cc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5754 @ 000001e3320ce040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5759 @ 0000020c6af0d240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5759 @ 000001e3320cea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5764 @ 0000020c6af0a040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5764 @ 000001e3320ceb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5769 @ 0000020c6af11340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5769 @ 000001e3320d1740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5774 @ 0000020c6af0df40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5774 @ 000001e3320d2140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5779 @ 0000020c6af0f940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5779 @ 000001e3320d4140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5784 @ 0000020c6af11540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5784 @ 000001e3320d4740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5789 @ 0000020c6af10a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5789 @ 000001e3320d3240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5794 @ 0000020c6af10e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5794 @ 000001e3320d2440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5799 @ 0000020c6af0d740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5799 @ 000001e3320d5440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5804 @ 0000020c6af0eb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5804 @ 000001e3320d2540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5809 @ 0000020c6af0ec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5809 @ 000001e3320d3540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5814 @ 0000020c6af10840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5814 @ 000001e3320d1640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5819 @ 0000020c6af11040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5819 @ 000001e3320d1b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5824 @ 0000020c6af0f140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5824 @ 000001e3320d3940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5829 @ 0000020c6af10f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5829 @ 000001e3320d2d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5834 @ 0000020c6af12c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5834 @ 000001e3320d8b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5839 @ 0000020c6af12e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5839 @ 000001e3320d7c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5844 @ 0000020c6af14a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5844 @ 000001e3320d9040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5849 @ 0000020c6af13240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5849 @ 000001e3320d7240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5854 @ 0000020c6af14340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5854 @ 000001e3320d9540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5859 @ 0000020c6af12b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5859 @ 000001e3320d8740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5864 @ 0000020c6af15240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5864 @ 000001e3320d8840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5869 @ 0000020c6af14640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5869 @ 000001e3320d8940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5874 @ 0000020c6af12240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5874 @ 000001e3320d7a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5879 @ 0000020c6af13a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5879 @ 000001e3320d8f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5884 @ 0000020c6af11f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5884 @ 000001e3320d5e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5889 @ 0000020c6af12640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5889 @ 000001e3320d6840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5894 @ 0000020c6af13140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5894 @ 000001e3320d7540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5899 @ 0000020c6af15f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5899 @ 000001e3320dd440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5904 @ 0000020c6af17f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5904 @ 000001e3320dca40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5909 @ 0000020c6af18040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5909 @ 000001e3320d9940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5914 @ 0000020c6af18240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5914 @ 000001e3320d9f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5919 @ 0000020c6af17540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5919 @ 000001e3320dc640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5924 @ 0000020c6af18940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5924 @ 000001e3320dd040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5929 @ 0000020c6af18740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5929 @ 000001e3320da240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5934 @ 0000020c6af17940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5934 @ 000001e3320d9b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5939 @ 0000020c6af16840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5939 @ 000001e3320d9e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5944 @ 0000020c6af15c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5944 @ 000001e3320dae40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5949 @ 0000020c6af18c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5949 @ 000001e3320dcf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5954 @ 0000020c6af15e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5954 @ 000001e3320dba40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5959 @ 0000020c6af19940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5959 @ 000001e3320dd640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5964 @ 0000020c6af1a940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5964 @ 000001e3320dd940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5969 @ 0000020c6af1d040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5969 @ 000001e33209ed40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5974 @ 0000020c6af1ce40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5974 @ 000001e33209e640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5979 @ 0000020c6af1bc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5979 @ 000001e3320a0c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5984 @ 0000020c6af1b740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5984 @ 000001e33209da40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5989 @ 0000020c6af1d140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5989 @ 000001e3320a0340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5994 @ 0000020c6af19740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5994 @ 000001e3320a0440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_5999 @ 0000020c6af1c440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_5999 @ 000001e3320a0e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6004 @ 0000020c6af1cc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6004 @ 000001e33209f940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6009 @ 0000020c6af1d240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6009 @ 000001e33209dc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6014 @ 0000020c6af19d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6014 @ 000001e3320a0240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6019 @ 0000020c6af1b240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6019 @ 000001e3320a0840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6024 @ 0000020c6af1dd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6024 @ 000001e33209d640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6029 @ 0000020c6af1d640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6029 @ 000001e33209ea40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6034 @ 0000020c6aedfe40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6034 @ 000001e3320a1b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6039 @ 0000020c6aedd940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6039 @ 000001e3320a4740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6044 @ 0000020c6aeddf40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6044 @ 000001e3320a2040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6049 @ 0000020c6aedfb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6049 @ 000001e3320a5040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6054 @ 0000020c6aee0140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6054 @ 000001e3320a5340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6059 @ 0000020c6aee1440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6059 @ 000001e3320a2640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6064 @ 0000020c6aede140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6064 @ 000001e3320a1740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6069 @ 0000020c6aedee40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6069 @ 000001e3320a5540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6074 @ 0000020c6aee0740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6074 @ 000001e3320a4140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6079 @ 0000020c6aede340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6079 @ 000001e3320a2940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6084 @ 0000020c6aeddd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6084 @ 000001e3320a3740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6089 @ 0000020c6aee0e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6089 @ 000001e3320a3a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6094 @ 0000020c6aeded40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6094 @ 000001e3320a4a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6099 @ 0000020c6aee3d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6099 @ 000001e3320a9040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6104 @ 0000020c6aee2640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6104 @ 000001e3320a7340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6109 @ 0000020c6aee4440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6109 @ 000001e3320a6240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6114 @ 0000020c6aee3e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6114 @ 000001e3320a7b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6119 @ 0000020c6aee3f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6119 @ 000001e3320a7840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6124 @ 0000020c6aee4040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6124 @ 000001e3320a8040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6129 @ 0000020c6aee3640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6129 @ 000001e3320a8340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6134 @ 0000020c6aee4840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6134 @ 000001e3320a8f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6139 @ 0000020c6aee2840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6139 @ 000001e3320a6340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6144 @ 0000020c6aee1e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6144 @ 000001e3320a8b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6149 @ 0000020c6aee3940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6149 @ 000001e3320a8d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6154 @ 0000020c6aee4e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6154 @ 000001e3320a6640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6159 @ 0000020c6aee2e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6159 @ 000001e3320a6e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6164 @ 0000020c0a350800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6164 @ 000001e351421500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6169 @ 0000020c0a350300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6169 @ 000001e35141ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6174 @ 0000020c0a34ef00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6174 @ 000001e351421000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6179 @ 0000020c0a34f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6179 @ 000001e351420f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6184 @ 0000020c0a34e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6184 @ 000001e35141e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6189 @ 0000020c0a34e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6189 @ 000001e351421600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6194 @ 0000020c0a34f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6194 @ 000001e35141fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6199 @ 0000020c0a351f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6199 @ 000001e351420c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6204 @ 0000020c0a34fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6204 @ 000001e35141ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6209 @ 0000020c0a351400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6209 @ 000001e351420300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6214 @ 0000020c0a34ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6214 @ 000001e351421e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6219 @ 0000020c0a34ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6219 @ 000001e35141ec00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6224 @ 0000020c0a354300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6224 @ 000001e351424800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6229 @ 0000020c0a352400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6229 @ 000001e351423000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6234 @ 0000020c0a353400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6234 @ 000001e351422400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6239 @ 0000020c0a355f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6239 @ 000001e351423600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6244 @ 0000020c0a354800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6244 @ 000001e351423200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6249 @ 0000020c0a354b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6249 @ 000001e351423300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6254 @ 0000020c0a353600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6254 @ 000001e351422600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6259 @ 0000020c0a354d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6259 @ 000001e351422900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6264 @ 0000020c0a353800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6264 @ 000001e351424a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6269 @ 0000020c0a352300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6269 @ 000001e351422f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6274 @ 0000020c0a354000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6274 @ 000001e351422200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6279 @ 0000020c0a354200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6279 @ 000001e351425100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6284 @ 0000020c0a352600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6284 @ 000001e351425b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6289 @ 0000020c0a359400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6289 @ 000001e351429600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6294 @ 0000020c0a358c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6294 @ 000001e351427f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6299 @ 0000020c0a359700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6299 @ 000001e351426400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6304 @ 0000020c0a358800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6304 @ 000001e351427a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6309 @ 0000020c0a357d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6309 @ 000001e351427b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6314 @ 0000020c0a358200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6314 @ 000001e351426f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6319 @ 0000020c0a359000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6319 @ 000001e351426200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6324 @ 0000020c0a359600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6324 @ 000001e351427400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6329 @ 0000020c0a357a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6329 @ 000001e351428c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6334 @ 0000020c0a359f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6334 @ 000001e351429d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6339 @ 0000020c0a356100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6339 @ 000001e351428f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6344 @ 0000020c0a357100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6344 @ 000001e351428d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6349 @ 0000020c0a356b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6349 @ 000001e351429400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6354 @ 0000020c0a35bf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6354 @ 000001e35142d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6359 @ 0000020c0a35d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6359 @ 000001e35142cc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6364 @ 0000020c0a35b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6364 @ 000001e35142c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6369 @ 0000020c0a35a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6369 @ 000001e35142ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6374 @ 0000020c0a35aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6374 @ 000001e35142a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6379 @ 0000020c0a35a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6379 @ 000001e35142bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6384 @ 0000020c0a35b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6384 @ 000001e35142bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6389 @ 0000020c0a35b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6389 @ 000001e35142d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6394 @ 0000020c0a35db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6394 @ 000001e35142a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6399 @ 0000020c0a35bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6399 @ 000001e35142b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6404 @ 0000020c0a35ab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6404 @ 000001e35142b200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6409 @ 0000020c0a35b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6409 @ 000001e35142b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6414 @ 0000020c0a35c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6414 @ 000001e35142c700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6419 @ 0000020c0a360100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6419 @ 000001e35142e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6424 @ 0000020c0a35f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6424 @ 000001e35142e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6429 @ 0000020c0a361800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6429 @ 000001e351432000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6434 @ 0000020c0a360400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6434 @ 000001e35142f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6439 @ 0000020c0a361400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6439 @ 000001e35142fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6444 @ 0000020c0a35f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6444 @ 000001e35142f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6449 @ 0000020c0a35ea00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6449 @ 000001e35142ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6454 @ 0000020c0a360500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6454 @ 000001e351431600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6459 @ 0000020c0a360c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6459 @ 000001e351431400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6464 @ 0000020c0a360900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6464 @ 000001e35142f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6469 @ 0000020c0a35f200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6469 @ 000001e351430500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6474 @ 0000020c0a360000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6474 @ 000001e351431a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6479 @ 0000020c0a361700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6479 @ 000001e351431700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6484 @ 0000020c0a362e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6484 @ 000001e351434900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6489 @ 0000020c0a365700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6489 @ 000001e351433a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6494 @ 0000020c0a363d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6494 @ 000001e351432100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6499 @ 0000020c0a364600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6499 @ 000001e351435100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6504 @ 0000020c0a363f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6504 @ 000001e351434c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6509 @ 0000020c0a365a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6509 @ 000001e351433000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6514 @ 0000020c0a363e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6514 @ 000001e351432700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6519 @ 0000020c0a363900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6519 @ 000001e351433600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6524 @ 0000020c0a362b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6524 @ 000001e351434e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6529 @ 0000020c0a364e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6529 @ 000001e351432800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6534 @ 0000020c0a362200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6534 @ 000001e351432d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6539 @ 0000020c0a362500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6539 @ 000001e351435400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6544 @ 0000020c0a366400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6544 @ 000001e351437600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6549 @ 0000020c0a367d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6549 @ 000001e351439300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6554 @ 0000020c0a369a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6554 @ 000001e351436900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6559 @ 0000020c0a367e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6559 @ 000001e351438b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6564 @ 0000020c0a368200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6564 @ 000001e351437b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6569 @ 0000020c0a368f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6569 @ 000001e351439a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6574 @ 0000020c0a368b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6574 @ 000001e351436a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6579 @ 0000020c0a369300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6579 @ 000001e351439600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6584 @ 0000020c0a369700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6584 @ 000001e351436d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6589 @ 0000020c0a366d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6589 @ 000001e351437d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6594 @ 0000020c0a369d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6594 @ 000001e351438c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6599 @ 0000020c0a368400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6599 @ 000001e351438000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6604 @ 0000020c0a366900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6604 @ 000001e351438200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6609 @ 0000020c0a36b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6609 @ 000001e35143c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6614 @ 0000020c0a36c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6614 @ 000001e35143ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6619 @ 0000020c0a36a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6619 @ 000001e35143c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6624 @ 0000020c0a36c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6624 @ 000001e35143dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6629 @ 0000020c0a36d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6629 @ 000001e35143c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6634 @ 0000020c0a36bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6634 @ 000001e35143bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6639 @ 0000020c0a36ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6639 @ 000001e35143a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6644 @ 0000020c0a36a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6644 @ 000001e35143c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6649 @ 0000020c0a36e000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6649 @ 000001e35143c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6654 @ 0000020c0a36d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6654 @ 000001e35143cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6659 @ 0000020c0a36c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6659 @ 000001e35143b800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6664 @ 0000020c0a36ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6664 @ 000001e35143d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6669 @ 0000020c0a36cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6669 @ 000001e35143d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6674 @ 0000020c0a36fa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6674 @ 000001e351440800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6679 @ 0000020c0a36f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6679 @ 000001e35143f900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6684 @ 0000020c0a36e200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6684 @ 000001e35143fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6689 @ 0000020c0a36e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6689 @ 000001e35143ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6694 @ 0000020c0a371900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6694 @ 000001e35143e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6699 @ 0000020c0a370400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6699 @ 000001e35143e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6704 @ 0000020c0a371500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6704 @ 000001e351440e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6709 @ 0000020c0a370300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6709 @ 000001e351440600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6714 @ 0000020c0a36f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6714 @ 000001e35143e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6719 @ 0000020c0a36ee00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6719 @ 000001e35143e500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6724 @ 0000020c0a371c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6724 @ 000001e35143f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6729 @ 0000020c0a36fe00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6729 @ 000001e35143e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6734 @ 0000020c0a36ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6734 @ 000001e35143f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6739 @ 0000020c0a375900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6739 @ 000001e351443e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6744 @ 0000020c0a372900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6744 @ 000001e351442100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6749 @ 0000020c0a373600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6749 @ 000001e351444e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6754 @ 0000020c0a373700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6754 @ 000001e351442200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6759 @ 0000020c0a374b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6759 @ 000001e351442800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6764 @ 0000020c0a375800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6764 @ 000001e351442c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6769 @ 0000020c0a376000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6769 @ 000001e351445000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6774 @ 0000020c0a372400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6774 @ 000001e351445200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6779 @ 0000020c0a374c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6779 @ 000001e351443800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6784 @ 0000020c0a372800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6784 @ 000001e351444700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6789 @ 0000020c0a372a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6789 @ 000001e351445900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6794 @ 0000020c0a374f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6794 @ 000001e351443700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6799 @ 0000020c0a375400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6799 @ 000001e351443d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6804 @ 0000020c0a377600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6804 @ 000001e351447200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6809 @ 0000020c0a379400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6809 @ 000001e351448d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6814 @ 0000020c0a376300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6814 @ 000001e351446b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6819 @ 0000020c0a376400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6819 @ 000001e351447f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6824 @ 0000020c0a378d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6824 @ 000001e351449600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6829 @ 0000020c0a377400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6829 @ 000001e351448600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6834 @ 0000020c0a377b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6834 @ 000001e351449000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6839 @ 0000020c0a379900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6839 @ 000001e351448700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6844 @ 0000020c0a379700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6844 @ 000001e351446300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6849 @ 0000020c0a376100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6849 @ 000001e351446400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6854 @ 0000020c0a378500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6854 @ 000001e351448200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6859 @ 0000020c0a377200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6859 @ 000001e351448900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6864 @ 0000020c0a37c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6864 @ 000001e35144b500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6869 @ 0000020c0a37c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6869 @ 000001e35144bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6874 @ 0000020c0a37c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6874 @ 000001e35144b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6879 @ 0000020c0a37af00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6879 @ 000001e35144b300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6884 @ 0000020c0a37b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6884 @ 000001e35144a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6889 @ 0000020c0a37bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6889 @ 000001e35144cb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6894 @ 0000020c0a37ce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6894 @ 000001e35144b900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6899 @ 0000020c0a37a700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6899 @ 000001e35144c600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6904 @ 0000020c0a37a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6904 @ 000001e35144d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6909 @ 0000020c0a37d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6909 @ 000001e35144aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6914 @ 0000020c0a37d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6914 @ 000001e35144cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6919 @ 0000020c0a37dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6919 @ 000001e35144d700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6924 @ 0000020c0a37ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6924 @ 000001e35144da00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6929 @ 0000020c0a381700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6929 @ 000001e35144e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6934 @ 0000020c0a381e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6934 @ 000001e351451200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6939 @ 0000020c0a37fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6939 @ 000001e351450900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6944 @ 0000020c0a382000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6944 @ 000001e351451600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6949 @ 0000020c0a37e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6949 @ 000001e351450a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6954 @ 0000020c0a37e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6954 @ 000001e351451800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6959 @ 0000020c0a381f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6959 @ 000001e35144e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6964 @ 0000020c0a37f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6964 @ 000001e351451100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6969 @ 0000020c0a381400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6969 @ 000001e35144fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6974 @ 0000020c0a381900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6974 @ 000001e351452000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6979 @ 0000020c0a381b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6979 @ 000001e35144f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6984 @ 0000020c0a37fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6984 @ 000001e351450d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6989 @ 0000020c0a37ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6989 @ 000001e35144f500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6994 @ 0000020c0a384900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6994 @ 000001e351455300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_6999 @ 0000020c0a385500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_6999 @ 000001e351452d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7004 @ 0000020c0a382400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7004 @ 000001e351452100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7009 @ 0000020c0a384c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7009 @ 000001e351452c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7014 @ 0000020c0a383300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7014 @ 000001e351452500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7019 @ 0000020c0a382c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7019 @ 000001e351452400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7024 @ 0000020c0a382600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7024 @ 000001e351452600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7029 @ 0000020c0a382200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7029 @ 000001e351455200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7034 @ 0000020c0a383c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7034 @ 000001e351452900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7039 @ 0000020c0a385100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7039 @ 000001e351454a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7044 @ 0000020c0a385800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7044 @ 000001e351453500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7049 @ 0000020c0a385c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7049 @ 000001e351455600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7054 @ 0000020c0a382d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7054 @ 000001e351453600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7059 @ 0000020c0a386800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7059 @ 000001e351456300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7064 @ 0000020c0a386c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7064 @ 000001e351456c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7069 @ 0000020c0a386700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7069 @ 000001e351456d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7074 @ 0000020c0a349000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7074 @ 000001e351416100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7079 @ 0000020c0a348800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7079 @ 000001e351418400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7084 @ 0000020c0a347400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7084 @ 000001e351419c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7089 @ 0000020c0a346200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7089 @ 000001e351419f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7094 @ 0000020c0a347500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7094 @ 000001e351418000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7099 @ 0000020c0a348300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7099 @ 000001e351417e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7104 @ 0000020c0a346300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7104 @ 000001e351417500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7109 @ 0000020c0a346500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7109 @ 000001e351418600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7114 @ 0000020c0a349b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7114 @ 000001e351418900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7119 @ 0000020c0a346800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7119 @ 000001e351418b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7124 @ 0000020c0a349d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7124 @ 000001e351417a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7129 @ 0000020c0a346c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7129 @ 000001e351419a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7134 @ 0000020c0a347900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7134 @ 000001e351416f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7139 @ 0000020c0a34db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7139 @ 000001e35141c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7144 @ 0000020c0a34ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7144 @ 000001e35141b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7149 @ 0000020c0a34a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7149 @ 000001e35141d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7154 @ 0000020c0a34d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7154 @ 000001e35141a400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7159 @ 0000020c0a34aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7159 @ 000001e35141b600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7164 @ 0000020c0a34bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7164 @ 000001e35141a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7169 @ 0000020c0a34d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7169 @ 000001e35141d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7174 @ 0000020c0a34a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7174 @ 000001e35141c900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7179 @ 0000020c0a34d600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7179 @ 000001e35141ce00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7184 @ 0000020c0a34ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7184 @ 000001e35141d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7189 @ 0000020c0a34d000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7189 @ 000001e35141dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7194 @ 0000020c0a34c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7194 @ 000001e35141a800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7199 @ 0000020c9dcbe480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7199 @ 000001e31aa26a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7204 @ 0000020c9dcbe080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7204 @ 000001e31aa26900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7209 @ 0000020c9dcbf580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7209 @ 000001e31aa23d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7214 @ 0000020c9dcbd280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7214 @ 000001e31aa26800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7219 @ 0000020c9dcbca80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7219 @ 000001e31aa24900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7224 @ 0000020c9dcbf880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7224 @ 000001e31aa22f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7229 @ 0000020c9dcbd880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7229 @ 000001e31aa25200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7234 @ 0000020c9dcbda80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7234 @ 000001e31aa23200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7239 @ 0000020c9dcbdc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7239 @ 000001e31aa24700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7244 @ 0000020c9dcbe380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7244 @ 000001e31aa23300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7249 @ 0000020c9dcbc480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7249 @ 000001e31aa26200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7254 @ 0000020c9dcbde80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7254 @ 000001e31aa24200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7259 @ 0000020c9dcbc780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7259 @ 000001e31aa24100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7264 @ 0000020c9dcc3380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7264 @ 000001e31aa28d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7269 @ 0000020c9dcc0980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7269 @ 000001e31aa29a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7274 @ 0000020c9dcc3480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7274 @ 000001e31aa27300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7279 @ 0000020c9dcc3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7279 @ 000001e31aa29800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7284 @ 0000020c9dcc3d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7284 @ 000001e31aa29300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7289 @ 0000020c9dcc3580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7289 @ 000001e31aa27500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7294 @ 0000020c9dcc2380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7294 @ 000001e31aa29100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7299 @ 0000020c9dcc0480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7299 @ 000001e31aa28e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7304 @ 0000020c9dcc0a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7304 @ 000001e31aa28000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7309 @ 0000020c9dcc1b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7309 @ 000001e31aa29200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7314 @ 0000020c9dcc1480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7314 @ 000001e31aa28100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7319 @ 0000020c9dcc2d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7319 @ 000001e31aa29d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7324 @ 0000020c9dcc2280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7324 @ 000001e31aa2a100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7329 @ 0000020c9dcc5e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7329 @ 000001e31aa2c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7334 @ 0000020c9dcc8080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7334 @ 000001e31aa2c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7339 @ 0000020c9dcc4280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7339 @ 000001e31aa2c200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7344 @ 0000020c9dcc4880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7344 @ 000001e31aa2d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7349 @ 0000020c9dcc6980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7349 @ 000001e31aa2d300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7354 @ 0000020c9dcc6a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7354 @ 000001e31aa2ad00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7359 @ 0000020c9dcc7780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7359 @ 000001e31aa2de00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7364 @ 0000020c9dcc4b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7364 @ 000001e31aa2c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7369 @ 0000020c9dcc6280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7369 @ 000001e31aa2e300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7374 @ 0000020c9dcc4f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7374 @ 000001e31aa2c400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7379 @ 0000020c9dcc7b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7379 @ 000001e31aa2d200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7384 @ 0000020c9dcc5380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7384 @ 000001e31aa2e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7389 @ 0000020c9dcc5880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7389 @ 000001e31aa2e800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7394 @ 0000020c9dcca580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7394 @ 000001e31aa30100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7399 @ 0000020c9dcc8680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7399 @ 000001e31aa2f000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7404 @ 0000020c9dcc9e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7404 @ 000001e31aa30f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7409 @ 0000020c9dccab80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7409 @ 000001e31aa2f100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7414 @ 0000020c9dcc8780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7414 @ 000001e31aa32800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7419 @ 0000020c9dcc8980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7419 @ 000001e31aa30e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7424 @ 0000020c9dcc9280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7424 @ 000001e31aa2fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7429 @ 0000020c9dccb680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7429 @ 000001e31aa2ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7434 @ 0000020c9dcca380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7434 @ 000001e31aa31d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7439 @ 0000020c9dccaa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7439 @ 000001e31aa2fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7444 @ 0000020c9dcc9580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7444 @ 000001e31aa30000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7449 @ 0000020c9dccba80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7449 @ 000001e31aa32000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7454 @ 0000020c9dcc8180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7454 @ 000001e31aa2f400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7459 @ 0000020c9dcd0080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7459 @ 000001e31aa36a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7464 @ 0000020c9dccfb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7464 @ 000001e31aa35b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7469 @ 0000020c9dccd280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7469 @ 000001e31aa33000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7474 @ 0000020c9dccfc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7474 @ 000001e31aa33800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7479 @ 0000020c9dccf980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7479 @ 000001e31aa33200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7484 @ 0000020c9dcce480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7484 @ 000001e31aa35700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7489 @ 0000020c9dccc280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7489 @ 000001e31aa33400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7494 @ 0000020c9dccea80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7494 @ 000001e31aa34f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7499 @ 0000020c9dccf680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7499 @ 000001e31aa33700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7504 @ 0000020c9dcccb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7504 @ 000001e31aa34400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7509 @ 0000020c9dccdc80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7509 @ 000001e31aa35600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7514 @ 0000020c9dccde80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7514 @ 000001e31aa36000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7519 @ 0000020c9dcd0180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7519 @ 000001e31aa3ac00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7524 @ 0000020c9dcd2880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7524 @ 000001e31aa39900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7529 @ 0000020c9dcd2780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7529 @ 000001e31aa3a900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7534 @ 0000020c9dcd3e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7534 @ 000001e31aa38b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7539 @ 0000020c9dcd0e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7539 @ 000001e31aa3a200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7544 @ 0000020c9dcd3280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7544 @ 000001e31aa39b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7549 @ 0000020c9dcd3c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7549 @ 000001e31aa37b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7554 @ 0000020c9dcd1380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7554 @ 000001e31aa3a300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7559 @ 0000020c9dcd2b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7559 @ 000001e31aa38f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7564 @ 0000020c9dcd0c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7564 @ 000001e31aa39100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7569 @ 0000020c9dcd0680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7569 @ 000001e31aa38200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7574 @ 0000020c9dcd2480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7574 @ 000001e31aa39500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7579 @ 0000020c9dcd1780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7579 @ 000001e31aa39d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7584 @ 0000020c9dcd5f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7584 @ 000001e31aa3bb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7589 @ 0000020c9dcd6c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7589 @ 000001e31aa3c500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7594 @ 0000020c9dcd8080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7594 @ 000001e31aa3c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7599 @ 0000020c9dcd5480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7599 @ 000001e31aa3ba00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7604 @ 0000020c9dcd6380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7604 @ 000001e31aa3c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7609 @ 0000020c9dcd4280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7609 @ 000001e31aa3dc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7614 @ 0000020c9dcd4380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7614 @ 000001e31aa3e700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7619 @ 0000020c9dcd4480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7619 @ 000001e31aa3b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7624 @ 0000020c9dcd4980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7624 @ 000001e31aa3d800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7629 @ 0000020c9dcd7780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7629 @ 000001e31aa3eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7634 @ 0000020c9dcd5780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7634 @ 000001e31aa3d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7639 @ 0000020c9dcd5880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7639 @ 000001e31aa3dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7644 @ 0000020c9dcd5c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7644 @ 000001e31aa3e600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7649 @ 0000020c9dcd8180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7649 @ 000001e31aa41e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7654 @ 0000020c9dcda680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7654 @ 000001e31aa40700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7659 @ 0000020c9dcd8580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7659 @ 000001e31aa41700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7664 @ 0000020c9dcdac80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7664 @ 000001e31aa40500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7669 @ 0000020c9dcd8b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7669 @ 000001e31aa42b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7674 @ 0000020c9dcdb980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7674 @ 000001e31aa40b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7679 @ 0000020c9dcdb080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7679 @ 000001e31aa3ed00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7684 @ 0000020c9dcd8980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7684 @ 000001e31aa3fd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7689 @ 0000020c9dcdaa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7689 @ 000001e31aa40000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7694 @ 0000020c9dcd9780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7694 @ 000001e31aa41200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7699 @ 0000020c9dcd9280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7699 @ 000001e31aa41300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7704 @ 0000020c9dcd9380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7704 @ 000001e31aa41c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7709 @ 0000020c9dcd9f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7709 @ 000001e31aa42300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7714 @ 0000020c9dcde680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7714 @ 000001e31aa46800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7719 @ 0000020c9dcdf980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7719 @ 000001e31aa44900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7724 @ 0000020c9dcdf180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7724 @ 000001e31aa45100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7729 @ 0000020c9dcdec80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7729 @ 000001e31aa44100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7734 @ 0000020c9dcdeb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7734 @ 000001e31aa46200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7739 @ 0000020c9dcdfa80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7739 @ 000001e31aa45b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7744 @ 0000020c9dcdc280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7744 @ 000001e31aa45900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7749 @ 0000020c9dcdf780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7749 @ 000001e31aa43c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7754 @ 0000020c9dcdfd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7754 @ 000001e31aa43d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7759 @ 0000020c9dcdc880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7759 @ 000001e31aa43500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7764 @ 0000020c9dcdd180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7764 @ 000001e31aa43600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7769 @ 0000020c9dcddb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7769 @ 000001e31aa43f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7774 @ 0000020c9dcde180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7774 @ 000001e31aa45500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7779 @ 0000020c9dce3380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7779 @ 000001e31aa4a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7784 @ 0000020c9dce0d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7784 @ 000001e31aa4a600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7789 @ 0000020c9dce3b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7789 @ 000001e31aa49c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7794 @ 0000020c9dce1b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7794 @ 000001e31aa48700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7799 @ 0000020c9dce1180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7799 @ 000001e31aa48800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7804 @ 0000020c9dce2c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7804 @ 000001e31aa4ab00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7809 @ 0000020c9dce1780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7809 @ 000001e31aa48e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7814 @ 0000020c9dce3080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7814 @ 000001e31aa47000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7819 @ 0000020c9dce1280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7819 @ 000001e31aa47b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7824 @ 0000020c9dce0380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7824 @ 000001e31aa49a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7829 @ 0000020c9dce1380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7829 @ 000001e31aa48b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7834 @ 0000020c9dce2580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7834 @ 000001e31aa48f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7839 @ 0000020c9dce6a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7839 @ 000001e31aa4c300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7844 @ 0000020c9dce4e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7844 @ 000001e31aa4cd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7849 @ 0000020c9dce7a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7849 @ 000001e31aa4ca00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7854 @ 0000020c9dce8080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7854 @ 000001e31aa4c000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7859 @ 0000020c9dce5b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7859 @ 000001e31aa4c800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7864 @ 0000020c9dce6b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7864 @ 000001e31aa4c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7869 @ 0000020c9dce5c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7869 @ 000001e31aa4d500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7874 @ 0000020c9dce5f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7874 @ 000001e31aa4b100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7879 @ 0000020c9dce6e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7879 @ 000001e31aa4b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7884 @ 0000020c9dce5580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7884 @ 000001e31aa4da00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7889 @ 0000020c9dce5080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7889 @ 000001e31aa4e400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7894 @ 0000020c9dce5780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7894 @ 000001e31aa4dd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7899 @ 0000020c9dce7880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7899 @ 000001e31aa4e900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7904 @ 0000020c9dcea080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7904 @ 000001e31aa52a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7909 @ 0000020c9dce8f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7909 @ 000001e31aa4fc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7914 @ 0000020c9dcead80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7914 @ 000001e31aa50200] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7919 @ 0000020c9dcea280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7919 @ 000001e31aa4f600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7924 @ 0000020c9dcea680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7924 @ 000001e31aa50d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7929 @ 0000020c9dce8380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7929 @ 000001e31aa50800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7934 @ 0000020c9dcea380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7934 @ 000001e31aa50300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7939 @ 0000020c9dceac80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7939 @ 000001e31aa4f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7944 @ 0000020c9dcebe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7944 @ 000001e31aa4f800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7949 @ 0000020c9dceb880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7949 @ 000001e31aa51f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7954 @ 0000020c9dce8180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7954 @ 000001e31aa51300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7959 @ 0000020c9dce8780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7959 @ 000001e31aa4ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7964 @ 0000020c9dce9680] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7964 @ 000001e31aa52000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7969 @ 0000020c9dceff80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7969 @ 000001e31aa54b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7974 @ 0000020c9dcefe80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7974 @ 000001e31aa56100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7979 @ 0000020c9dcee780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7979 @ 000001e31aa54500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7984 @ 0000020c9dcec580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7984 @ 000001e31aa53000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7989 @ 0000020c9dceeb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7989 @ 000001e31aa53100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7994 @ 0000020c9dced480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7994 @ 000001e31aa56500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_7999 @ 0000020c9dced980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_7999 @ 000001e31aa55500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8004 @ 0000020c9dceef80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8004 @ 000001e31aa56600] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8009 @ 0000020c9dceda80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8009 @ 000001e31aa53b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8014 @ 0000020c9dcee280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8014 @ 000001e31aa54000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8019 @ 0000020c9dcefb80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8019 @ 000001e31aa53c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8024 @ 0000020c9dcef180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8024 @ 000001e31aa55300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8029 @ 0000020c9dcedd80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8029 @ 000001e31aa55f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8034 @ 0000020c9dcf3e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8034 @ 000001e31aa58300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8039 @ 0000020c9dcf1480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8039 @ 000001e31aa56f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8044 @ 0000020c9dcf3880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8044 @ 000001e31aa58400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8049 @ 0000020c9dcf3980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8049 @ 000001e31aa59b00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8054 @ 0000020c9dcf0980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8054 @ 000001e31aa5aa00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8059 @ 0000020c9dcf2f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8059 @ 000001e31aa59500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8064 @ 0000020c9dcf3b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8064 @ 000001e31aa57d00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8069 @ 0000020c9dcf1180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8069 @ 000001e31aa57a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8074 @ 0000020c9dcf3a80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8074 @ 000001e31aa57500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8079 @ 0000020c9dcf0380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8079 @ 000001e31aa59100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8084 @ 0000020c9dcf1d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8084 @ 000001e31aa59300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8089 @ 0000020c9dcf0780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8089 @ 000001e31aa59a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8094 @ 0000020c9dcf2580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8094 @ 000001e31aa5a500] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8099 @ 0000020c9dcf4580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8099 @ 000001e31aa1bc00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8104 @ 0000020c9dcf4c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8104 @ 000001e31aa1c100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8109 @ 0000020c9dcb5980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8109 @ 000001e31aa1b000] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8114 @ 0000020c9dcb6180] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8114 @ 000001e31aa1cf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8119 @ 0000020c9dcb6b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8119 @ 000001e31aa1db00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8124 @ 0000020c9dcb5d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8124 @ 000001e31aa1d100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8129 @ 0000020c9dcb8080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8129 @ 000001e31aa1bd00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8134 @ 0000020c9dcb4c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8134 @ 000001e31aa1e100] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8139 @ 0000020c9dcb4380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8139 @ 000001e31aa1d900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8144 @ 0000020c9dcb4280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8144 @ 000001e31aa1bf00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8149 @ 0000020c9dcb6d80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8149 @ 000001e31aa1b400] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8154 @ 0000020c9dcb4b80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8154 @ 000001e31aa1eb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8159 @ 0000020c9dcb4e80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8159 @ 000001e31aa1b700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8164 @ 0000020c9dcb7280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8164 @ 000001e31aa20a00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8169 @ 0000020c9dcb7880] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8169 @ 000001e31aa22c00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8174 @ 0000020c9dcb9480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8174 @ 000001e31aa1fb00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8179 @ 0000020c9dcba380] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8179 @ 000001e31aa1ff00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8184 @ 0000020c9dcbae80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8184 @ 000001e31aa20900] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8189 @ 0000020c9dcb9980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8189 @ 000001e31aa20e00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8194 @ 0000020c9dcba280] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8194 @ 000001e31aa20f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8199 @ 0000020c9dcbab80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8199 @ 000001e31aa1f700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8204 @ 0000020c9dcb8980] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8204 @ 000001e31aa22300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8209 @ 0000020c9dcba080] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8209 @ 000001e31aa22700] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8214 @ 0000020c9dcb8f80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8214 @ 000001e31aa22800] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8219 @ 0000020c9dcb9580] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8219 @ 000001e31aa21f00] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8224 @ 0000020c9dcbb480] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8224 @ 000001e31aa1f300] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8229 @ 0000020c9dcb8c80] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8229 @ 000001e39172f640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8234 @ 0000020c9dcb8780] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8234 @ 000001e39172ff40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8239 @ 0000020c12fdf140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8239 @ 000001e39172c440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8244 @ 0000020c12fdff40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8244 @ 000001e39172d040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8249 @ 0000020c12fdf540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8249 @ 000001e39172d140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8254 @ 0000020c12fde040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8254 @ 000001e39172d240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8259 @ 0000020c12fdfd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8259 @ 000001e39172da40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8264 @ 0000020c12fde940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8264 @ 000001e39172e540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8269 @ 0000020c12fdf340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8269 @ 000001e39172e840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8274 @ 0000020c12fde340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8274 @ 000001e39172d440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8279 @ 0000020c12fde640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8279 @ 000001e39172fc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8284 @ 0000020c12fdf040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8284 @ 000001e39172f040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8289 @ 0000020c12fdf640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8289 @ 000001e39172ca40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8294 @ 0000020c12fdc540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8294 @ 000001e391733c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8299 @ 0000020c12fdcb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8299 @ 000001e391730d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8304 @ 0000020c12fe2d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8304 @ 000001e391732340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8309 @ 0000020c12fe3140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8309 @ 000001e391731c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8314 @ 0000020c12fe0b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8314 @ 000001e391732040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8319 @ 0000020c12fe3b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8319 @ 000001e391733e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8324 @ 0000020c12fe1540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8324 @ 000001e391732740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8329 @ 0000020c12fe2840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8329 @ 000001e391730f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8334 @ 0000020c12fe1940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8334 @ 000001e391733640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8339 @ 0000020c12fe2340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8339 @ 000001e391730840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8344 @ 0000020c12fe0340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8344 @ 000001e391732f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8349 @ 0000020c12fe0f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8349 @ 000001e391731240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8354 @ 0000020c12fe3c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8354 @ 000001e391735e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8359 @ 0000020c12fe0940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8359 @ 000001e391737640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8364 @ 0000020c12fe1f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8364 @ 000001e391736840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8369 @ 0000020c12fe5940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8369 @ 000001e391737f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8374 @ 0000020c12fe5140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8374 @ 000001e391737c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8379 @ 0000020c12fe4c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8379 @ 000001e391737940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8384 @ 0000020c12fe7140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8384 @ 000001e391738340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8389 @ 0000020c12fe5640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8389 @ 000001e391737540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8394 @ 0000020c12fe5b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8394 @ 000001e391737d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8399 @ 0000020c12fe7e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8399 @ 000001e391734540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8404 @ 0000020c12fe4f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8404 @ 000001e391737140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8409 @ 0000020c12fe6840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8409 @ 000001e391734f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8414 @ 0000020c12fe6240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8414 @ 000001e391737440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8419 @ 0000020c12fe6940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8419 @ 000001e39173b040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8424 @ 0000020c12fe7440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8424 @ 000001e391739c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8429 @ 0000020c12feb340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8429 @ 000001e391739340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8434 @ 0000020c12fe9040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8434 @ 000001e391738a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8439 @ 0000020c12fea040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8439 @ 000001e39173af40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8444 @ 0000020c12feb440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8444 @ 000001e391739540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8449 @ 0000020c12feaa40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8449 @ 000001e391739d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8454 @ 0000020c12feab40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8454 @ 000001e391738b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8459 @ 0000020c12feae40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8459 @ 000001e391739f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8464 @ 0000020c12feba40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8464 @ 000001e391738f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8469 @ 0000020c12fea440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8469 @ 000001e39173ac40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8474 @ 0000020c12fe9740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8474 @ 000001e391739640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8479 @ 0000020c12fe9c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8479 @ 000001e39173a340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8484 @ 0000020c12fea840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8484 @ 000001e39173d140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8489 @ 0000020c12fe9d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8489 @ 000001e39173f340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8494 @ 0000020c12fece40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8494 @ 000001e39173c840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8499 @ 0000020c12fec640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8499 @ 000001e39173e540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8504 @ 0000020c12fec940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8504 @ 000001e39173fc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8509 @ 0000020c12fec140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8509 @ 000001e39173ef40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8514 @ 0000020c12fed940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8514 @ 000001e39173f240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8519 @ 0000020c12fef240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8519 @ 000001e39173f740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8524 @ 0000020c12fec440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8524 @ 000001e39173f140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8529 @ 0000020c12fef440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8529 @ 000001e39173ec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8534 @ 0000020c12feda40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8534 @ 000001e39173fb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8539 @ 0000020c12fee440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8539 @ 000001e39173c440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8544 @ 0000020c12fedb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8544 @ 000001e39173ce40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8549 @ 0000020c12fedd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8549 @ 000001e391740940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8554 @ 0000020c12feec40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8554 @ 000001e391743140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8559 @ 0000020c12ff2840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8559 @ 000001e391743940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8564 @ 0000020c12ff2040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8564 @ 000001e391740c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8569 @ 0000020c12ff0740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8569 @ 000001e391742140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8574 @ 0000020c12ff1940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8574 @ 000001e391743a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8579 @ 0000020c12ff2340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8579 @ 000001e391743240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8584 @ 0000020c12ff1a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8584 @ 000001e391744240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8589 @ 0000020c12ff1040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8589 @ 000001e391741040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8594 @ 0000020c12ff1b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8594 @ 000001e391742b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8599 @ 0000020c12ff3a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8599 @ 000001e391743540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8604 @ 0000020c12ff1e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8604 @ 000001e391740840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8609 @ 0000020c12ff3b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8609 @ 000001e391741f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8614 @ 0000020c12ff3c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8614 @ 000001e391744f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8619 @ 0000020c12ff0a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8619 @ 000001e391746640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8624 @ 0000020c12ff6c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8624 @ 000001e391747c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8629 @ 0000020c12ff6740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8629 @ 000001e391748040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8634 @ 0000020c12ff6940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8634 @ 000001e391745940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8639 @ 0000020c12ff5240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8639 @ 000001e391746e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8644 @ 0000020c12ff5140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8644 @ 000001e391746c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8649 @ 0000020c12ff5340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8649 @ 000001e391744a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8654 @ 0000020c12ff5b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8654 @ 000001e391746440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8659 @ 0000020c12ff4340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8659 @ 000001e391746840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8664 @ 0000020c12ff7b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8664 @ 000001e391747640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8669 @ 0000020c12ff5d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8669 @ 000001e391747b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8674 @ 0000020c12ff5f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8674 @ 000001e391748f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8679 @ 0000020c12ff6040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8679 @ 000001e39174bd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8684 @ 0000020c12ff6f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8684 @ 000001e391748d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8689 @ 0000020c12ffbe40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8689 @ 000001e391749040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8694 @ 0000020c12ffb440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8694 @ 000001e39174b240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8699 @ 0000020c12ffaa40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8699 @ 000001e39174a740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8704 @ 0000020c12ff9040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8704 @ 000001e391749440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8709 @ 0000020c12ffab40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8709 @ 000001e39174b340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8714 @ 0000020c12ff9740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8714 @ 000001e39174c040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8719 @ 0000020c12ff9a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8719 @ 000001e391749f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8724 @ 0000020c12ff8340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8724 @ 000001e39174b940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8729 @ 0000020c12ffb540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8729 @ 000001e391749240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8734 @ 0000020c12ff9240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8734 @ 000001e39174bb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8739 @ 0000020c12ff8840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8739 @ 000001e39174d540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8744 @ 0000020c12ff8d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8744 @ 000001e39174da40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8749 @ 0000020c12ffe540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8749 @ 000001e39174d640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8754 @ 0000020c12ffd340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8754 @ 000001e39174db40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8759 @ 0000020c12ffdc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8759 @ 000001e39174f740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8764 @ 0000020c12fff140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8764 @ 000001e39174e040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8769 @ 0000020c12ffe640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8769 @ 000001e39174f440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8774 @ 0000020c12ffde40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8774 @ 000001e39174eb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8779 @ 0000020c12ffd540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8779 @ 000001e39174cc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8784 @ 0000020c12fff540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8784 @ 000001e39174ee40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8789 @ 0000020c12ffef40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8789 @ 000001e39174f340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8794 @ 0000020c12ffcb40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8794 @ 000001e39174f840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8799 @ 0000020c12fffc40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8799 @ 000001e39174ff40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8804 @ 0000020c12ffc240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8804 @ 000001e391753e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8809 @ 0000020c12ffd440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8809 @ 000001e391752e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8814 @ 0000020c13000540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8814 @ 000001e391753f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8819 @ 0000020c13001840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8819 @ 000001e391752c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8824 @ 0000020c13002c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8824 @ 000001e391750940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8829 @ 0000020c13002a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8829 @ 000001e391753940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8834 @ 0000020c13001a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8834 @ 000001e391751440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8839 @ 0000020c13001c40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8839 @ 000001e391750a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8844 @ 0000020c13002840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8844 @ 000001e391750e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8849 @ 0000020c13002140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8849 @ 000001e391751e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8854 @ 0000020c13000840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8854 @ 000001e391752240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8859 @ 0000020c13003f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8859 @ 000001e391752440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8864 @ 0000020c13003940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8864 @ 000001e391752a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8869 @ 0000020c13000240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8869 @ 000001e391757f40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8874 @ 0000020c13000d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8874 @ 000001e391754d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8879 @ 0000020c13004740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8879 @ 000001e391757d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8884 @ 0000020c13007240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8884 @ 000001e391754e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8889 @ 0000020c13005840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8889 @ 000001e391756440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8894 @ 0000020c13004e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8894 @ 000001e391755140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8899 @ 0000020c13006240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8899 @ 000001e391757140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8904 @ 0000020c13006340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8904 @ 000001e391757a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8909 @ 0000020c13007b40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8909 @ 000001e391756140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8914 @ 0000020c13007940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8914 @ 000001e391754440] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8919 @ 0000020c13005240] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8919 @ 000001e391755640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8924 @ 0000020c13006d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8924 @ 000001e391754840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8929 @ 0000020c13007140] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8929 @ 000001e391756640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8934 @ 0000020c13004a40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8934 @ 000001e391758840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8939 @ 0000020c13004640] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8939 @ 000001e39175a540] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8944 @ 0000020c13009840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8944 @ 000001e39175b340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8949 @ 0000020c13008e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8949 @ 000001e39175a840] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8954 @ 0000020c13009e40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8954 @ 000001e39175a940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8959 @ 0000020c13009340] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8959 @ 000001e391759d40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8964 @ 0000020c1300ad40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8964 @ 000001e39175bd40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8969 @ 0000020c13009940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8969 @ 000001e39175ba40] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8974 @ 0000020c1300a940] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_drawtext_8974 @ 000001e39175a040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
 Fontconfig error: Cannot load default config file: No such file: (null)
-[Parsed_drawtext_8979 @ 0000020c1300a040] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
-[Parsed_crop_10 @ 0000020c0694e800] Invalid too big or non positive size for width '2836' or height '2160'
-[Parsed_crop_10 @ 0000020c0694e800] Failed to configure input pad on Parsed_crop_10
+[Parsed_drawtext_8979 @ 000001e391758740] Using "C:/WINDOWS/fonts\CascadiaCode.ttf"
+[Parsed_crop_10 @ 000001e34da1fc00] Invalid too big or non positive size for width '2836' or height '2160'
+[Parsed_crop_10 @ 000001e34da1fc00] Failed to configure input pad on Parsed_crop_10
 Error reinitializing filters!
 Failed to inject frame into filter network: Invalid argument
 Error while processing the decoded data for stream #0:0
 Conversion failed!
-FFmpeg error: Command '['ffmpeg', '-i', 'mickey_cut.mp4', '-filter_complex_script', 'C:\\Users\\liyir\\AppData\\Local\\Temp\\tmpmyiyfy17.txt', '-map', '[v1795]', '-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '23', '-r', '30', '-y', 'mickey_demo_ffmpeg.mp4']' returned non-zero exit status 1.
+
 Error processing video
 
 Process finished with exit code 0
