@@ -1,13 +1,10 @@
-#!/usr/bin/env python3
-
 import cv2
-import os, random, time
+import os
 import numpy as np
-from multiprocessing import Process
-import yolox_stream_report_detections as report
 from hailo_platform import (HEF, Device, VDevice, HailoStreamInterface, InferVStreams, ConfigureParams,
                             InputVStreamParams, OutputVStreamParams, InputVStreams, OutputVStreams, FormatType)
 import yolo
+import yolox_stream_report_detections as report
 
 # yolox_s_leaky input resolution
 INPUT_RES_H = 640
@@ -21,6 +18,11 @@ video_path = os.path.join(video_dir, 'mickey.mp4')  # Use mickey.mp4 as the inpu
 hef = HEF(hef_path)
 devices = Device.scan()
 
+# Check if the video file exists
+if not os.path.exists(video_path):
+    print(f"Video file does not exist: {video_path}")
+    exit()
+
 with VDevice(device_ids=devices) as target:
     configure_params = ConfigureParams.create_from_hef(hef, interface=HailoStreamInterface.PCIe)
     network_group = target.configure(hef, configure_params)[0]
@@ -32,28 +34,28 @@ with VDevice(device_ids=devices) as target:
     height, width, channels = hef.get_input_vstream_infos()[0].shape
 
     cap = cv2.VideoCapture(video_path)  # Open the video file
-    display_width = 1920  # 可以根据您的屏幕调整
-    display_height = 1080
+    display_width = 1280  # Adjust based on your screen
+    display_height = 720
 
-    # check if the video was opened successfully
+    # Check if the video was opened successfully
     if not cap.isOpened():
-        print("Could not open video")
+        print(f"Could not open video: {video_path}")
         exit()
 
     while True:
-        # read a frame from the video source
+        # Read a frame from the video source
         ret, frame = cap.read()
+
+        # Check if the frame was successfully read
+        if not ret:
+            print("Video has ended or could not read frame")
+            break
 
         # Get height and width from capture
         orig_h, orig_w = frame.shape[:2]
         display_frame = cv2.resize(frame, (display_width, display_height))
 
-        # check if the frame was successfully read
-        if not ret:
-            print("Could not read frame")
-            break
-
-        # resize image for yolox_s_leaky input resolution and infer it
+        # Resize image for yolox_s_leaky input resolution and infer it
         resized_img = cv2.resize(frame, (INPUT_RES_H, INPUT_RES_W), interpolation=cv2.INTER_AREA)
         with InferVStreams(network_group, input_vstreams_params, output_vstreams_params) as infer_pipeline:
             input_data = {input_vstream_info.name: np.expand_dims(np.asarray(resized_img), axis=0).astype(np.float32)}
@@ -65,10 +67,10 @@ with VDevice(device_ids=devices) as target:
         for key, value in infer_results.items():
             print(f"Key: {key}, Shape: {value.shape}")
 
-        # create dictionary that returns layer name from tensor shape (required for postprocessing)
+        # Create dictionary that returns layer name from tensor shape (required for postprocessing)
         layer_from_shape = {infer_results[key].shape: key for key in infer_results.keys()}
 
-        # postprocessing info for constructor as recommended in hailo_model_zoo/cfg/base/yolox.yaml
+        # Postprocessing info for constructor as recommended in hailo_model_zoo/cfg/base/yolox.yaml
         anchors = {"strides": [32, 16, 8], "sizes": [[1, 1], [1, 1], [1, 1]]}
         yolox_post_proc = yolo.YoloPostProc(
             img_dims=(INPUT_RES_H, INPUT_RES_W),
@@ -87,7 +89,6 @@ with VDevice(device_ids=devices) as target:
             infer_results[layer_from_shape[(1, 40, 40, 21)]],
             infer_results[layer_from_shape[(1, 20, 20, 21)]],
             infer_results[layer_from_shape[(1, 80, 80, 21)]],
-
         ]
         hailo_preds = yolox_post_proc.yolo_postprocessing(endnodes)
         num_detections = int(hailo_preds['num_detections'])
@@ -100,13 +101,13 @@ with VDevice(device_ids=devices) as target:
         display_frame = report.report_detections(preds_dict, display_frame, scale_factor_x=display_width/orig_w, scale_factor_y=display_height/orig_h)
         cv2.imshow('frame', display_frame)
 
-        # wait for a key event
+        # Wait for a key event
         key = cv2.waitKey(1)
 
-        # exit the loop if 'q' is pressed
+        # Exit the loop if 'q' is pressed
         if key == ord('q'):
             break
 
-# release the video source and destroy all windows
+# Release the video source and destroy all windows
 cap.release()
 cv2.destroyAllWindows()
