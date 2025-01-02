@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+
 def get_label(class_id):
     with open('yolox_s_labels.json','r') as f:
         labels = eval(f.read())         
