@@ -54,11 +54,26 @@ with VDevice(device_ids=devices) as target:
         # Get height and width from capture
         orig_h, orig_w = frame.shape[:2]
         display_frame = cv2.resize(frame, (display_width, display_height))
+    
+        # 计算等比例缩放的大小
+        orig_h, orig_w = frame.shape[:2]
+        ratio = min(INPUT_RES_H / orig_h, INPUT_RES_W / orig_w)
+        new_h, new_w = int(orig_h * ratio), int(orig_w * ratio)
 
-        # Resize image for yolox_s_leaky input resolution and infer it
-        resized_img = cv2.resize(frame, (INPUT_RES_H, INPUT_RES_W), interpolation=cv2.INTER_AREA)
+        # 执行等比例缩放
+        resized_img = cv2.resize(frame, (new_w, new_h), interpolation=cv2.INTER_AREA)
+        # 创建白色画布
+        canvas = np.ones((INPUT_RES_H, INPUT_RES_W, 3), dtype=np.float32) * 255
+
+        # 计算边界填充
+        pad_h = (INPUT_RES_H - new_h) // 2
+        pad_w = (INPUT_RES_W - new_w) // 2
+
+        # 将缩放后的图像放在画布中央
+        canvas[pad_h:pad_h + new_h, pad_w:pad_w + new_w] = resized_img
+    
         with InferVStreams(network_group, input_vstreams_params, output_vstreams_params) as infer_pipeline:
-            input_data = {input_vstream_info.name: np.expand_dims(np.asarray(resized_img), axis=0).astype(np.float32)}
+            input_data = {input_vstream_info.name: np.expand_dims(canvas, axis=0).astype(np.float32)}
             with network_group.activate(network_group_params):
                 infer_results = infer_pipeline.infer(input_data)
 
