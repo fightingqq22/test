@@ -27,11 +27,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "-n", "--net", 
         help="Path for the network in HEF format.",
-        default="yolov7.hef"
+        default="mickey.hef"
     )
     parser.add_argument(
         "-i", "--input", 
-        default="0",
+        default="mickey_1080P.mp4",
         help="Path to the input video file or camera index (default: 0 for webcam)"
     )
     parser.add_argument(
@@ -83,7 +83,6 @@ def enqueue_frames(
             
         # Store original frame
         orig_frames_batch.append(frame)
-        
         # Process frame for model input
         processed_frame = utils.preprocess(frame, width, height)
         frames_batch.append(processed_frame)
@@ -109,8 +108,11 @@ def process_output(output_queue: queue.Queue, width: int, height: int, utils: Ob
 
         frame, infer_results = result
         
+
         # Convert RGB back to BGR for visualization
-        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+        #frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+
+        #cv2.imshow('Object Detection', frame)
 
         # Deals with the expanded results from hailort versions < 4.19.0
         if len(infer_results) == 1:
@@ -128,7 +130,7 @@ def process_output(output_queue: queue.Queue, width: int, height: int, utils: Ob
         visualized_frame = utils.visualize_frame(detections, frame, width, height)
         
         # Display the frame
-        cv2.imshow('Object Detection', visualized_frame)
+        cv2.imshow('Object Detection111', visualized_frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
