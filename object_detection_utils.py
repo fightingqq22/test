@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import cv2
+from tensorflow.python.ops.init_ops_v2 import normal
 
 
 def generate_color(class_id: int) -> tuple:
@@ -12,7 +13,7 @@ def generate_color(class_id: int) -> tuple:
 
 
 class ObjectDetectionUtils:
-    def __init__(self, labels_path: str, padding_color: tuple = (114, 114, 114)):
+    def __init__(self, labels_path: str, padding_color: tuple = (255, 255, 255)):
         """
         Initialize the ObjectDetectionUtils class.
         """
@@ -33,13 +34,15 @@ class ObjectDetectionUtils:
         """
         # Get frame dimensions
         img_h, img_w = frame.shape[:2]
-        
+        print(f"img_h: {img_h}, img_w: {img_w}")
+        print(f"model_h: {model_h}, model_w: {model_w}")
+
         # Calculate scaling factor
-        scale = min(model_w / img_w, model_h / img_h)
+        scale = min(model_w / img_w , model_h / img_h)
         new_img_w, new_img_h = int(img_w * scale), int(img_h * scale)
         
         # Resize frame
-        resized_frame = cv2.resize(frame, (new_img_w, new_img_h), interpolation=cv2.INTER_LINEAR)
+        resized_frame = cv2.resize(frame, (new_img_w, new_img_h))
         
         # Create padding
         padded_frame = np.full((model_h, model_w, 3), self.padding_color, dtype=np.uint8)
@@ -53,6 +56,7 @@ class ObjectDetectionUtils:
         
         # Convert BGR to RGB
         rgb_frame = cv2.cvtColor(padded_frame, cv2.COLOR_BGR2RGB)
+        #normalized_img = rgb_frame.astype(np.float32) / 255.0
         
         return rgb_frame
 
@@ -71,7 +75,7 @@ class ObjectDetectionUtils:
         cv2.rectangle(frame, 
                      (xmin, ymin - 25), 
                      (xmin + label_size[0], ymin),
-                     color, 
+                     (0, 255, 0),
                      -1)  # Filled rectangle
         
         # Add label text (in white)
@@ -80,7 +84,7 @@ class ObjectDetectionUtils:
                     (xmin, ymin - 5),
                     cv2.FONT_HERSHEY_SIMPLEX, 
                     0.6, 
-                    (255, 255, 255), 
+                    (0, 255, 0),
                     2)
 
     def visualize_frame(self, detections: dict, frame: np.ndarray, width: int, height: int, min_score: float = 0.45) -> np.ndarray:
@@ -135,32 +139,32 @@ class ObjectDetectionUtils:
     def extract_detections(self, input_data: dict, threshold: float = 0.5) -> dict:
         boxes, scores, classes = [], [], []
         num_detections = 0
-        
+
         try:
             # Debug print
-            print("Input data structure:", {k: v.shape if hasattr(v, 'shape') else len(v) for k, v in input_data.items()})
-            
+            #print("Input data structure:", {k: v.shape if hasattr(v, 'shape') else len(v) for k, v in input_data.items()})
+            print("=============================")
+            print(f"input_data.items(): {input_data.items()}")
+
             for layer_name, detections in input_data.items():
-                if len(detections) == 0:
-                    continue
-                    
-                for det in detections:
-                    # Ensure detection is properly formatted
-                    if len(det) >= 5:  # Must have at least 4 coordinates + 1 score
-                        score = det[4]
-                        if score >= threshold:
-                            boxes.append(det[:4])
-                            scores.append(score)
-                            classes.append(0)  # Assuming single class for now
-                            num_detections += 1
-            
+                print(f"layer_name: {layer_name}")
+                # 解析检测结果
+                for detection in detections.reshape(-1, detections.shape[-1]):  # 展平检测结果
+                    print(f"detection:{detection}")
+                    score = detection[4]  # 置信度
+                    if score >= threshold:  # 过滤低于阈值的检测结果
+                        boxes.append(detection[:4])  # 边界框坐标
+                        scores.append(score)  # 置信度
+                        classes.append(0)  # 假设只有一个类别
+                        num_detections += 1
+
             # Debug print
             print(f"Extracted {num_detections} detections above threshold {threshold}")
-            
+
         except Exception as e:
             print(f"Error in extract_detections: {str(e)}")
             return {'detection_boxes': [], 'detection_classes': [], 'detection_scores': [], 'num_detections': 0}
-            
+
         return {
             'detection_boxes': boxes,
             'detection_classes': classes,
