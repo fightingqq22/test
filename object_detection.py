@@ -3,17 +3,18 @@
 import argparse
 import os
 import sys
-import cv2
+from pathlib import Path
 import numpy as np
 from loguru import logger
 import queue
 import threading
+from PIL import Image
 from typing import List
 from object_detection_utils import ObjectDetectionUtils
 
 # Add the parent directory to the system path to access utils module
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from utils import HailoAsyncInference, validate_images, divide_list_to_batches
+from utils import HailoAsyncInference, load_input_images, validate_images, divide_list_to_batches
 
 
 def parse_args() -> argparse.Namespace:
@@ -23,23 +24,23 @@ def parse_args() -> argparse.Namespace:
     Returns:
         argparse.Namespace: Parsed arguments.
     """
-    parser = argparse.ArgumentParser(description="Video Detection Example")
+    parser = argparse.ArgumentParser(description="Detection Example")
     parser.add_argument(
         "-n", "--net", 
         help="Path for the network in HEF format.",
-        default="mickey.hef"
+        default="yolov7.hef"
     )
     parser.add_argument(
         "-i", "--input", 
-        default="mickey_1080P.mp4",
-        help="Path to the input video file or camera index (default: 0 for webcam)"
+        default="zidane.jpg",
+        help="Path to the input - either an image or a folder of images."
     )
     parser.add_argument(
         "-b", "--batch_size", 
         default=1,
         type=int,
         required=False,
-        help="Batch size for inference"
+        help="Number of images in one batch"
     )
     parser.add_argument(
         "-l", "--labels", 
@@ -52,18 +53,16 @@ def parse_args() -> argparse.Namespace:
     # Validate paths
     if not os.path.exists(args.net):
         raise FileNotFoundError(f"Network file not found: {args.net}")
+    if not os.path.exists(args.input):
+        raise FileNotFoundError(f"Input path not found: {args.input}")
     if not os.path.exists(args.labels):
         raise FileNotFoundError(f"Labels file not found: {args.labels}")
-    if args.input.isdigit():
-        args.input = int(args.input)
-    elif not os.path.exists(args.input):
-        raise FileNotFoundError(f"Input video file not found: {args.input}")
 
     return args
 
 
-def enqueue_frames(
-    cap: cv2.VideoCapture,
+def enqueue_images(
+    images: List[Image.Image],
     batch_size: int,
     input_queue: queue.Queue,
     width: int,
@@ -71,81 +70,79 @@ def enqueue_frames(
     utils: ObjectDetectionUtils
 ) -> None:
     """
-    Preprocess and enqueue video frames.
+    Preprocess and enqueue images into the input queue as they are ready.
+
+    Args:
+        images (List[Image.Image]): List of PIL.Image.Image objects.
+        input_queue (queue.Queue): Queue for input images.
+        width (int): Model input width.
+        height (int): Model input height.
+        utils (ObjectDetectionUtils): Utility class for object detection preprocessing.
     """
-    frames_batch = []
-    orig_frames_batch = []
-    
-    while cap.isOpened():
-        ret, frame = cap.read()
-        if not ret:
-            break
-            
-        # Store original frame
-        orig_frames_batch.append(frame)
-        # Process frame for model input
-        processed_frame = utils.preprocess(frame, width, height)
-        frames_batch.append(processed_frame)
+    for batch in divide_list_to_batches(images, batch_size):
+        processed_batch = []
+        batch_array = []
 
-        if len(frames_batch) == batch_size:
-            # Put both original and processed frames in queue
-            input_queue.put((orig_frames_batch, frames_batch))
-            frames_batch = []
-            orig_frames_batch = []
+        for image in batch:
+            processed_image = utils.preprocess(image, width, height)
+            processed_batch.append(processed_image)
+            batch_array.append(np.array(processed_image))
 
-    # Handle remaining frames
-    if frames_batch:
-        input_queue.put((orig_frames_batch, frames_batch))
+        input_queue.put(processed_batch)
 
-    input_queue.put(None)  # Signal end of input
+    input_queue.put(None)  # Add sentinel value to signal end of input
 
 
-def process_output(output_queue: queue.Queue, width: int, height: int, utils: ObjectDetectionUtils) -> None:
+def process_output(
+    output_queue: queue.Queue,
+    output_path: Path,
+    width: int,
+    height: int,
+    utils: ObjectDetectionUtils
+) -> None:
+    """
+    Process and visualize the output results.
+
+    Args:
+        output_queue (queue.Queue): Queue for output results.
+        output_path (Path): Path to save the output images.
+        width (int): Image width.
+        height (int): Image height.
+        utils (ObjectDetectionUtils): Utility class for object detection visualization.
+    """
+    image_id = 0
     while True:
         result = output_queue.get()
         if result is None:
-            break
+            break  # Exit the loop if sentinel value is received
 
-        frame, infer_results = result
-        
-
-        # Convert RGB back to BGR for visualization
-        #frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-
-        #cv2.imshow('Object Detection', frame)
-
-        # Deals with the expanded results from hailort versions < 4.19.0
-        if len(infer_results) == 1:
-            infer_results = infer_results[0]
-            
-        # Print the detection results for debugging
-        print("Infer results:", infer_results)
-        
+        processed_image, infer_results = result
         detections = utils.extract_detections(infer_results)
-        
-        # Print extracted detections for debugging
-        print("Extracted detections:", detections)
-        
-        # Visualize the frame
-        visualized_frame = utils.visualize_frame(detections, frame, width, height)
-        
-        # Display the frame
-        cv2.imshow('Object Detection111', visualized_frame)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        utils.visualize(
+            detections, processed_image, image_id,
+            output_path, width, height
+        )
+        image_id += 1
 
-    cv2.destroyAllWindows()
-    output_queue.task_done()
+    output_queue.task_done()  # Indicate that processing is complete
 
 
 def infer(
-    cap: cv2.VideoCapture,
+    images: List[Image.Image],
     net_path: str,
     labels_path: str,
-    batch_size: int
+    batch_size: int,
+    output_path: Path
 ) -> None:
     """
     Initialize queues, HailoAsyncInference instance, and run the inference.
+
+    Args:
+        images (List[Image.Image]): List of images to process.
+        net_path (str): Path to the HEF model file.
+        labels_path (str): Path to a text file containing labels.
+        batch_size (int): Number of images per batch.
+        output_path (Path): Path to save the output images.
     """
     utils = ObjectDetectionUtils(labels_path)
 
@@ -153,21 +150,17 @@ def infer(
     output_queue = queue.Queue()
 
     hailo_inference = HailoAsyncInference(
-        net_path, 
-        input_queue, 
-        output_queue, 
-        batch_size,
-        send_original_frame=True  # This is important
+        net_path, input_queue, output_queue, batch_size
     )
     height, width, _ = hailo_inference.get_input_shape()
 
     enqueue_thread = threading.Thread(
-        target=enqueue_frames, 
-        args=(cap, batch_size, input_queue, width, height, utils)
+        target=enqueue_images, 
+        args=(images, batch_size, input_queue, width, height, utils)
     )
     process_thread = threading.Thread(
         target=process_output, 
-        args=(output_queue, width, height, utils)
+        args=(output_queue, output_path, width, height, utils)
     )
 
     enqueue_thread.start()
@@ -176,10 +169,12 @@ def infer(
     hailo_inference.run()
 
     enqueue_thread.join()
-    output_queue.put(None)
+    output_queue.put(None)  # Signal process thread to exit
     process_thread.join()
 
-    logger.info('Inference completed successfully!')
+    logger.info(
+        f'Inference was successful! Results have been saved in {output_path}'
+    )
 
 
 def main() -> None:
@@ -188,20 +183,26 @@ def main() -> None:
     """
     # Parse command line arguments
     args = parse_args()
+    # YOLOv5配置
+    CONF_THRESH = 0.3
+    IOU_THRESH = 0.45
 
-    # Initialize video capture
-    cap = cv2.VideoCapture(args.input)
-    if not cap.isOpened():
-        logger.error("Error opening video stream or file")
+    # Load input images
+    images = load_input_images(args.input)
+
+    # Validate images
+    try:
+        validate_images(images, args.batch_size)
+    except ValueError as e:
+        logger.error(e)
         return
 
-    try:
-        # Start the inference
-        infer(cap, args.net, args.labels, args.batch_size)
-    finally:
-        # Release resources
-        cap.release()
-        cv2.destroyAllWindows()
+    # Create output directory if it doesn't exist
+    output_path = Path('output_images')
+    output_path.mkdir(exist_ok=True)
+
+    # Start the inference
+    infer(images, args.net, args.labels, args.batch_size, output_path)
 
 
 if __name__ == "__main__":
