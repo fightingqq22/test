@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import cv2
 import os
+import traceback
 
 
 def generate_color(class_id: int) -> tuple:
@@ -14,15 +15,12 @@ def generate_color(class_id: int) -> tuple:
 
 class ObjectDetectionUtils:
     def __init__(self, labels_path: str, padding_color: tuple = (114, 114, 114), label_font: str = "LiberationSans-Regular.ttf"):
-        """
-        Initialize the ObjectDetectionUtils class.
-        """
+        """Initialize the ObjectDetectionUtils class."""
         self.labels = self.get_labels(labels_path)
         print("Available labels:", self.labels)
         self.padding_color = padding_color
         self.label_font = label_font
-        self.model_input_size = (640, 640)  # YOLOv5默认输入尺寸
-        # Define fixed colors for Mickey and Minnie
+        self.model_input_size = (640, 640)
         self.class_colors = {
             0: (255, 0, 0),    # Red for Mickey
             1: (255, 192, 203) # Pink for Minnie
@@ -39,131 +37,53 @@ class ObjectDetectionUtils:
         
       
         
-    def preprocess(self, image, model_size=(640, 640)):
+    def preprocess(self, image):
         """
-        Preprocess image for YOLOv5 inference with RGBA handling
-        Args:
-            image: Input PIL Image
-            model_size: Model input size (height, width)
-        Returns:
-            Preprocessed image as numpy array
+        Preprocess image for YOLOv5 inference - keeping same as object_detection_utils_pic.py
         """
         try:
-            print("\n=== Debug Info: Preprocessing Steps ===")
-            
-            # Print input image type and initial info
-            print(f"1. Input image type: {type(image)}")
-            if isinstance(image, Image.Image):
-                print(f"   PIL Image size: {image.size}")
-                print(f"   PIL Image mode: {image.mode}")
-                # Convert RGBA/LA to RGB/L
-                if image.mode in ('RGBA', 'LA'):
-                    print("   Converting RGBA to RGB")
-                    background = Image.new('RGB', image.size, (255, 255, 255))
-                    background.paste(image, mask=image.split()[-1])  # Using alpha channel as mask
-                    image = background
-                elif image.mode != 'RGB':
-                    print(f"   Converting {image.mode} to RGB")
-                    image = image.convert('RGB')
-                    
-                image = np.array(image)
-                print(f"   After conversion to numpy: shape={image.shape}, dtype={image.dtype}")
-                
-            # Print numpy array info
-            print(f"2. Numpy array initial shape: {image.shape}")
-            print(f"   Data type: {image.dtype}")
-            print(f"   Value range: [{np.min(image)}, {np.max(image)}]")
-            
-            # Ensure 3 channels
-            if len(image.shape) == 2:
-                image = np.stack([image] * 3, axis=-1)
-            elif image.shape[-1] == 4:
-                image = image[..., :3]
-            
-            print(f"   After channel check: shape={image.shape}")
-            
-            # Convert to BGR if in RGB
-            if len(image.shape) == 3 and image.shape[2] == 3:
-                image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-                print("3. Converted to BGR")
-                print(f"   New shape: {image.shape}")
-                
-            # Get original image size
+            # Convert to RGB if needed
+            if isinstance(image, np.ndarray):
+                image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+            # Get original dimensions
             orig_h, orig_w = image.shape[:2]
-            print(f"4. Original dimensions: height={orig_h}, width={orig_w}")
-            
-            # Calculate scale ratio
-            scale = min(model_size[0] / orig_h, model_size[1] / orig_w)
-            print(f"5. Calculated scale: {scale}")
-            
-            # Calculate new size
+
+            # Calculate scale
+            scale = min(self.model_input_size[0] / orig_h, self.model_input_size[1] / orig_w)
             new_h = int(orig_h * scale)
             new_w = int(orig_w * scale)
-            print(f"6. New dimensions: height={new_h}, width={new_w}")
-            
-            # Initialize padding
-            pad_h = (model_size[0] - new_h) // 2
-            pad_w = (model_size[1] - new_w) // 2
-            print(f"7. Padding: top/bottom={pad_h}, left/right={pad_w}")
-            
+
+            # Resize
+            resized = cv2.resize(image, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
+
+            # Calculate padding
+            pad_h = (self.model_input_size[0] - new_h) // 2
+            pad_w = (self.model_input_size[1] - new_w) // 2
+
             # Create padded image
-            padded_img = np.full((model_size[0], model_size[1], 3), 
-                                self.padding_color,
-                                dtype=np.uint8)
-            print(f"8. Padded image shape: {padded_img.shape}")
-            
-            # Resize original image
-            resized = cv2.resize(image, (new_w, new_h),
-                                interpolation=cv2.INTER_LINEAR)
-            print(f"9. Resized image shape: {resized.shape}")
-            
-            # Place resized image in padded image
+            padded_img = np.full((self.model_input_size[0], self.model_input_size[1], 3),
+                               self.padding_color, dtype=np.uint8)
             padded_img[pad_h:pad_h + new_h, pad_w:pad_w + new_w, :] = resized
-            print(f"10. After placing resized image in padding: shape={padded_img.shape}")
-            
-            # Store padding info
+
+            # Store padding info for later use
             self.pad_info = {
                 'scale': scale,
                 'pad_h': pad_h,
                 'pad_w': pad_w,
-                'orig_shape': (orig_h, orig_w)
+                'orig_shape': (orig_h, orig_w),
+                'new_shape': (new_h, new_w)
             }
-            
-            # Convert BGR to RGB
-            processed_img = cv2.cvtColor(padded_img, cv2.COLOR_BGR2RGB)
-            print("11. Converted back to RGB")
-            
-            # Keep as uint8 type to match expected input format
-            processed_img = processed_img.astype(np.uint8)
-            print(f"12. Final dtype: {processed_img.dtype}")
-            print(f"    Value range: [{processed_img.min()}, {processed_img.max()}]")
-            
-            # Add batch dimension
-            processed_img = np.expand_dims(processed_img, axis=0)
-            print(f"13. Final output shape: {processed_img.shape}")
-            print(f"    Size in bytes: {processed_img.nbytes}")
-            
-            # Calculate expected size
-            expected_size = 1228800  # 640*640*3
-            print(f"\n=== Size Comparison ===")
-            print(f"Expected size: {expected_size} bytes")
-            print(f"Actual size: {processed_img.nbytes} bytes")
-            
-            if processed_img.nbytes != expected_size:
-                print(f"WARNING: Size mismatch detected!")
-                print(f"Input shape: {processed_img.shape}")
-                print(f"Input dtype: {processed_img.dtype}")
-                print(f"Expected shape should be: (1, 640, 640, 3) with dtype uint8")
-            
+
+            # Add batch dimension and ensure uint8 type
+            processed_img = np.expand_dims(padded_img, axis=0)
             return processed_img
-            
+
         except Exception as e:
-            print(f"\n=== Error in preprocess ===")
-            print(f"Error type: {type(e)}")
-            print(f"Error message: {str(e)}")
-            import traceback
+            print(f"Error in preprocess: {str(e)}")
             traceback.print_exc()
             return None
+
 
     def letterbox(self, im, new_shape=(640, 640), color=(114, 114, 114), auto=True, 
                  stride=32, scaleup=True):
@@ -278,11 +198,16 @@ class ObjectDetectionUtils:
             print(f"Error in draw_detection: {str(e)}")
             traceback.print_exc()
 
-    def _non_max_suppression(self, boxes, scores, classes, iou_thres):
+    def _non_max_suppression(self, boxes: np.ndarray, scores: np.ndarray, classes: np.ndarray, 
+                        iou_thres: float) -> np.ndarray:
         """
-        Apply Non-Maximum Suppression.
+        Apply Non-Maximum Suppression with safety checks
         """
-        # Convert to numpy arrays
+        # 检查输入是否为空
+        if len(boxes) == 0:
+            return np.array([], dtype=np.int32)
+            
+        # Convert to numpy arrays if not already
         boxes = np.array(boxes)
         scores = np.array(scores)
         classes = np.array(classes)
@@ -295,46 +220,37 @@ class ObjectDetectionUtils:
         
         keep = []
         while len(boxes) > 0:
-            keep.append(0)  # Keep the box with highest score
+            keep.append(indices[0])
             
             if len(boxes) == 1:
                 break
                 
+            # Calculate IoU between first box and all other boxes
             ious = np.array([self._calculate_iou(boxes[0], box) for box in boxes[1:]])
-            filtered_indices = np.where(ious <= iou_thres)[0] + 1
             
-            boxes = boxes[filtered_indices]
-            scores = scores[filtered_indices]
-            classes = classes[filtered_indices]
+            # Keep boxes with IoU below threshold
+            mask = ious <= iou_thres
+            indices = indices[1:][mask]
+            boxes = boxes[1:][mask]
+            scores = scores[1:][mask]
+            classes = classes[1:][mask]
         
-        keep = indices[keep]
-        return boxes[keep], scores[keep], classes[keep]
+        # 确保返回的是numpy数组
+        keep = np.array(keep, dtype=np.int32)
+        return keep
     
     def extract_detections(self, input_data: dict, conf_thres: float = 0.25, iou_thres: float = 0.45) -> dict:
-        """
-        Parse YOLOv5 model output and process detections with improved confidence calculation
-        """
-        z = []
-        print("\n=== Detection Processing Debug ===")
-        
+        """Parse YOLOv5 model output and process detections"""
         try:
+            z = []
             for layer_name, detection_output in input_data.items():
-                print(f"\nProcessing layer: {layer_name}")
-                # 将输入值调整到合适的范围
                 x = detection_output.astype(np.float32)
-                x = (x - 128) / 128.0  # 中心化并缩放
+                x = (x - 128) / 128.0  # Scale as in pic version
                 
                 batch_size, grid_h, grid_w, channels = x.shape
                 num_classes = 2  # Mickey, Minnie
                 
-                print(f"Raw output shape: {x.shape}")
-                print(f"Raw output range: [{x.min():.3f}, {x.max():.3f}]")
-                
-                # Get stride and anchors
-                stride = self.model_input_size[0] / grid_w
-                anchors = self.get_anchors_for_stride(stride)
-                
-                # Reshape
+                # Reshape output
                 x = x.reshape(batch_size, grid_h, grid_w, 3, 5 + num_classes)
                 
                 # Create grid
@@ -344,30 +260,24 @@ class ObjectDetectionUtils:
                 # Process predictions
                 y = np.zeros_like(x, dtype=np.float32)
                 
-                # Box coordinates
+                # Box coordinates and scale
+                stride = self.model_input_size[0] / grid_w
+                anchors = self.get_anchors_for_stride(stride)
+                
                 y[..., 0:2] = (self.sigmoid(x[..., 0:2]) * 2 - 0.5 + grid) * stride
                 y[..., 2:4] = (self.sigmoid(x[..., 2:4]) * 2) ** 2 * anchors[None, None, None, :, :]
                 
-                # Objectness score with scaling
-                raw_obj = x[..., 4]
-                y[..., 4] = self.sigmoid(raw_obj)
-                print(f"Objectness range: raw=[{raw_obj.min():.3f}, {raw_obj.max():.3f}], "
-                      f"sigmoid=[{y[..., 4].min():.3f}, {y[..., 4].max():.3f}]")
-                
-                # Class probabilities with scaling
-                raw_cls = x[..., 5:]
-                y[..., 5:] = self.sigmoid(raw_cls)
-                print(f"Class scores range: raw=[{raw_cls.min():.3f}, {raw_cls.max():.3f}], "
-                      f"sigmoid=[{y[..., 5:].min():.3f}, {y[..., 5:].max():.3f}]")
+                # Objectness and class scores
+                y[..., 4] = self.sigmoid(x[..., 4])
+                y[..., 5:] = self.sigmoid(x[..., 5:])
                 
                 # Normalize coordinates
                 y[..., 0:4] = y[..., 0:4] / float(self.model_input_size[0])
                 
                 z.append(y.reshape(batch_size, -1, 5 + num_classes))
-        
-            # Concatenate predictions from different scales
+
+            # Process detections
             z = np.concatenate(z, axis=1)
-            print(f"\nConcatenated predictions shape: {z.shape}")
             
             # Calculate confidence scores
             obj_conf = z[..., 4]
@@ -375,79 +285,68 @@ class ObjectDetectionUtils:
             cls_scores = obj_conf[..., None] * cls_conf
             max_scores = np.max(cls_scores, axis=-1)
             
-            print(f"\nConfidence distribution:")
-            print(f"- Objectness: min={obj_conf.min():.3f}, max={obj_conf.max():.3f}")
-            print(f"- Class confidence: min={cls_conf.min():.3f}, max={cls_conf.max():.3f}")
-            print(f"- Final scores: min={max_scores.min():.3f}, max={max_scores.max():.3f}")
-            
             # Filter by confidence
             mask = max_scores > conf_thres
             if not np.any(mask):
                 print("No detections above confidence threshold")
-                return {'detection_boxes': np.array([]), 
-                       'detection_classes': np.array([]), 
-                       'detection_scores': np.array([]), 
-                       'num_detections': 0}
+                return {
+                    'detection_boxes': np.array([]),
+                    'detection_classes': np.array([]),
+                    'detection_scores': np.array([]),
+                    'num_detections': 0
+                }
             
             # Get filtered predictions
             filtered_boxes = z[..., :4][mask]
             filtered_scores = max_scores[mask]
             filtered_classes = np.argmax(cls_scores[mask], axis=-1)
             
-            print("\nBefore NMS:")
-            print(f"Number of detections: {len(filtered_boxes)}")
-            print(f"Score range: {filtered_scores.min():.3f} - {filtered_scores.max():.3f}")
-            
-            # Convert to corners format (x1, y1, x2, y2)
-            pred_boxes = np.zeros_like(filtered_boxes)
-            pred_boxes[:, 0] = filtered_boxes[:, 0] - filtered_boxes[:, 2] / 2  # x1
-            pred_boxes[:, 1] = filtered_boxes[:, 1] - filtered_boxes[:, 3] / 2  # y1
-            pred_boxes[:, 2] = filtered_boxes[:, 0] + filtered_boxes[:, 2] / 2  # x2
-            pred_boxes[:, 3] = filtered_boxes[:, 1] + filtered_boxes[:, 3] / 2  # y2
-            
-            # Clip to image bounds
-            pred_boxes = np.clip(pred_boxes, 0, 1)
-            
-            # Sort by confidence
-            idxs = np.argsort(-filtered_scores)
-            pred_boxes = pred_boxes[idxs]
-            filtered_scores = filtered_scores[idxs]
-            filtered_classes = filtered_classes[idxs]
+            # Convert center/width/height to x1/y1/x2/y2
+            boxes_xy = filtered_boxes[..., :2]
+            boxes_wh = filtered_boxes[..., 2:4]
+            x1y1 = boxes_xy - boxes_wh / 2
+            x2y2 = boxes_xy + boxes_wh / 2
+            pred_boxes = np.concatenate([x1y1, x2y2], axis=1)
             
             # Apply NMS
             final_boxes = []
             final_scores = []
             final_classes = []
             
-            while len(pred_boxes) > 0:
-                final_boxes.append(pred_boxes[0])
-                final_scores.append(filtered_scores[0])
-                final_classes.append(filtered_classes[0])
+            indices = np.argsort(-filtered_scores)
+            while len(indices) > 0:
+                # Keep highest scoring box
+                final_boxes.append(pred_boxes[indices[0]])
+                final_scores.append(filtered_scores[indices[0]])
+                final_classes.append(filtered_classes[indices[0]])
                 
-                if len(pred_boxes) == 1:
+                if len(indices) == 1:
                     break
+                    
+                # Calculate IoU between highest scoring box and remaining boxes
+                ious = np.array([self._calculate_iou(pred_boxes[indices[0]], pred_boxes[i]) 
+                               for i in indices[1:]])
                 
-                ious = np.array([self._calculate_iou(pred_boxes[0], box) for box in pred_boxes[1:]])
-                print(f"IoUs with first box: {ious}")
-                
-                keep_mask = ious <= iou_thres
-                pred_boxes = pred_boxes[1:][keep_mask]
-                filtered_scores = filtered_scores[1:][keep_mask]
-                filtered_classes = filtered_classes[1:][keep_mask]
-                
-                print(f"Boxes remaining after IoU filter: {len(pred_boxes)}")
+                # Keep boxes with IoU below threshold
+                indices = indices[1:][ious <= iou_thres]
             
+            # Convert lists to numpy arrays
             final_boxes = np.array(final_boxes)
             final_scores = np.array(final_scores)
             final_classes = np.array(final_classes)
             
-            print("\nAfter NMS:")
+            # Scale boxes to original image size if needed
+            if hasattr(self, 'pad_info'):
+                final_boxes = self.scale_boxes_to_original(final_boxes)
+                
+            # Print debug information
+            print(f"\nFinal detections:")
             print(f"Number of detections: {len(final_boxes)}")
-            for i in range(len(final_boxes)):
+            for i, (box, cls, score) in enumerate(zip(final_boxes, final_classes, final_scores)):
                 print(f"Detection {i}:")
-                print(f"- Box (normalized): {final_boxes[i]}")
-                print(f"- Class: {self.labels[final_classes[i]]}")
-                print(f"- Score: {final_scores[i]:.3f}")
+                print(f"- Class: {self.labels[int(cls)]}")
+                print(f"- Score: {score:.3f}")
+                print(f"- Box: {box}")
             
             return {
                 'detection_boxes': final_boxes.astype(np.float32),
@@ -455,55 +354,81 @@ class ObjectDetectionUtils:
                 'detection_scores': final_scores.astype(np.float32),
                 'num_detections': len(final_boxes)
             }
-            
+                
         except Exception as e:
             print(f"Error in extract_detections: {str(e)}")
-            import traceback
             traceback.print_exc()
             return {
-                'detection_boxes': np.array([], dtype=np.float32),
-                'detection_classes': np.array([], dtype=np.int32),
-                'detection_scores': np.array([], dtype=np.float32),
+                'detection_boxes': np.array([]),
+                'detection_classes': np.array([]),
+                'detection_scores': np.array([]),
                 'num_detections': 0
             }
 
-    def scale_boxes(self, img1_shape, boxes, img0_shape):
+
+    def scale_boxes_to_original(self, boxes):
         """
-        Rescale boxes (xyxy) from img1_shape to img0_shape
+        Scale boxes from normalized coordinates back to original image size
         Args:
-            img1_shape: Shape of preprocessed image (height, width)
-            boxes: Boxes in xyxy format 
-            img0_shape: Shape of original image (height, width)
+            boxes: array of shape (N, 4) containing normalized coordinates [x1, y1, x2, y2]
         Returns:
-            Rescaled boxes
+            Scaled boxes in original image coordinates
         """
-        # Make a copy to avoid modifying original boxes
-        boxes = boxes.copy()
-        
-        # Calculate gain (how much we scaled up/down)
-        gain = min(img1_shape[0] / img0_shape[0], 
-                  img1_shape[1] / img0_shape[1])
-        
-        # Calculate padding
-        pad = (
-            (img1_shape[1] - img0_shape[1] * gain) / 2,  # width padding
-            (img1_shape[0] - img0_shape[0] * gain) / 2   # height padding
-        )
-        
-        print(f"Scale boxes - gain: {gain:.3f}, padding: {pad}")
-        
-        # Remove padding
-        boxes[..., [0, 2]] -= pad[0]  # x padding
-        boxes[..., [1, 3]] -= pad[1]  # y padding
-        
-        # Scale down
-        boxes[..., :4] /= gain
-        
-        # Clip boxes to image bounds
-        boxes[..., [0, 2]] = boxes[..., [0, 2]].clip(0, img0_shape[1])  # x1, x2
-        boxes[..., [1, 3]] = boxes[..., [1, 3]].clip(0, img0_shape[0])  # y1, y2
-        
-        return boxes
+        try:
+            # Print input boxes
+            print("\n=== Scaling Boxes ===")
+            print(f"Input boxes (normalized):")
+            print(boxes)
+            print(f"Pad info: {self.pad_info}")
+            
+            # Make a copy to avoid modifying the original
+            boxes = boxes.copy()
+            
+            # First convert normalized coordinates (0-1) to model input size coordinates
+            boxes[..., [0, 2]] *= self.model_input_size[1]  # scale x coordinates
+            boxes[..., [1, 3]] *= self.model_input_size[0]  # scale y coordinates
+            
+            print(f"\nAfter scaling to model input size:")
+            print(boxes)
+            
+            # Remove padding
+            boxes[..., [0, 2]] -= self.pad_info['pad_w']  # x coordinates
+            boxes[..., [1, 3]] -= self.pad_info['pad_h']  # y coordinates
+            
+            print(f"\nAfter removing padding:")
+            print(boxes)
+            
+            # Apply inverse scale to get back to original image size
+            scale = 1.0 / self.pad_info['scale']
+            boxes *= scale
+            
+            print(f"\nAfter applying inverse scale ({scale}):")
+            print(boxes)
+            
+            # Clip coordinates to image bounds
+            boxes[..., [0, 2]] = np.clip(
+                boxes[..., [0, 2]], 
+                0, 
+                self.pad_info['orig_shape'][1]
+            )
+            boxes[..., [1, 3]] = np.clip(
+                boxes[..., [1, 3]], 
+                0, 
+                self.pad_info['orig_shape'][0]
+            )
+            
+            print(f"\nFinal boxes (after clipping):")
+            print(boxes)
+            print(f"Original image shape: {self.pad_info['orig_shape']}")
+            print(f"X range: [{boxes[..., [0, 2]].min()}, {boxes[..., [0, 2]].max()}]")
+            print(f"Y range: [{boxes[..., [1, 3]].min()}, {boxes[..., [1, 3]].max()}]")
+            
+            return boxes
+            
+        except Exception as e:
+            print(f"Error in scale_boxes_to_original: {str(e)}")
+            traceback.print_exc()
+            return boxes
 
     def get_anchors_for_stride(self, stride: float) -> np.ndarray:
         """Get anchors for specific stride level"""
@@ -540,90 +465,63 @@ class ObjectDetectionUtils:
         
         
         
-    def visualize_video(
-        self,
-        detections: dict,
-        image: np.ndarray,
-        width: int,
-        height: int
-    ) -> np.ndarray:
-        """
-        Visualize detections for video frames with proper coordinate handling.
-        Similar to visualize() but optimized for video processing.
-        """
+    def visualize_video(self, detections, image, width, height):
+        """Visualize detections on video frame"""
         try:
-            # Convert image to PIL format if needed
             if isinstance(image, np.ndarray):
-                from PIL import Image
-                if image.dtype != np.uint8:
-                    image = (image * 255).astype(np.uint8)
                 image = Image.fromarray(image)
             
-            # Create drawing context
             draw = ImageDraw.Draw(image)
             
-            # Get image dimensions
-            img_width, img_height = image.size
-            
-            # Process each detection
-            boxes = detections['detection_boxes']
-            classes = detections['detection_classes']
-            scores = detections['detection_scores']
-            num_detections = detections['num_detections']
-            
-            for i in range(num_detections):
-                # Get normalized coordinates
-                box = boxes[i]
+            print("\nDrawing detections:")
+            for i in range(detections['num_detections']):
+                box = detections['detection_boxes'][i]
+                cls = detections['detection_classes'][i]
+                score = detections['detection_scores'][i]
                 
-                # Convert to pixel coordinates
-                x1 = int(box[0] * img_width)
-                y1 = int(box[1] * img_height)
-                x2 = int(box[2] * img_width)
-                y2 = int(box[3] * img_height)
+                # Convert coordinates to integers
+                x1, y1, x2, y2 = map(int, box)
+                print(f"Detection {i}:")
+                print(f"Class: {self.labels[cls]}")
+                print(f"Score: {score:.3f}")
+                print(f"Box: [{x1}, {y1}, {x2}, {y2}]")
                 
-                # Ensure coordinates are within bounds
-                x1 = max(0, min(x1, img_width - 1))
-                y1 = max(0, min(y1, img_height - 1))
-                x2 = max(0, min(x2, img_width - 1))
-                y2 = max(0, min(y2, img_height - 1))
+                # Draw thick bounding box
+                color = self.class_colors[int(cls)]
+                for thickness in range(3):
+                    draw.rectangle(
+                        [(x1 + thickness, y1 + thickness),
+                         (x2 - thickness, y2 - thickness)],
+                        outline=color,
+                        width=2
+                    )
                 
-                # Get color for class
-                color = self.class_colors[int(classes[i])]
-                
-                # Draw bounding box
-                draw.rectangle([(x1, y1), (x2, y2)], outline=color, width=2)
-                
-                # Prepare and draw label
-                label = f"{self.labels[int(classes[i])]}: {scores[i]*100:.1f}%"
-                
+                # Draw label
+                label = f"{self.labels[cls]}: {score*100:.1f}%"
                 try:
                     font = ImageFont.truetype(self.label_font, size=15)
                 except OSError:
                     font = ImageFont.load_default()
                 
                 # Get text size
-                bbox = draw.textbbox((x1, y1), label, font=font)
-                text_w = bbox[2] - bbox[0]
-                text_h = bbox[3] - bbox[1]
+                text_bbox = draw.textbbox((x1, y1), label, font=font)
+                text_width = text_bbox[2] - text_bbox[0]
+                text_height = text_bbox[3] - text_bbox[1]
                 
-                # Draw label background and text
-                padding = 2
+                # Draw label background
                 draw.rectangle(
-                    [
-                        (x1, y1),
-                        (x1 + text_w + padding * 2, y1 + text_h + padding * 2)
-                    ],
+                    [(x1, y1 - text_height - 4),
+                     (x1 + text_width + 4, y1)],
                     fill=color
                 )
-                draw.text(
-                    (x1 + padding, y1 + padding),
-                    label,
-                    font=font,
-                    fill='white'
-                )
+                
+                # Draw text
+                draw.text((x1 + 2, y1 - text_height - 2),
+                         label, fill='white', font=font)
             
             return image
             
         except Exception as e:
-            logger.error(f"Error in visualize_video: {str(e)}")
+            print(f"Error in visualize_video: {str(e)}")
+            traceback.print_exc()
             return image
