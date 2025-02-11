@@ -3,65 +3,128 @@ import numpy as np
 import cv2
 import os
 import traceback
+from dataclasses import dataclass
+from typing import List, Tuple, Optional
 
 
-def generate_color(class_id: int) -> tuple:
-    """
-    Generate a unique color for a given class ID.
-    """
-    np.random.seed(class_id)
-    return tuple(np.random.randint(0, 255, size=3).tolist())
+@dataclass
+class SceneSegment:
+    start_frame: int
+    end_frame: int
+    bboxes: List[Tuple[float, float, float, float]]  # List of (x, y, w, h)
+
+
+class SceneDetector:
+    def __init__(self, max_gap_frames=3, min_confidence=0.5):
+        """Initialize scene detector.
+        
+        Args:
+            max_gap_frames (int): Maximum frames without Mickey before splitting scenes
+            min_confidence (float): Minimum confidence threshold for valid Mickey detection
+        """
+        self.max_gap_frames = max_gap_frames
+        self.min_confidence = min_confidence
+        self.current_scene = None
+        self.scenes = []
+        self.gap_count = 0
+        print(f"Initialized SceneDetector with max_gap_frames={max_gap_frames}, min_confidence={min_confidence}")
+
+    def process_frame(self, frame_number: int, detections: dict) -> None:
+        """Process detection results and update scene information."""
+        # Find Mickey detection with highest confidence
+        mickey_detected = False
+        mickey_info = None
+        
+        for i in range(detections['num_detections']):
+            cls = detections['detection_classes'][i]
+            score = detections['detection_scores'][i]
+            box = detections['detection_boxes'][i]
+            
+            if cls == 0 and score >= self.min_confidence:  # Mickey class
+                mickey_detected = True
+                # Convert [x1,y1,x2,y2] to [center_x,center_y,width,height]
+                x1, y1, x2, y2 = box
+                center_x = (x1 + x2) / 2
+                center_y = (y1 + y2) / 2
+                width = x2 - x1
+                height = y2 - y1
+                mickey_info = (center_x, center_y, width, height, score)
+                break
+
+        # Update scene information
+        if mickey_detected and mickey_info is not None:
+            x, y, w, h, _ = mickey_info
+            if self.current_scene is None:
+                # Start new scene
+                self.current_scene = SceneSegment(frame_number, frame_number, [(x, y, w, h)])
+                print(f"Starting new scene at frame {frame_number}")
+                self.gap_count = 0
+            else:
+                # Continue current scene
+                self.current_scene.end_frame = frame_number
+                self.current_scene.bboxes.append((x, y, w, h))
+                self.gap_count = 0
+        else:
+            if self.current_scene is not None:
+                self.gap_count += 1
+                print(f"No Mickey detected in frame {frame_number}, gap_count: {self.gap_count}")
+                if self.gap_count > self.max_gap_frames:
+                    # End current scene
+                    print(f"Ending scene at frame {frame_number-self.max_gap_frames} due to gap")
+                    self.scenes.append(self.current_scene)
+                    self.current_scene = None
+                    self.gap_count = 0
+
+    def finalize(self) -> None:
+        """Finalize scene detection and add last scene if exists"""
+        if self.current_scene is not None:
+            print(f"Finalizing: Adding last scene (frames {self.current_scene.start_frame}-{self.current_scene.end_frame})")
+            self.scenes.append(self.current_scene)
+            self.current_scene = None
+        
+        # 打印检测到的场景信息
+        print(f"\nScene detection completed. Found {len(self.scenes)} scenes:")
+        for i, scene in enumerate(self.scenes):
+            print(f"Scene {i}: frames {scene.start_frame}-{scene.end_frame} ({len(scene.bboxes)} detections)")
+
 
 
 class ObjectDetectionUtils:
-    def __init__(self, labels_path: str, padding_color: tuple = (114, 114, 114), label_font: str = "LiberationSans-Regular.ttf"):
+    def __init__(self, labels_path: str, padding_color: tuple = (255, 255, 255)):  # 使用白色填充
         """Initialize the ObjectDetectionUtils class."""
         self.labels = self.get_labels(labels_path)
-        print("Available labels:", self.labels)
         self.padding_color = padding_color
-        self.label_font = label_font
         self.model_input_size = (640, 640)
         self.class_colors = {
             0: (255, 0, 0),    # Red for Mickey
-            1: (255, 192, 203) # Pink for Minnie
+            1: (255, 192, 203)  # Pink for Minnie
         }
     
     def get_labels(self, labels_path: str) -> list:
-        """
-        Load labels from a file or create default Mickey/Minnie labels.
-        """
-        
+        """Load labels from a file or create default Mickey/Minnie labels."""
         # Default labels for Mickey/Minnie model
         class_names = ["Mickey", "Minnie"]
         return class_names
-        
-      
-        
-    def preprocess(self, image):
-        """
-        Preprocess image for YOLOv5 inference - keeping same as object_detection_utils_pic.py
-        """
-        try:
-            # Convert to RGB if needed
-            if isinstance(image, np.ndarray):
-                image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-            # Get original dimensions
+    def preprocess(self, image):
+        """Preprocess image for YOLOv5 inference."""
+        try:
+            # 保持 BGR 格式，与训练时保持一致
             orig_h, orig_w = image.shape[:2]
 
-            # Calculate scale
+            # Calculate scale while maintaining aspect ratio
             scale = min(self.model_input_size[0] / orig_h, self.model_input_size[1] / orig_w)
             new_h = int(orig_h * scale)
             new_w = int(orig_w * scale)
 
-            # Resize
+            # Resize using INTER_LINEAR
             resized = cv2.resize(image, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
 
-            # Calculate padding
+            # Calculate padding to center the image
             pad_h = (self.model_input_size[0] - new_h) // 2
             pad_w = (self.model_input_size[1] - new_w) // 2
 
-            # Create padded image
+            # Create padded image with white padding (BGR format)
             padded_img = np.full((self.model_input_size[0], self.model_input_size[1], 3),
                                self.padding_color, dtype=np.uint8)
             padded_img[pad_h:pad_h + new_h, pad_w:pad_w + new_w, :] = resized
@@ -76,7 +139,7 @@ class ObjectDetectionUtils:
             }
 
             # Add batch dimension and ensure uint8 type
-            processed_img = np.expand_dims(padded_img, axis=0)
+            processed_img = np.expand_dims(padded_img, axis=0).astype(np.uint8)
             return processed_img
 
         except Exception as e:
@@ -84,163 +147,154 @@ class ObjectDetectionUtils:
             traceback.print_exc()
             return None
 
-
-    def letterbox(self, im, new_shape=(640, 640), color=(114, 114, 114), auto=True, 
-                 stride=32, scaleup=True):
-        """
-        Resize and pad image while meeting stride-multiple constraints.
+    def calculate_crop_coordinates(self, frame_width: int, frame_height: int, 
+                                 mickey_x: int, mickey_y: int, 
+                                 bbox_width: int, bbox_height: int,
+                                 target_width: int = 1920, target_height: int = 1080) -> Tuple[int, int, int, int]:
+        """Calculate crop coordinates based on Mickey's position.
+        
         Args:
-            im: Input image
-            new_shape: Desired output shape
-            color: Padding color
-            auto: Minimum rectangle
-            stride: Stride constraint
-            scaleup: Allow scale up
+            frame_width: Original frame width
+            frame_height: Original frame height
+            mickey_x: Mickey center x coordinate
+            mickey_y: Mickey center y coordinate
+            bbox_width: Bounding box width
+            bbox_height: Bounding box height
+            target_width: Target output width
+            target_height: Target output height
+            
         Returns:
-            Resized and padded image, ratio, (dw, dh)
+            tuple: (crop_x1, crop_y1, crop_x2, crop_y2)
         """
-        # Current shape [height, width]
-        shape = im.shape[:2]  
-        
-        if isinstance(new_shape, int):
-            new_shape = (new_shape, new_shape)
-            
-        # Scale ratio (new / old)
-        r = min(new_shape[0] / shape[0], new_shape[1] / shape[1])
-        if not scaleup:  # only scale down, do not scale up
-            r = min(r, 1.0)
-            
-        # Compute padding
-        ratio = r, r  # width, height ratios
-        new_unpad = int(round(shape[1] * r)), int(round(shape[0] * r))
-        dw, dh = new_shape[1] - new_unpad[0], new_shape[0] - new_unpad[1]  # wh padding
-        
-        if auto:  # minimum rectangle
-            dw, dh = np.mod(dw, stride), np.mod(dh, stride)  # wh padding
-            
-        dw /= 2  # divide padding into 2 sides
-        dh /= 2
-        
-        if shape[::-1] != new_unpad:  # resize
-            im = cv2.resize(im, new_unpad, interpolation=cv2.INTER_LINEAR)
-            
-        top, bottom = int(round(dh - 0.1)), int(round(dh + 0.1))
-        left, right = int(round(dw - 0.1)), int(round(dw + 0.1))
-        
-        # Add padding
-        im = cv2.copyMakeBorder(im, top, bottom, left, right,
-                               cv2.BORDER_CONSTANT,
-                               value=color)
-                               
-        return im, ratio, (dw, dh)
+        # Calculate expanded bbox dimensions (8% expansion)
+        expansion_x = bbox_width * 0.08
+        expansion_y = bbox_height * 0.08
+        expanded_width = bbox_width + 2 * expansion_x
+        expanded_height = bbox_height + 2 * expansion_y
 
-    def draw_detection(self, draw: ImageDraw.Draw, box: list, cls: int, score: float):
-        """
-        Draw box and label for one detection with fixed colors for Mickey/Minnie.
+        # Calculate target crop dimensions with 16:9 aspect ratio
+        aspect_ratio = target_width / target_height
+        if expanded_width / expanded_height > aspect_ratio:
+            crop_width = expanded_width
+            crop_height = crop_width / aspect_ratio
+        else:
+            crop_height = expanded_height
+            crop_width = crop_height * aspect_ratio
+
+        # Initialize crop coordinates
+        crop_x1 = mickey_x - crop_width / 2
+        crop_y1 = mickey_y - crop_height / 2
+        crop_x2 = crop_x1 + crop_width
+        crop_y2 = crop_y1 + crop_height
+
+        # Check available space
+        x_has_space = crop_width <= frame_width
+        y_has_space = crop_height <= frame_height
+
+        # Case 1: Both dimensions have enough space
+        if x_has_space and y_has_space:
+            pass  # Keep current coordinates
+
+        # Case 2: X dimension needs adjustment
+        elif not x_has_space and y_has_space:
+            crop_x1 = 0
+            crop_x2 = frame_width
+            # Keep y-axis centered
+            crop_y1 = mickey_y - crop_height / 2
+            crop_y2 = mickey_y + crop_height / 2
+
+        # Case 3: Y dimension needs adjustment
+        elif x_has_space and not y_has_space:
+            crop_y1 = 0
+            crop_y2 = frame_height
+            # Keep x-axis centered
+            crop_x1 = mickey_x - crop_width / 2
+            crop_x2 = mickey_x + crop_width / 2
+
+        # Case 4: Both dimensions need adjustment
+        else:
+            # Use quarter regions
+            quarter_width = frame_width / 2
+            quarter_height = frame_height / 2
+
+            if mickey_x < frame_width / 2:
+                crop_x1 = 0
+                crop_x2 = quarter_width * 2
+            else:
+                crop_x1 = frame_width - quarter_width * 2
+                crop_x2 = frame_width
+
+            if mickey_y < frame_height / 2:
+                crop_y1 = 0
+                crop_y2 = quarter_height * 2
+            else:
+                crop_y1 = frame_height - quarter_height * 2
+                crop_y2 = frame_height
+
+        # Ensure coordinates are within frame bounds
+        crop_x1 = max(0, min(int(crop_x1), frame_width - 1))
+        crop_y1 = max(0, min(int(crop_y1), frame_height - 1))
+        crop_x2 = max(crop_x1 + 1, min(int(crop_x2), frame_width))
+        crop_y2 = max(crop_y1 + 1, min(int(crop_y2), frame_height))
+
+        return crop_x1, crop_y1, crop_x2, crop_y2
+
+    def draw_detection_opencv(self, frame: np.ndarray, detections: dict, frame_width: int, frame_height: int) -> None:
+        """Draw detections using OpenCV.
+        
         Args:
-            draw: ImageDraw object
-            box: list of [x1, y1, x2, y2] normalized coordinates
-            cls: class index (0 for Mickey, 1 for Minnie)
-            score: detection confidence score
+            frame: Input frame
+            detections: Detection results
+            frame_width: Original frame width
+            frame_height: Original frame height
         """
-        try:
-            # Get image dimensions for scaling
-            img_width, img_height = draw._image.size
+        for i in range(detections['num_detections']):
+            cls = detections['detection_classes'][i]
+            score = detections['detection_scores'][i]
+            box = detections['detection_boxes'][i]
             
-            # Convert normalized coordinates to image coordinates
-            x1 = int(box[0] * img_width)
-            y1 = int(box[1] * img_height)
-            x2 = int(box[2] * img_width)
-            y2 = int(box[3] * img_height)
-            
-            # Get color for class
-            color = self.class_colors[cls]
-            
-            # Draw the bounding box
-            draw.rectangle([(x1, y1), (x2, y2)], outline=color, width=2)
-            
-            # Prepare label text
-            label = f"{self.labels[cls]}: {score*100:.1f}%"
-            
-            try:
-                font = ImageFont.truetype(self.label_font, size=15)
-            except OSError:
-                font = ImageFont.load_default()
+            if cls == 0 and score >= 0.65:  # Mickey class
+                # Convert normalized coordinates to absolute
+                x1, y1, x2, y2 = box
+                bbox_x1 = int(x1 * frame_width)
+                bbox_y1 = int(y1 * frame_height)
+                bbox_x2 = int(x2 * frame_width)
+                bbox_y2 = int(y2 * frame_height)
                 
-            # Get text size
-            bbox = draw.textbbox((x1, y1), label, font=font)
-            text_w = bbox[2] - bbox[0]
-            text_h = bbox[3] - bbox[1]
-            
-            # Add padding for label background
-            padding = 2
-            
-            # Draw label background
-            draw.rectangle(
-                [
-                    (x1, y1),
-                    (x1 + text_w + padding * 2, y1 + text_h + padding * 2)
-                ],
-                fill=color
-            )
-            
-            # Draw label text
-            draw.text(
-                (x1 + padding, y1 + padding),
-                label,
-                font=font,
-                fill='white'
-            )
-            
-            print(f"Drew detection: class={self.labels[cls]}, score={score:.3f}, box=[{x1}, {y1}, {x2}, {y2}]")
-            
-        except Exception as e:
-            print(f"Error in draw_detection: {str(e)}")
-            traceback.print_exc()
+                # Draw bounding box
+                cv2.rectangle(frame, (bbox_x1, bbox_y1), (bbox_x2, bbox_y2), (255, 0, 0), 2)
+                
+                # Prepare label
+                label = f"Mickey {score:.2f}"
+                font = cv2.FONT_HERSHEY_SIMPLEX
+                font_scale = 1.3
+                thickness = 2
+                (text_width, text_height), baseline = cv2.getTextSize(
+                    label, font, font_scale, thickness
+                )
+                
+                # Draw label background
+                cv2.rectangle(
+                    frame,
+                    (bbox_x1, bbox_y1 - text_height - 10),
+                    (bbox_x1 + text_width + 10, bbox_y1),
+                    (255, 0, 0),
+                    -1
+                )
+                
+                # Draw label text
+                cv2.putText(
+                    frame,
+                    label,
+                    (bbox_x1 + 5, bbox_y1 - 5),
+                    font,
+                    font_scale,
+                    (255, 255, 255),
+                    thickness
+                )
 
-    def _non_max_suppression(self, boxes: np.ndarray, scores: np.ndarray, classes: np.ndarray, 
-                        iou_thres: float) -> np.ndarray:
-        """
-        Apply Non-Maximum Suppression with safety checks
-        """
-        # 检查输入是否为空
-        if len(boxes) == 0:
-            return np.array([], dtype=np.int32)
-            
-        # Convert to numpy arrays if not already
-        boxes = np.array(boxes)
-        scores = np.array(scores)
-        classes = np.array(classes)
-        
-        # Sort by score
-        indices = np.argsort(-scores)
-        boxes = boxes[indices]
-        scores = scores[indices]
-        classes = classes[indices]
-        
-        keep = []
-        while len(boxes) > 0:
-            keep.append(indices[0])
-            
-            if len(boxes) == 1:
-                break
-                
-            # Calculate IoU between first box and all other boxes
-            ious = np.array([self._calculate_iou(boxes[0], box) for box in boxes[1:]])
-            
-            # Keep boxes with IoU below threshold
-            mask = ious <= iou_thres
-            indices = indices[1:][mask]
-            boxes = boxes[1:][mask]
-            scores = scores[1:][mask]
-            classes = classes[1:][mask]
-        
-        # 确保返回的是numpy数组
-        keep = np.array(keep, dtype=np.int32)
-        return keep
-    
     def extract_detections(self, input_data: dict, conf_thres: float = 0.25, iou_thres: float = 0.45) -> dict:
-        """Parse YOLOv5 model output and process detections"""
+        """Parse YOLOv5 model output and process detections."""
         try:
             z = []
             for layer_name, detection_output in input_data.items():
@@ -252,7 +306,6 @@ class ObjectDetectionUtils:
                 
                 # Reshape output
                 x = x.reshape(batch_size, grid_h, grid_w, 3, 5 + num_classes)
-                
                 # Create grid
                 yv, xv = np.meshgrid(np.arange(grid_h), np.arange(grid_w), indexing='ij')
                 grid = np.stack((xv, yv), 2).reshape((1, grid_h, grid_w, 1, 2)).astype(np.float32)
@@ -340,13 +393,13 @@ class ObjectDetectionUtils:
                 final_boxes = self.scale_boxes_to_original(final_boxes)
                 
             # Print debug information
-            print(f"\nFinal detections:")
-            print(f"Number of detections: {len(final_boxes)}")
-            for i, (box, cls, score) in enumerate(zip(final_boxes, final_classes, final_scores)):
-                print(f"Detection {i}:")
-                print(f"- Class: {self.labels[int(cls)]}")
-                print(f"- Score: {score:.3f}")
-                print(f"- Box: {box}")
+            #print(f"\nFinal detections:")
+            #print(f"Number of detections: {len(final_boxes)}")
+            #for i, (box, cls, score) in enumerate(zip(final_boxes, final_classes, final_scores)):
+            #    print(f"Detection {i}:")
+            #    print(f"- Class: {self.labels[int(cls)]}")
+            #    print(f"- Score: {score:.3f}")
+            #    print(f"- Box: {box}")
             
             return {
                 'detection_boxes': final_boxes.astype(np.float32),
@@ -365,21 +418,21 @@ class ObjectDetectionUtils:
                 'num_detections': 0
             }
 
-
     def scale_boxes_to_original(self, boxes):
-        """
-        Scale boxes from normalized coordinates back to original image size
+        """Scale boxes from normalized coordinates back to original image size
+        
         Args:
             boxes: array of shape (N, 4) containing normalized coordinates [x1, y1, x2, y2]
+            
         Returns:
             Scaled boxes in original image coordinates
         """
         try:
             # Print input boxes
-            print("\n=== Scaling Boxes ===")
-            print(f"Input boxes (normalized):")
-            print(boxes)
-            print(f"Pad info: {self.pad_info}")
+            #print("\n=== Scaling Boxes ===")
+            #print(f"Input boxes (normalized):")
+            #print(boxes)
+            #print(f"Pad info: {self.pad_info}")
             
             # Make a copy to avoid modifying the original
             boxes = boxes.copy()
@@ -388,22 +441,22 @@ class ObjectDetectionUtils:
             boxes[..., [0, 2]] *= self.model_input_size[1]  # scale x coordinates
             boxes[..., [1, 3]] *= self.model_input_size[0]  # scale y coordinates
             
-            print(f"\nAfter scaling to model input size:")
-            print(boxes)
+            #print(f"\nAfter scaling to model input size:")
+            #print(boxes)
             
             # Remove padding
             boxes[..., [0, 2]] -= self.pad_info['pad_w']  # x coordinates
             boxes[..., [1, 3]] -= self.pad_info['pad_h']  # y coordinates
             
-            print(f"\nAfter removing padding:")
-            print(boxes)
+            #print(f"\nAfter removing padding:")
+            #print(boxes)
             
             # Apply inverse scale to get back to original image size
             scale = 1.0 / self.pad_info['scale']
             boxes *= scale
             
-            print(f"\nAfter applying inverse scale ({scale}):")
-            print(boxes)
+            #print(f"\nAfter applying inverse scale ({scale}):")
+            #print(boxes)
             
             # Clip coordinates to image bounds
             boxes[..., [0, 2]] = np.clip(
@@ -417,11 +470,11 @@ class ObjectDetectionUtils:
                 self.pad_info['orig_shape'][0]
             )
             
-            print(f"\nFinal boxes (after clipping):")
-            print(boxes)
-            print(f"Original image shape: {self.pad_info['orig_shape']}")
-            print(f"X range: [{boxes[..., [0, 2]].min()}, {boxes[..., [0, 2]].max()}]")
-            print(f"Y range: [{boxes[..., [1, 3]].min()}, {boxes[..., [1, 3]].max()}]")
+            #print(f"\nFinal boxes (after clipping):")
+            #print(boxes)
+            #print(f"Original image shape: {self.pad_info['orig_shape']}")
+            #print(f"X range: [{boxes[..., [0, 2]].min()}, {boxes[..., [0, 2]].max()}]")
+            #print(f"Y range: [{boxes[..., [1, 3]].min()}, {boxes[..., [1, 3]].max()}]")
             
             return boxes
             
@@ -440,14 +493,11 @@ class ObjectDetectionUtils:
             return np.array([[10, 13], [16, 30], [33, 23]], dtype=np.float32)
 
     def sigmoid(self, x):
-        """
-        Compute sigmoid activation with better numerical stability and scaling
-        """
+        """Compute sigmoid activation with better numerical stability"""
         x = np.clip(x, -88, 88)
-        # 添加缩放因子以提高置信度
-        x = x * 2.0  # 增加斜率，使得更容易产生极值
+        # Add scaling factor for better confidence
+        x = x * 2.0  # Increase slope for more extreme values
         return 1.0 / (1.0 + np.exp(-x))
-        
         
     def _calculate_iou(self, box1, box2):
         """Calculate IoU between two boxes"""
@@ -463,65 +513,54 @@ class ObjectDetectionUtils:
         
         return intersection / (union + 1e-7)
         
+    def calculate_scene_bbox(self, scene: SceneSegment, frame_width: int, frame_height: int) -> Tuple[int, int, int, int]:
+        """Calculate maximum bbox range for current scene.
         
-        
-    def visualize_video(self, detections, image, width, height):
-        """Visualize detections on video frame"""
-        try:
-            if isinstance(image, np.ndarray):
-                image = Image.fromarray(image)
+        Args:
+            scene: Scene segment containing bbox information
+            frame_width: Original video width
+            frame_height: Original video height
             
-            draw = ImageDraw.Draw(image)
-            
-            print("\nDrawing detections:")
-            for i in range(detections['num_detections']):
-                box = detections['detection_boxes'][i]
-                cls = detections['detection_classes'][i]
-                score = detections['detection_scores'][i]
-                
-                # Convert coordinates to integers
-                x1, y1, x2, y2 = map(int, box)
-                print(f"Detection {i}:")
-                print(f"Class: {self.labels[cls]}")
-                print(f"Score: {score:.3f}")
-                print(f"Box: [{x1}, {y1}, {x2}, {y2}]")
-                
-                # Draw thick bounding box
-                color = self.class_colors[int(cls)]
-                for thickness in range(3):
-                    draw.rectangle(
-                        [(x1 + thickness, y1 + thickness),
-                         (x2 - thickness, y2 - thickness)],
-                        outline=color,
-                        width=2
-                    )
-                
-                # Draw label
-                label = f"{self.labels[cls]}: {score*100:.1f}%"
-                try:
-                    font = ImageFont.truetype(self.label_font, size=15)
-                except OSError:
-                    font = ImageFont.load_default()
-                
-                # Get text size
-                text_bbox = draw.textbbox((x1, y1), label, font=font)
-                text_width = text_bbox[2] - text_bbox[0]
-                text_height = text_bbox[3] - text_bbox[1]
-                
-                # Draw label background
-                draw.rectangle(
-                    [(x1, y1 - text_height - 4),
-                     (x1 + text_width + 4, y1)],
-                    fill=color
-                )
-                
-                # Draw text
-                draw.text((x1 + 2, y1 - text_height - 2),
-                         label, fill='white', font=font)
-            
-            return image
-            
-        except Exception as e:
-            print(f"Error in visualize_video: {str(e)}")
-            traceback.print_exc()
-            return image
+        Returns:
+            tuple: (center_x, center_y, width, height) in absolute coordinates
+        """
+        # Convert relative coordinates to absolute and calculate corners
+        abs_corners = []
+        for x, y, w, h in scene.bboxes:
+            abs_x = x * frame_width
+            abs_y = y * frame_height
+            abs_w = w * frame_width
+            abs_h = h * frame_height
+
+            x1 = abs_x - abs_w / 2
+            y1 = abs_y - abs_h / 2
+            x2 = abs_x + abs_w / 2
+            y2 = abs_y + abs_h / 2
+            abs_corners.append((x1, y1, x2, y2))
+
+        # Calculate bbox union
+        left = min(corner[0] for corner in abs_corners)
+        top = min(corner[1] for corner in abs_corners)
+        right = max(corner[2] for corner in abs_corners)
+        bottom = max(corner[3] for corner in abs_corners)
+
+        # Calculate width and height
+        width = right - left
+        height = bottom - top
+
+        # Add 8% expansion
+        expansion_x = width * 0.08
+        expansion_y = height * 0.08
+
+        left -= expansion_x
+        right += expansion_x
+        top -= expansion_y
+        bottom += expansion_y
+
+        # Calculate center point and dimensions
+        center_x = (left + right) / 2
+        center_y = (top + bottom) / 2
+        final_width = right - left
+        final_height = bottom - top
+
+        return int(center_x), int(center_y), int(final_width), int(final_height)
